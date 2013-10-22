@@ -1,0 +1,5 @@
+messages:
+  join-message: '&6{PLAYER} &7has joined the server!'
+  quit-message: '&6{PLAYER} &7has quit the server!'
+  no-permission: '&cYou don''t have permission!'
+  prefix: '&c[&9MCRP&c]'
