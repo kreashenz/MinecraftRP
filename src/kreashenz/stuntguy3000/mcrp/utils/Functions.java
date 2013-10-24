@@ -1,5 +1,7 @@
 package kreashenz.stuntguy3000.mcrp.utils;
 
+import java.util.logging.Level;
+
 import kreashenz.stuntguy3000.mcrp.MinecraftRP;
 
 import org.bukkit.ChatColor;
@@ -23,6 +25,10 @@ public class Functions {
 	
 	public static String colour(String s){
 		return ChatColor.translateAlternateColorCodes('&', s);
+	}
+	
+	public static void log(Level level, String msg){
+		MinecraftRP.getInstance().getLogger().log(level, msg);
 	}
 
 }

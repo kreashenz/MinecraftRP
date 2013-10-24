@@ -42,9 +42,9 @@ public class MPlayer {
 	private MPlayer(Player p){
 		this.plugin = MinecraftRP.getInstance();
 		this.p = p;
-		
+
 		File folder = new File(plugin.getDataFolder() + File.separator + "users");
-		
+
 		if(!folder.exists())folder.mkdir();
 
 		file = new File(folder, p.getName() + ".yml");
@@ -88,8 +88,30 @@ public class MPlayer {
 		return reply;
 	}
 
-	public String getBalance() {
-		return String.valueOf(conf.getInt(""));
+	public void addMoney(double amount){
+		double d = conf.getInt("economy.balance");
+		set("economy.balance", amount + d);
+	}
+
+	public void setMoney(double amount){
+		set("economy.balance", amount);
+	}
+
+	public void takeMoney(double amount){
+		double d = conf.getInt("economy.balance");
+		set("economy.balance", d - amount);
+	}
+
+	public void resetMoney(){
+		set("economy.balance", 0);
+	}
+
+	public double getMoney(){
+		return conf.getDouble("economy.balance");
+	}
+
+	public boolean canAfford(double afford){
+		return (getMoney() >= afford);
 	}
 
 }

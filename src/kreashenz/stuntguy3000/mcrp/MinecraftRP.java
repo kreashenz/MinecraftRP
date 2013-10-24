@@ -1,5 +1,6 @@
 package kreashenz.stuntguy3000.mcrp;
 
+import kreashenz.stuntguy3000.mcrp.chat.evt_AsyncPlayerChat;
 import kreashenz.stuntguy3000.mcrp.commands.CmdMain;
 import kreashenz.stuntguy3000.mcrp.events.evt_PlayerJoin;
 import kreashenz.stuntguy3000.mcrp.events.evt_PlayerLogin;
@@ -37,6 +38,7 @@ public class MinecraftRP extends JavaPlugin {
 		listeners(new evt_PlayerJoin(this));
 		listeners(new evt_PlayerQuit(this));
 		listeners(new evt_PlayerLogin());
+		listeners(new evt_AsyncPlayerChat(this));
 	}
 
 	private void command(String cmd){

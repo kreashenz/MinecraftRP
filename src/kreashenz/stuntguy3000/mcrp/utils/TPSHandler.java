@@ -2,36 +2,33 @@ package kreashenz.stuntguy3000.mcrp.utils;
 
 public class TPSHandler implements Runnable {
 
-	public static int TickCount = 0;
-	public static long[] Ticks = new long[600];
-	public static long LastTick = 0L;
+	public static int tickCount = 0;
+	public static long[] ticks = new long[600];
+	public static long lastTick = 0L;
 
 	public static double getTPS() {
 		return getTPS(100);
 	}
 
-	public static double getTPS(int ticks) {
-		if (TickCount < ticks) {
+	public static double getTPS(int tick) {
+		if (tickCount < tick) {
 			return 20.0D;
 		}
-		int target = (TickCount - 1 - ticks) % Ticks.length;
-		long elapsed = System.currentTimeMillis() - Ticks[target];
 
-		return ticks / (elapsed / 1000.0D);
+		return tick / ((System.currentTimeMillis() - ticks[(tickCount - 1 - tick) % ticks.length]) / 1000.0D);
 	}
 
 	public static long getElapsed(int tickID) {
-		if (TickCount - tickID >= Ticks.length) {
-		}
+		//if (tickCount - tickID >= ticks.length) {
+		//}
 
-		long time = Ticks[(tickID % Ticks.length)];
+		long time = ticks[(tickID % ticks.length)];
 		return System.currentTimeMillis() - time;
 	}
 
-	@Override
 	public void run() {
-		Ticks[(TickCount % Ticks.length)] = System.currentTimeMillis();
+		ticks[(tickCount % ticks.length)] = System.currentTimeMillis();
 
-		TickCount += 1;
+		tickCount += 1;
 	}
 }

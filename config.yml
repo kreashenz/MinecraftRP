@@ -3,3 +3,6 @@ messages:
   quit-message: '&6{PLAYER} &7has quit the server!'
   no-permission: '&cYou don''t have permission!'
   prefix: '&c[&9MCRP&c]'
+  
+chat:
+  format: '&f[{WORLD}] &c{DISPLAYNAME} &7: &9{MESSAGE}'
