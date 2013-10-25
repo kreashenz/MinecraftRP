@@ -32,13 +32,17 @@ public class MinecraftRP extends JavaPlugin {
 		command("kick");
 		command("msg");
 		command("reply");
+		command("tp");
+		command("tphere");
+		command("tptoggle");
+		command("nick");
 	}
 
 	private void registerListeners(){
 		listeners(new evt_PlayerJoin(this));
 		listeners(new evt_PlayerQuit(this));
 		listeners(new evt_PlayerLogin());
-		listeners(new evt_AsyncPlayerChat(this));
+		listeners(new evt_AsyncPlayerChat());
 	}
 
 	private void command(String cmd){

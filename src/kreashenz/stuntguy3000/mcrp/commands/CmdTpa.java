@@ -9,9 +9,9 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class CmdMsg extends ICommand {
+public class CmdTpa extends ICommand {
 
-	public CmdMsg(MinecraftRP plugin) {
+	public CmdTpa(MinecraftRP plugin) {
 		super(plugin);
 	}
 
@@ -19,20 +19,18 @@ public class CmdMsg extends ICommand {
 	public void execute(CommandSender s, Command cmd, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
-			if(p.hasPermission("mcrp.msg")){
-				if(args.length <= 1){
-					Functions.tell(p, "§cInvalid arguments. Usage: §f/msg <player> <msg>");
-				} else {
+			if(p.hasPermission("mcrp.tpa")){
+				MPlayer pm = MPlayer.getMPlayer(p);
+				if(args.length == 1){
 					Player t = Bukkit.getPlayer(args[0]);
 					if(t != null){
-						message(p, t, args, false);
-
-						MPlayer.getMPlayer(p).setReplyTo(t);
-						MPlayer.getMPlayer(t).setReplyTo(p);
+						pm.setTeleportLocation(p.getLocation());
+						pm.setTeleportTo(t);
+						MPlayer.getMPlayer(t).setTeleportTo(p);
 					} else Functions.unknownPlayer(p);
-				}
+				} else Functions.tell(p, "§cInvalid arguments. §f/tpa <player>");
 			} else Functions.noPerm(p);
-		}
+		} else Functions.tell(s, "You can't teleport, you're a console!");
 	}
 
 }

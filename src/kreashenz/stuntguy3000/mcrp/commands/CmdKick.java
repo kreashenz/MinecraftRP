@@ -24,21 +24,15 @@ public class CmdKick extends ICommand {
 					return;
 				} else {
 					Player t = Bukkit.getPlayer(args[0]);
-					if(t == null){
-						Functions.tell(p, "§cThat player isn't found!");
-						return;
-					}
-					
-					if(t.hasPermission("mcrp.kick.bypass")){
-						Functions.tell(p, "§cYou can't kick that player.");
-						return;
-					}
-
-					if(args.length == 1){
-						t.kickPlayer("§cYou were kicked by an server admin.");
-					} else {
-						kick(t, args, false);
-					}
+					if(t != null){
+						if(!t.hasPermission("mcrp.kick.bypass")){
+							if(args.length == 1){
+								t.kickPlayer("§cYou were kicked by a server administrator");
+							} else {
+								kick(t, args, false);
+							}
+						} else Functions.tell(p, "§cYou can't kick that player!");
+					} else Functions.unknownPlayer(p);
 				}
 			} else Functions.noPerm(p);
 		} else {
@@ -46,14 +40,14 @@ public class CmdKick extends ICommand {
 				Functions.tell(s, "§cInvalid arguments! Usage §f/kick <player> [reason]");
 			} else {
 				Player t = Bukkit.getPlayer(args[0]);
-				if(t == null){
-					Functions.tell(s, "§cThat player isn't found!");
-					return;
-				}
 				if(args.length == 1){
-					t.kickPlayer("§cYou were kicked by Console.");
+					if(t != null){
+						t.kickPlayer("§cYou were kicked by Console.");
+					} else Functions.unknownPlayer(s);
 				} else {
-					kick(t, args, false);
+					if(t != null){
+						kick(t, args, false);
+					} else Functions.unknownPlayer(s);
 				}
 			}
 		}

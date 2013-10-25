@@ -12,3 +12,11 @@ commands:
   reply:
     description: Reply to a private message
     aliases: [r]
+  tp:
+    description: Teleport to a player
+  tphere:
+    description: Teleport a player to you
+  tptoggle:
+    description: Toggle whether to allow teleporting to you
+  nick:
+    description: Set a player's nickname.

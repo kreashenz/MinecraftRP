@@ -1,6 +1,10 @@
 package kreashenz.stuntguy3000.mcrp.utils;
 
 public class TPSHandler implements Runnable {
+	
+	/*
+	 * @author LazyLemons
+	 */
 
 	public static int tickCount = 0;
 	public static long[] ticks = new long[600];

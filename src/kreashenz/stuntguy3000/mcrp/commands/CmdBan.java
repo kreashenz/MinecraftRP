@@ -24,19 +24,18 @@ public class CmdBan extends ICommand {
 					Functions.tell(p, "§cInvalid arguments! Usage §f/ban <player> [reason]");
 				} else {
 					Player t = Bukkit.getPlayer(args[0]);
-					if(t == null){
-						Functions.tell(p, "§cThat player isn't found!");
-						return;
-					}
-
-					if(args.length == 1){
-						t.kickPlayer("§cYou were banned by an server admin.");
-						t.setBanned(true);
-					} else {
-						kick(t, args, true);
-						MPlayer.getMPlayer(t).set("ban.banner", p.getName());
-						// Figure a way to get the date/time/whatever MPlayer.getMPlayer(t).set("ban.date", "");
-					}
+					if(t != null){
+						if(!t.hasPermission("mcrp.ban.bypass")){
+							if(args.length == 1){
+								t.kickPlayer("§cYou were banned by a server administrator.");
+								t.setBanned(true);
+							} else {
+								kick(t, args, true);
+								MPlayer.getMPlayer(t).set("ban.banner", p.getName());
+								// Figure a way to get the date/time/whatever MPlayer.getMPlayer(t).set("ban.date", "");
+							}
+						} else Functions.tell(p, "§cYou can't ban that player");
+					} else Functions.unknownPlayer(p);
 				}
 			} else Functions.noPerm(p);
 		} else {
@@ -44,19 +43,16 @@ public class CmdBan extends ICommand {
 				Functions.tell(s, "§cInvalid arguments! Usage §f/ban <player> [reason]");
 			} else {
 				Player t = Bukkit.getPlayer(args[0]);
-				if(t == null){
-					Functions.tell(s, "§cThat player isn't found!");
-					return;
-				}
-
-				if(args.length == 1){
-					t.kickPlayer("§cYou were banned by Console.");
-					t.setBanned(true);
-				} else {
-					kick(t, args, true);
-					MPlayer.getMPlayer(t).set("ban.banner", s.getName());
-					// Figure a way to get the date/time/whatever MPlayer.getMPlayer(t).set("ban.date", "");
-				}
+				if(t != null){
+					if(args.length == 1){
+						t.kickPlayer("§cYou were banned by Console.");
+						t.setBanned(true);
+					} else {
+						kick(t, args, true);
+						MPlayer.getMPlayer(t).set("ban.banner", "CONSOLE");
+						// Figure a way to get the date/time/whatever MPlayer.getMPlayer(t).set("ban.date", "");
+					}
+				} else Functions.unknownPlayer(s);
 			}
 		}
 	}

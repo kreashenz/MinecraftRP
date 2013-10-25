@@ -15,7 +15,7 @@ public class CmdMain implements CommandExecutor {
 	}
 
 	@Override
-	public boolean onCommand(CommandSender s, Command cmd, String lable, String[] args){
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args){
 		if(cmd.getName().equalsIgnoreCase("ban")){
 			new CmdBan(plugin).execute(s, cmd, args);
 		}
@@ -27,6 +27,21 @@ public class CmdMain implements CommandExecutor {
 		}
 		if(cmd.getName().equalsIgnoreCase("reply")){
 			new CmdReply(plugin).execute(s, cmd, args);
+		}
+		if(cmd.getName().equalsIgnoreCase("tp")){
+			new CmdTp(plugin).execute(s, cmd, args);
+		}
+		if(cmd.getName().equalsIgnoreCase("tphere")){
+			new CmdTphere(plugin).execute(s, cmd, args);
+		}
+		if(cmd.getName().equalsIgnoreCase("tptoggle")){
+			new CmdTptoggle(plugin).execute(s, cmd, args);
+		}
+		if(cmd.getName().equalsIgnoreCase("tpa")){
+			new CmdTpa(plugin).execute(s, cmd, args);
+		}
+		if(cmd.getName().equalsIgnoreCase("nick")){
+			new CmdNick(plugin).execute(s, cmd, args);
 		}
 		return true;
 	}

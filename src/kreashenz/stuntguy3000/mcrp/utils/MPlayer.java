@@ -7,6 +7,7 @@ import java.util.Map;
 
 import kreashenz.stuntguy3000.mcrp.MinecraftRP;
 
+import org.bukkit.Location;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -16,9 +17,15 @@ public class MPlayer {
 
 	private static Map<String, MPlayer> managers = new HashMap<String, MPlayer>();
 
+	private boolean hasTPO = false;
+
 	private CommandSender reply = null;
 
+	private Location tpLoc;
+
 	private MinecraftRP plugin;
+
+	private Player tpReq;
 	private Player p;
 
 	private File file;
@@ -63,7 +70,7 @@ public class MPlayer {
 	}
 
 	public void set(String path, Object value){
-		getPlayerConfig().set(path, value);
+		conf.set(path, value);
 		try {
 			conf.save(file);
 		}
@@ -76,11 +83,23 @@ public class MPlayer {
 		this.reply = s;
 	}
 
+	public void setTPO(boolean tpo){
+		hasTPO = tpo;
+	}
+
+	public void setTeleportTo(Player p){
+		this.tpReq = p;
+	}
+
+	public void setTeleportLocation(Location loc){
+		this.tpLoc = loc;
+	}
+
 	public File getPlayerFile(){
 		return file;
 	}
 
-	public FileConfiguration getPlayerConfig(){
+	public FileConfiguration getConfig(){
 		return conf;
 	}
 
@@ -110,8 +129,20 @@ public class MPlayer {
 		return conf.getDouble("economy.balance");
 	}
 
+	public Location getTeleportLocation(){
+		return tpLoc;
+	}
+
+	public Player getTeleportPlayer(){
+		return tpReq;
+	}
+
 	public boolean canAfford(double afford){
 		return (getMoney() >= afford);
+	}
+
+	public boolean getTPO(){
+		return hasTPO;
 	}
 
 }

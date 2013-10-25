@@ -11,24 +11,23 @@ import org.bukkit.entity.Player;
 public class Functions {
 
 	public static void tell(CommandSender s, String msg){
-		String st = colour(MinecraftRP.getInstance().getConfig().getString("messages.prefix"));
-		if(s instanceof Player){
-			s.sendMessage(st + msg);
-		} else {
-			s.sendMessage(ChatColor.stripColor(st + msg));
-		}
+		s.sendMessage(s instanceof Player ? colour(msg) : ChatColor.stripColor(msg) + " ");
 	}
 
 	public static void noPerm(CommandSender s){
-		tell(s, "§cYou don't have permission!");
+		tell(s, MinecraftRP.getInstance().getConfig().getString("messages.no-permission"));
 	}
-	
+
 	public static String colour(String s){
 		return ChatColor.translateAlternateColorCodes('&', s);
 	}
-	
+
 	public static void log(Level level, String msg){
 		MinecraftRP.getInstance().getLogger().log(level, msg);
+	}
+
+	public static void unknownPlayer(CommandSender s){
+		tell(s, "§cThat player wasn't found!");
 	}
 
 }

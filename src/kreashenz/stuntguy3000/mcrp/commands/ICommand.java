@@ -27,7 +27,7 @@ public abstract class ICommand {
 		p.kickPlayer("§cYou were " + (ban ? "banned" : "kicked") + " by §6" + p.getName() + " §cfor §6" + reason);
 		if(ban){
 			p.setBanned(true);
-			MPlayer.getMPlayer(p).set("ban.reason", args);
+			MPlayer.getMPlayer(p).set("ban.reason", reason);
 		}
 	}
 
@@ -38,7 +38,7 @@ public abstract class ICommand {
 			if(p.hasPermission("mcrp.chat.color"))m = ChatColor.translateAlternateColorCodes('&', m);
 		}
 		p.sendMessage("§6[§a" + p.getName() + " -> §7" + t.getName() + "§6] §7" + m);
-		t.sendMessage("§6[§7" + p.getName() + " §a ->" + t.getName() + "§6] §7" + m);
+		t.sendMessage("§6[§7" + p.getName() + "§a -> " + t.getName() + "§6] §7" + m);
 	}
 
 }
