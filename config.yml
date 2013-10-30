@@ -5,3 +5,5 @@ messages:
   
 chat:
   format: '&f[{WORLD}] &c{DISPLAYNAME} &7: &9{MESSAGE}'
+  
+socialspy-listen-all: false

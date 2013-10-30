@@ -17,7 +17,10 @@ public class MPlayer {
 
 	private static Map<String, MPlayer> managers = new HashMap<String, MPlayer>();
 
+
 	private boolean hasTPO = false;
+	private boolean hasTPReq = false;
+	private boolean isSocialSpying = false;
 
 	private CommandSender reply = null;
 
@@ -25,6 +28,7 @@ public class MPlayer {
 
 	private MinecraftRP plugin;
 
+	private Player spying;
 	private Player tpReq;
 	private Player p;
 
@@ -79,6 +83,10 @@ public class MPlayer {
 		}
 	}
 
+	public void setSpying(Player s){
+		this.spying = s;
+	}
+
 	public void setReplyTo(CommandSender s){
 		this.reply = s;
 	}
@@ -108,25 +116,34 @@ public class MPlayer {
 	}
 
 	public void addMoney(double amount){
-		double d = conf.getInt("economy.balance");
-		set("economy.balance", amount + d);
+		double d = conf.getInt("balance");
+		set("balance", amount + d);
 	}
 
 	public void setMoney(double amount){
-		set("economy.balance", amount);
+		set("balance", amount);
 	}
 
 	public void takeMoney(double amount){
-		double d = conf.getInt("economy.balance");
-		set("economy.balance", d - amount);
+		double d = conf.getInt("balance");
+		set("balance", d - amount);
 	}
 
 	public void resetMoney(){
-		set("economy.balance", 0);
+		set("balance", 0);
+	}
+
+	public void setTPRequested(boolean tped){
+		hasTPReq = tped;
+	}
+
+	public void setSocialSpying(boolean spying){
+		plugin.spyers.add(p.getName());
+		isSocialSpying = spying;
 	}
 
 	public double getMoney(){
-		return conf.getDouble("economy.balance");
+		return conf.getDouble("balance");
 	}
 
 	public Location getTeleportLocation(){
@@ -145,4 +162,15 @@ public class MPlayer {
 		return hasTPO;
 	}
 
+	public Player getSpying(){
+		return spying;
+	}
+
+	public boolean hasTPRequested(){
+		return hasTPReq;
+	}
+
+	public boolean isSocialSpying(){
+		return isSocialSpying;
+	}
 }

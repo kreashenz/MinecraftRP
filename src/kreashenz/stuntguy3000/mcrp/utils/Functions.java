@@ -1,5 +1,8 @@
 package kreashenz.stuntguy3000.mcrp.utils;
 
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.util.Locale;
 import java.util.logging.Level;
 
 import kreashenz.stuntguy3000.mcrp.MinecraftRP;
@@ -28,6 +31,15 @@ public class Functions {
 
 	public static void unknownPlayer(CommandSender s){
 		tell(s, "§cThat player wasn't found!");
+	}
+
+	public static String formatAsCurrency(double value) {
+		DecimalFormat decimal = new DecimalFormat("#0.00", DecimalFormatSymbols.getInstance(Locale.US));
+		String str = decimal.format(value);
+		if (str.endsWith(".00")){
+			str = str.substring(0, str.length() - 3);
+		}
+		return str;
 	}
 
 }

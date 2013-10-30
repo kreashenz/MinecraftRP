@@ -41,4 +41,13 @@ public abstract class ICommand {
 		t.sendMessage("§6[§7" + p.getName() + "§a -> " + t.getName() + "§6] §7" + m);
 	}
 
+	protected boolean isInt(String sInt){
+		try {
+			Integer.parseInt(sInt);
+			return true;
+		}
+		catch(NumberFormatException e){
+			return false;
+		}
+	}
 }

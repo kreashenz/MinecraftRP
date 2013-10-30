@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 
+import kreashenz.stuntguy3000.mcrp.Economy;
 import kreashenz.stuntguy3000.mcrp.MinecraftRP;
-import net.milkbowl.vault.economy.Economy;
 import net.milkbowl.vault.economy.EconomyResponse;
 import net.milkbowl.vault.economy.EconomyResponse.ResponseType;
 
@@ -17,7 +17,7 @@ import org.bukkit.event.server.PluginDisableEvent;
 import org.bukkit.event.server.PluginEnableEvent;
 import org.bukkit.plugin.Plugin;
 
-public class VaultIntergration implements Economy {
+public class VaultIntergration implements net.milkbowl.vault.economy.Economy {
 
 	private Plugin plugin;
 	private MinecraftRP mcrp;
@@ -30,7 +30,7 @@ public class VaultIntergration implements Economy {
 		if(mcrp == null){
 			Plugin minecraftRP = plugin.getServer().getPluginManager().getPlugin("MinecraftRP");
 			if(minecraftRP != null && minecraftRP.isEnabled()){
-				mcrp = (MinecraftRP) mcrp;
+				mcrp = (MinecraftRP)minecraftRP;
 				Functions.log(Level.INFO, String.format("[%s][Economy] %s hooked.", plugin.getDescription().getName(), name));
 			}
 		}
@@ -39,7 +39,8 @@ public class VaultIntergration implements Economy {
 
 	@Override
 	public boolean createPlayerAccount(String arg0) {
-		return hasAccount(arg0);
+		if(hasAccount(arg0))return false;
+		return Economy.create(arg0);
 	}
 
 	@Override
@@ -89,7 +90,7 @@ public class VaultIntergration implements Economy {
 
 	@Override
 	public String format(double arg0) {
-		return null;
+		return Functions.formatAsCurrency(arg0);
 	}
 
 	@Override
@@ -140,12 +141,12 @@ public class VaultIntergration implements Economy {
 
 	@Override
 	public boolean hasAccount(String arg0) {
-		return false;
+		return Economy.exists(arg0);
 	}
 
 	@Override
 	public boolean hasAccount(String arg0, String arg1) {
-		return false;
+		return hasAccount(arg0);
 	}
 
 	@Override
@@ -215,7 +216,8 @@ public class VaultIntergration implements Economy {
 	}
 
 	public class MinecraftRPEconomyServerListener implements Listener {
-		VaultIntergration pl;
+
+		private VaultIntergration pl;
 
 		public MinecraftRPEconomyServerListener(VaultIntergration pl){
 			this.pl = pl;

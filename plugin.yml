@@ -5,6 +5,8 @@ description: Meooow
 commands:
   ban:
     description: Ban a player
+  broadcast:
+    description: Broadcast a message
   kick:
     description: Kick a player
   msg:
@@ -12,6 +14,10 @@ commands:
   reply:
     description: Reply to a private message
     aliases: [r]
+  setspawn:
+    description: Set the spawn location of the server
+  spawn:
+    description: Teleport to spawn
   tp:
     description: Teleport to a player
   tphere:
@@ -20,3 +26,9 @@ commands:
     description: Toggle whether to allow teleporting to you
   nick:
     description: Set a player's nickname.
+  clear:
+    description: Clear an inventory
+  socialspy:
+    description: Toggle socialspy
+  speed:
+    description: Set fly speed
