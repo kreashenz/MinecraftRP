@@ -2,6 +2,7 @@ main: kreashenz.stuntguy3000.mcrp.MinecraftRP
 name: MinecraftRP
 version: 1.0
 description: Meooow
+softdepend: [Vault]
 commands:
   ban:
     description: Ban a player
@@ -32,3 +33,7 @@ commands:
     description: Toggle socialspy
   speed:
     description: Set fly speed
+  item:
+    description: Spawn an item
+  help:
+    description: Send the help

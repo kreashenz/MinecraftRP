@@ -1,0 +1,8253 @@
+items:
+  '1':
+    '0':
+    - stone
+    - sstone
+    - smoothstone
+    - rock
+  '2':
+    '0':
+    - grass
+    - greendirt
+    - greenearth
+    - greenland
+  '3':
+    '0':
+    - dirt
+    - earth
+    - land
+  '4':
+    '0':
+    - cobblestone
+    - cstone
+    - cobble
+  '5':
+    '0':
+    - wood
+    - plank
+    - woodenplank
+    - woodplank
+    - wplank
+    - plankwooden
+    - plankwood
+    - plankw
+    - oakplank
+    - oakwoodenplank
+    - oakwoodplank
+    - oakwplank
+    - oakplankwooden
+    - oakplankwood
+    - oakplankw
+    - oplank
+    - owoodenplank
+    - owoodplank
+    - owplank
+    - oplankwooden
+    - oplankwood
+    - oplankw
+    '1':
+    - pineplank
+    - pinewoodenplank
+    - pinewoodplank
+    - pinewplank
+    - pineplankwooden
+    - pineplankwood
+    - pineplankw
+    - pplank
+    - pwoodenplank
+    - pwoodplank
+    - pwplank
+    - pplankwooden
+    - pplankwood
+    - pplankw
+    - darkplank
+    - darkwoodenplank
+    - darkwoodplank
+    - darkwplank
+    - darkplankwooden
+    - darkplankwood
+    - darkplankw
+    - dplank
+    - dwoodenplank
+    - dwoodplank
+    - dwplank
+    - dplankwooden
+    - dplankwood
+    - dplankw
+    - spruceplank
+    - sprucewoodenplank
+    - sprucewoodplank
+    - sprucewplank
+    - spruceplankwooden
+    - spruceplankwood
+    - spruceplankw
+    - splank
+    - swoodenplank
+    - swoodplank
+    - swplank
+    - splankwooden
+    - splankwood
+    - splankw
+    '2':
+    - birchplank
+    - birchwoodenplank
+    - birchwoodplank
+    - birchwplank
+    - birchplankwooden
+    - birchplankwood
+    - birchplankw
+    - bplank
+    - bwoodenplank
+    - bwoodplank
+    - bwplank
+    - bplankwooden
+    - bplankwood
+    - bplankw
+    - lightplank
+    - lightwoodenplank
+    - lightwoodplank
+    - lightwplank
+    - lightplankwooden
+    - lightplankwood
+    - lightplankw
+    - lplank
+    - lwoodenplank
+    - lwoodplank
+    - lwplank
+    - lplankwooden
+    - lplankwood
+    - lplankw
+    - whiteplank
+    - whitewoodenplank
+    - whitewoodplank
+    - whitewplank
+    - whiteplankwooden
+    - whiteplankwood
+    - whiteplankw
+    - wwoodenplank
+    - wwoodplank
+    - wwplank
+    - wplankwooden
+    - wplankwood
+    - wplankw
+    '3':
+    - jungleplank
+    - junglewoodenplank
+    - junglewoodplank
+    - junglewplank
+    - jungleplankwooden
+    - jungleplankwood
+    - jungleplankw
+    - jplank
+    - jwoodenplank
+    - jwoodplank
+    - jwplank
+    - jplankwooden
+    - jplankwood
+    - jplankw
+    - forestplank
+    - forestwoodenplank
+    - forestwoodplank
+    - forestwplank
+    - forestplankwooden
+    - forestplankwood
+    - forestplankw
+    - fplank
+    - fwoodenplank
+    - fwoodplank
+    - fwplank
+    - fplankwooden
+    - fplankwood
+    - fplankw
+  '6':
+    '0':
+    - sapling
+    - treesapling
+    - logsapling
+    - trunksapling
+    - woodsapling
+    - oaktreesapling
+    - oaklogsapling
+    - oaktrunksapling
+    - oakwoodsapling
+    - osapling
+    - otreesapling
+    - ologsapling
+    - otrunksapling
+    - owoodsapling
+    '1':
+    - darksapling
+    - darktreesapling
+    - darklogsapling
+    - darktrunksapling
+    - darkwoodsapling
+    - sprucesapling
+    - sprucetreesapling
+    - sprucelogsapling
+    - sprucetrunksapling
+    - sprucewoodsapling
+    - pinesapling
+    - pinetreesapling
+    - pinelogsapling
+    - pinetrunksapling
+    - pinewoodsapling
+    - dsapling
+    - dtreesapling
+    - dlogsapling
+    - dtrunksapling
+    - dwoodsapling
+    - ssapling
+    - streesapling
+    - slogsapling
+    - strunksapling
+    - swoodsapling
+    - psapling
+    - ptreesapling
+    - plogsapling
+    - ptrunksapling
+    - pwoodsapling
+    '2':
+    - birchsapling
+    - birchtreesapling
+    - birchlogsapling
+    - birchtrunksapling
+    - birchwoodsapling
+    - lightsapling
+    - lighttreesapling
+    - lightlogsapling
+    - lighttrunksapling
+    - lightwoodsapling
+    - whitesapling
+    - whitetreesapling
+    - whitelogsapling
+    - whitetrunksapling
+    - whitewoodsapling
+    - bsapling
+    - btreesapling
+    - blogsapling
+    - btrunksapling
+    - bwoodsapling
+    - lsapling
+    - ltreesapling
+    - llogsapling
+    - ltrunksapling
+    - lwoodsapling
+    - wsapling
+    - wtreesapling
+    - wlogsapling
+    - wtrunksapling
+    - wwoodsapling
+    '3':
+    - junglesapling
+    - jungletreesapling
+    - junglelogsapling
+    - jungletrunksapling
+    - junglewoodsapling
+    - forestsapling
+    - foresttreesapling
+    - forestlogsapling
+    - foresttrunksapling
+    - forestwoodsapling
+    - jsapling
+    - jtreesapling
+    - jlogsapling
+    - jtrunksapling
+    - jwoodsapling
+    - fsapling
+    - ftreesapling
+    - flogsapling
+    - ftrunksapling
+    - fwoodsapling
+  '7':
+    '0':
+    - bedrock
+    - oprock
+    - opblock
+    - adminblock
+    - adminrock
+    - adminium
+  '8':
+    '0':
+    - water
+  '9':
+    '0':
+    - stationarywater
+    - swater
+  '10':
+    '0':
+    - lava
+  '11':
+    '0':
+    - stationarylava
+    - slava
+  '12':
+    '0':
+    - sand
+  '13':
+    '0':
+    - gravel
+  '14':
+    '0':
+    - goldore
+    - oregold
+    - gore
+    - oreg
+    - goldo
+    '0 ':
+    - ogold
+  '15':
+    '0':
+    - ironore
+    - oreiron
+    - irono
+    - oiron
+    - steelore
+    - oresteel
+    - steelo
+    - osteel
+    - iore
+    - orei
+    - sore
+    - ores
+  '16':
+    '0':
+    - coalore
+    - orecoal
+    - coalo
+    - ocoal
+    - core
+  '17':
+    '0':
+    - tree
+    - log
+    - trunk
+    - oak
+    - oaktree
+    - oaklog
+    - oaktrunk
+    - oakwood
+    - otree
+    - olog
+    - otrunk
+    - owood
+    '1':
+    - pine
+    - pinetree
+    - pinelog
+    - pinetrunk
+    - pinewood
+    - darktree
+    - darklog
+    - darktrunk
+    - darkwood
+    - spruce
+    - sprucetree
+    - sprucelog
+    - sprucetrunk
+    - sprucewood
+    - dtree
+    - dlog
+    - dtrunk
+    - dwood
+    - stree
+    - slog
+    - strunk
+    - swood
+    - ptree
+    - plog
+    - ptrunk
+    - pwood
+    '2':
+    - birch
+    - birchtree
+    - birchlog
+    - birchtrunk
+    - birchwood
+    - whitetree
+    - whitelog
+    - whitetrunk
+    - whitewood
+    - lighttree
+    - lightlog
+    - lighttrunk
+    - lightwood
+    - btree
+    - blog
+    - btrunk
+    - bwood
+    - wtree
+    - wlog
+    - wtrunk
+    - wwood
+    - ltree
+    - llog
+    - ltrunk
+    - lwood
+    '3':
+    - jungletree
+    - junglelog
+    - jungletrunk
+    - junglewood
+    - jungle
+    - forest
+    - foresttree
+    - forestlog
+    - foresttrunk
+    - forestwood
+    - jtree
+    - jlog
+    - jtrunk
+    - jwood
+    - ftree
+    - flog
+    - ftrunk
+    - fwood
+  '18':
+    '0':
+    - leaves
+    - leaf
+    - treeleaves
+    - logleaves
+    - trunkleaves
+    - woodleaves
+    - oakleaves
+    - oakleaf
+    - oleaves
+    - oleaf
+    - oaktreeleaves
+    - oaklogleaves
+    - oaktrunkleaves
+    - oakwoodleaves
+    - otreeleaves
+    - ologleaves
+    - otrunkleaves
+    - owoodleaves
+    - treeleaf
+    - logleaf
+    - trunkleaf
+    - woodleaf
+    - oaktreeleaf
+    - oaklogleaf
+    - oaktrunkleaf
+    - oakwoodleaf
+    - otreeleaf
+    - ologleaf
+    - otrunkleaf
+    - owoodleaf
+    '1':
+    - pineleaves
+    - pineleaf
+    - pleaves
+    - pleaf
+    - pinetreeleaves
+    - pinelogleaves
+    - pinetrunkleaves
+    - pinewoodleaves
+    - ptreeleaves
+    - plogleaves
+    - ptrunkleaves
+    - pwoodleaves
+    - spruceleaves
+    - spruceleaf
+    - sleaves
+    - sleaf
+    - sprucetreeleaves
+    - sprucelogleaves
+    - sprucetrunkleaves
+    - sprucewoodleaves
+    - streeleaves
+    - slogleaves
+    - strunkleaves
+    - swoodleaves
+    - darkleaves
+    - darkleaf
+    - dleaves
+    - dleaf
+    - darktreeleaves
+    - darklogleaves
+    - darktrunkleaves
+    - darkwoodleaves
+    - dtreeleaves
+    - dlogleaves
+    - dtrunkleaves
+    - dwoodleaves
+    - sprucetreeleaf
+    - sprucelogleaf
+    - sprucetrunkleaf
+    - sprucewoodleaf
+    - streeleaf
+    - slogleaf
+    - strunkleaf
+    - swoodleaf
+    - pinetreeleaf
+    - pinelogleaf
+    - pinetrunkleaf
+    - pinewoodleaf
+    - ptreeleaf
+    - plogleaf
+    - ptrunkleaf
+    - pwoodleaf
+    - darktreeleaf
+    - darklogleaf
+    - darktrunkleaf
+    - darkwoodleaf
+    - dtreeleaf
+    - dlogleaf
+    - dtrunkleaf
+    - dwoodleaf
+    '2':
+    - birchleaves
+    - birchleaf
+    - bleaves
+    - bleaf
+    - birchtreeleaves
+    - birchlogleaves
+    - birchtrunkleaves
+    - birchwoodleaves
+    - btreeleaves
+    - blogleaves
+    - btrunkleaves
+    - bwoodleaves
+    - lightleaves
+    - lightleaf
+    - lleaves
+    - lleaf
+    - lighttreeleaves
+    - lightlogleaves
+    - lighttrunkleaves
+    - lightwoodleaves
+    - ltreeleaves
+    - llogleaves
+    - ltrunkleaves
+    - lwoodleaves
+    - whiteleaves
+    - whiteleaf
+    - wleaves
+    - wleaf
+    - whitetreeleaves
+    - whitelogleaves
+    - whitetrunkleaves
+    - whitewoodleaves
+    - wtreeleaves
+    - wlogleaves
+    - wtrunkleaves
+    - wwoodleaves
+    - birchtreeleaf
+    - birchlogleaf
+    - birchtrunkleaf
+    - birchwoodleaf
+    - btreeleaf
+    - blogleaf
+    - btrunkleaf
+    - bwoodleaf
+    - lighttreeleaf
+    - lightlogleaf
+    - lighttrunkleaf
+    - lightwoodleaf
+    - ltreeleaf
+    - llogleaf
+    - ltrunkleaf
+    - lwoodleaf
+    - whitetreeleaf
+    - whitelogleaf
+    - whitetrunkleaf
+    - whitewoodleaf
+    - wtreeleaf
+    - wlogleaf
+    - wtrunkleaf
+    - wwoodleaf
+    '3':
+    - jungleleaves
+    - jungleleaf
+    - jleaves
+    - jleaf
+    - jungletreeleaves
+    - junglelogleaves
+    - jungletrunkleaves
+    - junglewoodleaves
+    - jtreeleaves
+    - jlogleaves
+    - jtrunkleaves
+    - jwoodleaves
+    - forestleaves
+    - forestleaf
+    - fleaves
+    - fleaf
+    - foresttreeleaves
+    - forestlogleaves
+    - foresttrunkleaves
+    - forestwoodleaves
+    - ftreeleaves
+    - flogleaves
+    - ftrunkleaves
+    - fwoodleaves
+    - jungletreeleaf
+    - junglelogleaf
+    - jungletrunkleaf
+    - junglewoodleaf
+    - jtreeleaf
+    - jlogleaf
+    - jtrunkleaf
+    - jwoodleaf
+    - foresttreeleaf
+    - forestlogleaf
+    - foresttrunkleaf
+    - forestwoodleaf
+    - ftreeleaf
+    - flogleaf
+    - ftrunkleaf
+    - fwoodleaf
+  '19':
+    '0':
+    - sponge
+  '20':
+    '0':
+    - glass
+  '21':
+    '0':
+    - lapislazuliore
+    - lapislazulio
+    - orelapislazuli
+    - olapislazuli
+    - lapisore
+    - lapiso
+    - orelapis
+    - olapis
+    - lore
+    - orel
+  '22':
+    '0':
+    - lapislazuliblock
+    - blocklapislazuli
+    - lapisblock
+    - blocklapis
+    - lblock
+    - blockl
+  '23':
+    '0':
+    - dispenser
+    - dispense
+  '24':
+    '0':
+    - sandstone
+    - sastone
+    '1':
+    - creepersandstone
+    - csandstone
+    - csastone
+    - creepsandstone
+    - creepsastone
+    - creepersastone
+    - hieroglyphicsandstone
+    - hieroglyphicsastone
+    - hieroglyphsandstone
+    - hieroglyphsastone
+    - hsandstone
+    - hsastone
+    - pyramidsandstone
+    - pyramidsastone
+    - psandstone
+    - psastone
+    '2':
+    - smoothsandstone
+    - smoothsastone
+    - ssandstone
+    - smsastone
+    - ssastone
+  '25':
+    '0':
+    - noteblock
+    - musicblock
+    - nblock
+    - mblock
+  '26':
+    '0':
+    - bedblock
+  '27':
+    '0':
+    - poweredtrack
+    - poweredrails
+    - poweredrail
+    - boostertrack
+    - boosterrails
+    - boosterrail
+    - powertrack
+    - powerrails
+    - powerrail
+    - boosttrack
+    - boostrails
+    - boostrail
+    - ptrack
+    - prails
+    - prail
+    - btrack
+    - brails
+    - brail
+  '28':
+    '0':
+    - detectortrack
+    - detectorrails
+    - detectorrail
+    - detectingtrack
+    - detectingrails
+    - detectingrail
+    - detecttrack
+    - detectrails
+    - detectrail
+    - dtrack
+    - drails
+    - drail
+  '29':
+    '0':
+    - stickypistonbase
+    - stickypiston
+    - stickpistonbase
+    - stickpiston
+    - stickyp
+    - spistonbase
+    - spiston
+    - pistonstickybase
+    - pistonsticky
+    - pistonstickbase
+    - pistonstick
+    - pistonsbase
+    - pistons
+    - psticky
+    - pstick
+  '30':
+    '0':
+    - spiderweb
+    - sweb
+    - web
+  '31':
+    '1':
+    - longgrass
+    - tallgrass
+    - wildgrass
+    - grasslong
+    - grasstall
+    - grasswild
+    - lgrass
+    - tgrass
+    - wgrass
+    '2':
+    - fern
+    - bush
+  '32':
+    '0':
+    - deadshrub
+    - dshrub
+    - deadbush
+    - dbush
+    - deadsapling
+  '33':
+    '0':
+    - piston
+    - normalpistonbase
+    - normalpiston
+    - normpistonbase
+    - normpiston
+    - npistonbase
+    - npiston
+    - pistonnormalbase
+    - pistonnormal
+    - pistonnormbase
+    - pistonnorm
+    - pistonnbase
+    - pistonn
+    - pistonbase
+    - pistonblock
+  '34':
+    '0':
+    - pistonextension
+    - pistonextensionnormal
+    - pistonextnormal
+    - pistonext
+    - pistonenormal
+    - pistone
+    - extensionpistonnormal
+    - extensionpiston
+    - extpistonnormal
+    - extpiston
+    - epistonnormal
+    - episton
+  '35':
+    '0':
+    - whitewool
+    - whitecloth
+    - whitecotton
+    - wcloth
+    - wwool
+    - wcotton
+    - cloth
+    - wool
+    - cotton
+    '1':
+    - orangewool
+    - orangecloth
+    - orangecotton
+    - ocloth
+    - owool
+    - ocotton
+    '2':
+    - magentawool
+    - magentacloth
+    - magentacotton
+    - mcloth
+    - mwool
+    - mcotton
+    '3':
+    - lightbluewool
+    - lightbluecloth
+    - lightbluecotton
+    - lbluecloth
+    - lbluewool
+    - lbluecotton
+    - lightblucloth
+    - lightbluwool
+    - lightblucotton
+    - lblucloth
+    - lbluwool
+    - lblucotton
+    '4':
+    - yellowwool
+    - yellowcloth
+    - yellowcotton
+    - ycloth
+    - ywool
+    - ycotton
+    '5':
+    - lightgreenwool
+    - lightgreencloth
+    - lightgreencotton
+    - lgreencloth
+    - lgreenwool
+    - lgreencotton
+    - lightgrecloth
+    - lightgrewool
+    - lightgrecotton
+    - lgrecloth
+    - lgrewool
+    - lgrecotton
+    - limecloth
+    - limewool
+    - limecotton
+    - lcloth
+    - lwool
+    - lcotton
+    '6':
+    - pinkwool
+    - pinkcloth
+    - pinkcotton
+    - picloth
+    - piwool
+    - picotton
+    '7':
+    - darkgraywool
+    - darkgraycloth
+    - darkgraycotton
+    - dgraycloth
+    - dgraywool
+    - dgraycotton
+    - darkgracloth
+    - darkgrawool
+    - darkgracotton
+    - dgracloth
+    - dgrawool
+    - dgracotton
+    - graycloth
+    - graywool
+    - graycotton
+    - gracloth
+    - grawool
+    - gracotton
+    '8':
+    - lightgraywool
+    - lightgraycloth
+    - lightgraycotton
+    - lgraycloth
+    - lgraywool
+    - lgraycotton
+    - lightgracloth
+    - lightgrawool
+    - lightgracotton
+    - lgracloth
+    - lgrawool
+    - lgracotton
+    - silvercloth
+    - silverwool
+    - silvercotton
+    - sicloth
+    - siawool
+    - siacotton
+    '9':
+    - cyanwool
+    - cyancloth
+    - cyancotton
+    - ccloth
+    - cwool
+    - ccotton
+    '10':
+    - purplewool
+    - purplecloth
+    - purplecotton
+    - pucloth
+    - puwool
+    - pucotton
+    '11':
+    - bluewool
+    - bluecloth
+    - bluecotton
+    - blucloth
+    - bluwool
+    - blucotton
+    '12':
+    - brownwool
+    - browncloth
+    - browncotton
+    - brocloth
+    - browool
+    - brocotton
+    '13':
+    - darkgreenwool
+    - darkgreencloth
+    - darkgreencotton
+    - dgreencloth
+    - dgreenwool
+    - dgreencotton
+    - greencloth
+    - greenwool
+    - greencotton
+    - darkgrecloth
+    - darkgrewool
+    - darkgrecotton
+    - dgrecloth
+    - dgrewool
+    - dgrecotton
+    - grecloth
+    - grewool
+    - grecotton
+    '14':
+    - redwool
+    - redcloth
+    - redcotton
+    - rcloth
+    - rwool
+    - rcotton
+    '15':
+    - blackwool
+    - blackcloth
+    - blackcotton
+    - blacloth
+    - blawool
+    - blacotton
+  '36':
+    '0':
+    - pistonmovingpiece
+    - pistonmp
+    - pistontop
+  '37':
+    '0':
+    - dandelion
+    - yellowdandelion
+    - ydandelion
+    - yellowflower
+    - yflower
+    - flower
+  '38':
+    '0':
+    - rose
+    - redrose
+    - rrose
+    - redflower
+    - rflower
+  '39':
+    '0':
+    - brownmushroom
+    - brownshroom
+    - brownmush
+    - bmushroom
+    - bshroom
+    - bmush
+  '40':
+    '0':
+    - redmushroom
+    - redshroom
+    - redmush
+    - rmushroom
+    - rshroom
+    - rmush
+  '41':
+    '0':
+    - goldblock
+    - blockgold
+    - gblock
+    - blockg
+  '42':
+    '0':
+    - ironblock
+    - steelblock
+    - blockiron
+    - blocksteel
+    - iblock
+    - stblock
+    - blocki
+    - blockst
+  '43':
+    '0':
+    - stonedoublestep
+    - stonedstep
+    - sdoublestep
+    - sdstep
+    - doublestonestep
+    - dstonestep
+    - doublesstep
+    - doublestep
+    - dstep
+    - stonedoubleslab
+    - stonedslab
+    - sdoubleslab
+    - sdslab
+    - doublestoneslab
+    - dstoneslab
+    - doublesslab
+    - doubleslab
+    - dslab
+    - stonedoublehalfblock
+    - stonedhalfblock
+    - sdoublehalfblock
+    - sdhalfblock
+    - doublestonehalfblock
+    - dstonehalfblock
+    - doubleshalfblock
+    - doublehalfblock
+    - dhalfblock
+    '1':
+    - sandstonedoublestep
+    - sandstonedstep
+    - sstonedoublestep
+    - sstonedstep
+    - ssdoublestep
+    - ssdstep
+    - doublesandstonestep
+    - dsandstonestep
+    - doublesstonestep
+    - dsstonestep
+    - doublessstep
+    - dsstep
+    - sandstonedoubleslab
+    - sandstonedslab
+    - sstonedoubleslab
+    - sstonedslab
+    - ssdoubleslab
+    - ssdslab
+    - doublesandstoneslab
+    - dsandstoneslab
+    - doublesstoneslab
+    - dsstoneslab
+    - doublessslab
+    - dsslab
+    - sandstonedoublehalfblock
+    - sandstonedhalfblock
+    - sstonedoublehalfblock
+    - sstonedhalfblock
+    - ssdoublehalfblock
+    - ssdhalfblock
+    - doublesandstonehalfblock
+    - dsandstonehalfblock
+    - doublesstonehalfblock
+    - dsstonehalfblock
+    - doublesshalfblock
+    - dsshalfblock
+    '2':
+    - plankstonedoublestep
+    - woodenplankstonedoublestep
+    - woodenplankstonedstep
+    - woodplankstonedoublestep
+    - woodplankstonedstep
+    - wplankstonedoublestep
+    - wplankstonedstep
+    - plankstonedstep
+    - woodenstonedoublestep
+    - woodenstonedstep
+    - woodstonedoublestep
+    - woodstonedstep
+    - wstonedoublestep
+    - wstonedstep
+    - doublewoodenplankstonestep
+    - dwoodenplankstonestep
+    - doublewoodplankstonestep
+    - dwoodplankstonestep
+    - doublewplankstonestep
+    - dwplankstonestep
+    - doubleplankstonestep
+    - dplankstonestep
+    - doublewoodenstonestep
+    - dwoodenstonestep
+    - doublewoodstonestep
+    - dwoodstonestep
+    - doublewstonestep
+    - dwstonestep
+    - woodenplankstonedoubleslab
+    - woodenplankstonedslab
+    - woodplankstonedoubleslab
+    - woodplankstonedslab
+    - wplankstonedoubleslab
+    - wplankstonedslab
+    - plankstonedoubleslab
+    - plankstonedslab
+    - woodenstonedoubleslab
+    - woodenstonedslab
+    - woodstonedoubleslab
+    - woodstonedslab
+    - wstonedoubleslab
+    - wstonedslab
+    - doublewoodenplankstoneslab
+    - dwoodenplankstoneslab
+    - doublewoodplankstoneslab
+    - dwoodplankstoneslab
+    - doublewplankstoneslab
+    - dwplankstoneslab
+    - doubleplankstoneslab
+    - dplankstoneslab
+    - doublewoodenstoneslab
+    - dwoodenstoneslab
+    - doublewoodstoneslab
+    - dwoodstoneslab
+    - doublewstoneslab
+    - dwstoneslab
+    - woodenplankstonedoublehalfblock
+    - woodenplankstonedhalfblock
+    - woodplankstonedoublehalfblock
+    - woodplankstonedhalfblock
+    - wplankstonedoublehalfblock
+    - wplankstonedhalfblock
+    - plankstonedoublehalfblock
+    - planstonekdhalfblock
+    - woodenstonedoublehalfblock
+    - woodenstonedhalfblock
+    - woodstonedoublehalfblock
+    - woodstonedhalfblock
+    - wstonedoublehalfblock
+    - wstonedhalfblock
+    - doublewoodenplankstonehalfblock
+    - dwoodenplankstonehalfblock
+    - doublewoodplankstonehalfblock
+    - dwoodplankstonehalfblock
+    - doublewplankstonehalfblock
+    - dwplankstonehalfblock
+    - doubleplankstonehalfblock
+    - dplankstonehalfblock
+    - doublewoodenstonehalfblock
+    - dwoodenstonehalfblock
+    - doublewoodstonehalfblock
+    - dwoodstonehalfblock
+    - doublewstonehalfblock
+    - dwstonehalfblock
+    '3':
+    - cobblestonedoublestep
+    - cobblestonedstep
+    - cobbledoublestep
+    - cobbledstep
+    - cstonedoublestep
+    - cstonedstep
+    - csdoublestep
+    - csdstep
+    - doublecobblestonestep
+    - dcobblestonestep
+    - doublecobblestep
+    - dcobblestep
+    - doublecstonestep
+    - dcstonestep
+    - doublecsstep
+    - dcsstep
+    - cobblestonedoubleslab
+    - cobblestonedslab
+    - cobbledoubleslab
+    - cobbledslab
+    - cstonedoubleslab
+    - cstonedslab
+    - csdoubleslab
+    - csdslab
+    - doublecobblestoneslab
+    - dcobblestoneslab
+    - doublecobbleslab
+    - dcobbleslab
+    - doublecstoneslab
+    - dcstoneslab
+    - doublecsslab
+    - dcsslab
+    - cobblestonedoublehalfblock
+    - cobblestonedhalfblock
+    - cobbledoublehalfblock
+    - cobbledhalfblock
+    - cstonedoublehalfblock
+    - cstonedhalfblock
+    - csdoublehalfblock
+    - csdhalfblock
+    - doublecobblestonehalfblock
+    - dcobblestonehalfblock
+    - doublecobblehalfblock
+    - dcobblehalfblock
+    - doublecstonehalfblock
+    - dcstonehalfblock
+    - doublecshalfblock
+    - dcshalfblock
+    '4':
+    - brickdoublestep
+    - brickdstep
+    - bdoublestep
+    - bdstep
+    - brickdoubleslab
+    - brickdslab
+    - bdoubleslab
+    - bdslab
+    - doublebrickstep
+    - dbrickstep
+    - doublebstep
+    - dbstep
+    - doublebrickslab
+    - dbrickslab
+    - doublebslab
+    - dbslab
+    - brickdoublehalfblock
+    - brickdhalfblock
+    - bdoublehalfblock
+    - bdhalfblock
+    - doublebrickhalfblock
+    - dbrickhalfblock
+    - doublebhalfblock
+    - dbhalfblock
+    '5':
+    - sbrickdoublestep
+    - sbrickdstep
+    - sbdoublestep
+    - sbdstep
+    - stonebrickdoubleslab
+    - stonebrickdslab
+    - stonebdoubleslab
+    - stonebdslab
+    - sbrickdoubleslab
+    - sbrickdslab
+    - sbdoubleslab
+    - sbdslab
+    - doublestonebrickstep
+    - dstonebrickstep
+    - doublestonebstep
+    - dstonebstep
+    - doublesbrickstep
+    - dsbrickstep
+    - doublesbstep
+    - dsbstep
+    - doublestonebrickslab
+    - dstonebrickslab
+    - doublestonebslab
+    - dstonebslab
+    - doublesbrickslab
+    - dsbrickdslab
+    - doublesbslab
+    - dsbslab
+    - stonebrickdoublehalfblock
+    - stonebrickdhalfblock
+    - stonebdoublehalfblock
+    - stonebdhalfblock
+    - sbrickdoublehalfblock
+    - sbrickdhalfblock
+    - sbdoublehalfblock
+    - sbdhalfblock
+    - doublestonebrickhalfblock
+    - dstonebrickhalfblock
+    - doublestonebhalfblock
+    - dstonebhalfblock
+    - doublesbrickhalfblock
+    - dsbrickhalfblock
+    - doublesbhalfblock
+    - dsbhalfblock
+    '6':
+    - netherbrickdoubleslab
+    - hellbrickdoubleslab
+    - nbrickdoubleslab
+    - hbrickdoubleslab
+    - netherdoubleslab
+    - helldoubleslab
+    - nbdoubleslab
+    - hbdoubleslab
+    - hdoubleslab
+    - ndoubleslab
+    - netherbrickdoublestep
+    - hellbrickdoublestep
+    - nbrickdoublestep
+    - hbrickdoublestep
+    - netherdoublestep
+    - helldoublestep
+    - nbdoublestep
+    - hbdoublestep
+    - ndoublestep
+    - hdoublestep
+    - netherbrickdoublehalfblock
+    - hellbrickdoublehalfblock
+    - nbrickdoublehalfblock
+    - hbrickdoublehalfblock
+    - netherdoublehalfblock
+    - helldoublehalfblock
+    - nbdoublehalfblock
+    - hbdoublehalfblock
+    - ndoublehalfblock
+    - hdoublehalfblock
+    - netherbrickdslab
+    - hellbrickdslab
+    - nbrickdslab
+    - hbrickdslab
+    - netherdslab
+    - helldslab
+    - nbdslab
+    - hbdslab
+    - hdslab
+    - ndslab
+    - netherbrickdstep
+    - hellbrickdstep
+    - nbrickdstep
+    - hbrickdstep
+    - netherdstep
+    - helldstep
+    - nbdstep
+    - hbdstep
+    - ndstep
+    - hdstep
+    - netherbrickdhalfblock
+    - hellbrickdhalfblock
+    - nbrickdhalfblock
+    - hbrickdhalfblock
+    - netherdhalfblock
+    - helldhalfblock
+    - nbdhalfblock
+    - hbdhalfblock
+    - ndhalfblock
+    - hdhalfblock
+    - doublenetherbrickslab
+    - doublehellbrickslab
+    - doublenbrickslab
+    - doublehbrickslab
+    - doublenetherslab
+    - doublehellslab
+    - doublenbslab
+    - doublehbslab
+    - doublehslab
+    - doublenslab
+    - doublenetherbrickstep
+    - doublehellbrickstep
+    - doublenbrickstep
+    - doublehbrickstep
+    - doublenetherstep
+    - doublehellstep
+    - doublenbstep
+    - doublehbstep
+    - doublenstep
+    - doublehstep
+    - doublenetherbrickhalfblock
+    - doublehellbrickhalfblock
+    - doublenbrickhalfblock
+    - doublehbrickhalfblock
+    - doublenetherhalfblock
+    - doublehellhalfblock
+    - doublenbhalfblock
+    - doublehbhalfblock
+    - doublenhalfblock
+    - doublehhalfblock
+    - dnetherbrickslab
+    - dhellbrickslab
+    - dnbrickslab
+    - dhbrickslab
+    - dnetherslab
+    - dhellslab
+    - dnbslab
+    - dhbslab
+    - dhslab
+    - dnslab
+    - dnetherbrickstep
+    - dhellbrickstep
+    - dnbrickstep
+    - dhbrickstep
+    - dnetherstep
+    - dhellstep
+    - dnbstep
+    - dhbstep
+    - dnstep
+    - dhstep
+    - dnetherbrickhalfblock
+    - dhellbrickhalfblock
+    - dnbrickhalfblock
+    - dhbrickhalfblock
+    - dnetherhalfblock
+    - dhellhalfblock
+    - dnbhalfblock
+    - dhbhalfblock
+    - dnhalfblock
+    - dhhalfblock
+    '7':
+    - netherquartzdoublestep
+    - hellquartzdoublestep
+    - deathquartzdoublestep
+    - nquartzdoublestep
+    - hquartzdoublestep
+    - dquartzdoublestep
+    - quartzdoublestep
+    - nqdoublestep
+    - hqdoublestep
+    - dqdoublestep
+    - qdoublestep
+    - netherquartzdoubleslab
+    - hellquartzdoubleslab
+    - deathquartzdoubleslab
+    - nquartzdoubleslab
+    - hquartzdoubleslab
+    - dquartzdoubleslab
+    - quartzdoubleslab
+    - nqdoubleslab
+    - hqdoubleslab
+    - dqdoubleslab
+    - qdoubleslab
+    - netherquartzdoublehalfblock
+    - hellquartzdoublehalfblock
+    - deathquartzdoublehalfblock
+    - nquartzdoublehalfblock
+    - hquartzdoublehalfblock
+    - dquartzdoublehalfblock
+    - quartzdoublehalfblock
+    - nqdoublehalfblock
+    - hqdoublehalfblock
+    - dqdoublehalfblock
+    - qdoublehalfblock
+    - netherquartzdslab
+    - hellquartzdslab
+    - deathquartzdslab
+    - nquartzdslab
+    - hquartzdslab
+    - dquartzdslab
+    - quartzdslab
+    - nqdslab
+    - hqdslab
+    - dqdslab
+    - qdslab
+    - netherquartzdstep
+    - hellquartzdstep
+    - deathquartzdstep
+    - nquartzdstep
+    - hquartzdstep
+    - dquartzdstep
+    - quartzdstep
+    - nqdstep
+    - hqdstep
+    - dqdstep
+    - qdstep
+    - netherquartzdhalfblock
+    - hellquartzdhalfblock
+    - deathquartzdhalfblock
+    - nquartzdhalfblock
+    - hquartzdhalfblock
+    - dquartzdhalfblock
+    - quartzdhalfblock
+    - nqdhalfblock
+    - hqdhalfblock
+    - dqdhalfblock
+    - qdhalfblock
+    - doublenetherquartzslab
+    - doublehellquartzslab
+    - doubledeathquartzslab
+    - doublenquartzslab
+    - doublehquartzslab
+    - doubledquartzslab
+    - doublequartzslab
+    - doublenqslab
+    - doublehqslab
+    - doubledqslab
+    - doubleqslab
+    - doublenetherquartzstep
+    - doublehellquartzstep
+    - doubledeathquartzstep
+    - doublenquartzstep
+    - doublehquartzstep
+    - doubledquartzstep
+    - doublequartzstep
+    - doublenqstep
+    - doublehqstep
+    - doubledqstep
+    - doubleqstep
+    - doublenetherquartzhalfblock
+    - doublehellquartzhalfblock
+    - doubledeathquartzhalfblock
+    - doublenquartzhalfblock
+    - doublehquartzhalfblock
+    - doubledquartzhalfblock
+    - doublequartzhalfblock
+    - doublenqhalfblock
+    - doublehqhalfblock
+    - doubledqhalfblock
+    - doubleqhalfblock
+    - dnetherquartzslab
+    - dhellquartzslab
+    - ddeathquartzslab
+    - dnquartzslab
+    - dhquartzslab
+    - ddquartzslab
+    - dnqslab
+    - dhqslab
+    - ddqslab
+    - dnetherquartzstep
+    - dhellquartzstep
+    - ddeathquartzstep
+    - dnquartzstep
+    - dhquartzstep
+    - ddquartzstep
+    - dnqstep
+    - dhqstep
+    - ddqstep
+    - dnetherquartzhalfblock
+    - dhellquartzhalfblock
+    - ddeathquartzhalfblock
+    - dnquartzhalfblock
+    - dhquartzhalfblock
+    - ddquartzhalfblock
+    - dnqhalfblock
+    - dhqhalfblock
+    - ddqhalfblock
+    '8':
+    - smoothstonedoubleslab
+    - smoothstonedoublestep
+    - smoothstonedoublehalfblock
+    - smoothstonedslab
+    - smoothstonedstep
+    - smoothstonedhalfblock
+    - doublesmoothstoneslab
+    - doublesmoothstonestep
+    - doublesmoothstonehalfblock
+    - dsmoothstoneslab
+    - dsmoothstonestep
+    - dsmoothstonehalfblock
+    '9':
+    - smoothsandstonedoubleslab
+    - ssandstonedoubleslab
+    - ssstonedoubleslab
+    - sssdoubleslab
+    - smoothsandstonedoublestep
+    - ssandstonedoublestep
+    - ssstonedoublestep
+    - sssdoublestep
+    - smoothsandstonedoublehalfblock
+    - ssandstonedoublehalfblock
+    - ssstonedoublehalfblock
+    - sssdoublehalfblock
+    - smoothsandstonedslab
+    - ssandstonedslab
+    - ssstonedslab
+    - sssdslab
+    - smoothsandstonedstep
+    - ssandstonedstep
+    - ssstonedstep
+    - sssdstep
+    - smoothsandstonedhalfblock
+    - ssandstonedhalfblock
+    - ssstonedhalfblock
+    - sssdhalfblock
+    - doublesmoothsandstoneslab
+    - doublessandstoneslab
+    - doublessstoneslab
+    - doublesssslab
+    - doublesmoothsandstonestep
+    - doublessandstonestep
+    - doublessstonestep
+    - doublesssstep
+    - doublesmoothsandstonehalfblock
+    - doublessandstonehalfblock
+    - doublessstonehalfblock
+    - doublessshalfblock
+    - dsmoothsandstoneslab
+    - dssandstoneslab
+    - dssstoneslab
+    - dsssslab
+    - dsmoothsandstonestep
+    - dssandstonestep
+    - dssstonestep
+    - dsssstep
+    - dsmoothsandstonehalfblock
+    - dssandstonehalfblock
+    - dssstonehalfblock
+    - dssshalfblock
+  '44':
+    '0':
+    - smoothstonestep
+    - stonestep
+    - sstep
+    - step
+    - smoothstoneslab
+    - stoneslab
+    - sslab
+    - slab
+    - smoothstonehalfblock
+    - stonehalfblock
+    - shalfblock
+    - halfblock
+    '1':
+    - sandstonestep
+    - sstonestep
+    - ssstep
+    - sandstoneslab
+    - sstoneslab
+    - ssslab
+    - sandstonehalfblock
+    - sstonehalfblock
+    - sshalfblock
+    '2':
+    - plankstonestep
+    - woodenplankstonestep
+    - woodplankstonestep
+    - wplankstonestep
+    - woodenstonestep
+    - woodstonestep
+    - wstonestep
+    - woodenplankstoneslab
+    - woodplankstoneslab
+    - wplankstoneslab
+    - plankstoneslab
+    - woodenstoneslab
+    - woodstoneslab
+    - wstoneslab
+    - woodenplankstonehalfblock
+    - woodplankstonehalfblock
+    - wplankstonehalfblock
+    - plankstonehalfblock
+    - woodenstonehalfblock
+    - woodstonehalfblock
+    - wstonehalfblock
+    '3':
+    - cobblestonestep
+    - cobblestep
+    - cstonestep
+    - csstep
+    - cobblestoneslab
+    - cobbleslab
+    - cstoneslab
+    - csslab
+    - cobblestonehalfblock
+    - cobblehalfblock
+    - cstonehalfblock
+    - cshalfblock
+    '4':
+    - brickstep
+    - bstep
+    - brickslab
+    - bslab
+    - brickhalfblock
+    - bhalfblock
+    '5':
+    - stonebrickstep
+    - stonebstep
+    - sbrickstep
+    - sbstep
+    - stonebrickslab
+    - stonebslab
+    - sbrickslab
+    - sbslab
+    - stonebrickhalfblock
+    - stonebhalfblock
+    - sbrickhalfblock
+    - sbhalfblock
+    '6':
+    - hellbrickslab
+    - nbrickslab
+    - hbrickslab
+    - netherslab
+    - hellslab
+    - nbslab
+    - hbslab
+    - hslab
+    - nslab
+    - netherbrickstep
+    - hellbrickstep
+    - nbrickstep
+    - hbrickstep
+    - netherstep
+    - hellstep
+    - nbstep
+    - hbstep
+    - nstep
+    - hstep
+    - netherbrickhalfblock
+    - hellbrickhalfblock
+    - nbrickhalfblock
+    - hbrickhalfblock
+    - netherhalfblock
+    - hellhalfblock
+    - nbhalfblock
+    - hbhalfblock
+    - nhalfblock
+    - hhalfblock
+    '7':
+    - netherquartzstep
+    - hellquartzstep
+    - deathquartzstep
+    - nquartzstep
+    - hquartzstep
+    - dquartzstep
+    - quartzstep
+    - nqstep
+    - hqstep
+    - dqstep
+    - qstep
+    - netherquartzslab
+    - hellquartzslab
+    - deathquartzslab
+    - nquartzslab
+    - hquartzslab
+    - dquartzslab
+    - quartzslab
+    - nqslab
+    - hqslab
+    - dqslab
+    - qslab
+    - netherquartzhalfblock
+    - hellquartzhalfblock
+    - deathquartzhalfblock
+    - nquartzhalfblock
+    - hquartzhalfblock
+    - dquartzhalfblock
+    - quartzhalfblock
+    - nqhalfblock
+    - hqhalfblock
+    - dqhalfblock
+    - qhalfblock
+  '45':
+    '0':
+    - brickblock
+    - blockbrick
+    - bblock
+    - blockb
+  '46':
+    '0':
+    - tnt
+    - tntblock
+    - blocktnt
+    - bombblock
+    - blockbomb
+    - dynamiteblock
+    - blockdynamite
+    - bomb
+    - dynamite
+  '47':
+    '0':
+    - bookcase
+    - casebook
+    - bookshelf
+    - shelfbook
+    - bookblock
+    - blockbook
+  '48':
+    '0':
+    - mossycobblestone
+    - mosscobblestone
+    - mcobblestone
+    - mossycobble
+    - mosscobble
+    - mcobble
+    - mossstone
+    - mossystone
+    - mstone
+  '49':
+    '0':
+    - obsidian
+    - obsi
+    - obby
+  '50':
+    '0':
+    - torch
+    - burningstick
+    - burnstick
+  '51':
+    '0':
+    - fire
+    - flame
+    - flames
+  '52':
+    '0':
+    - mobspawner
+    - mobcage
+    - monsterspawner
+    - monstercage
+    - mspawner
+    - mcage
+    - spawner
+    - cage
+  '53':
+    '0':
+    - woodenstairs
+    - woodstairs
+    - wstairs
+    - woodenstair
+    - woodstair
+    - wstair
+  '54':
+    '0':
+    - chest
+    - container
+  '55':
+    '0':
+    - redstonewire
+    - rstonewire
+    - redswire
+    - redwire
+    - rswire
+    - rwire
+    - wire
+    - redstonewireblock
+    - rstonewireblock
+    - redswireblock
+    - redwireblock
+    - rswireblock
+    - rwireblock
+  '56':
+    '0':
+    - diamondore
+    - crystalore
+    - orediamond
+    - orecrystal
+    - dore
+    - ored
+  '57':
+    '0':
+    - diamondblock
+    - blockdiamond
+    - crystalblock
+    - blockcrystal
+    - dblock
+    - blockd
+  '58':
+    '0':
+    - workbench
+    - craftingbench
+    - crafterbench
+    - craftbench
+    - worktable
+    - craftingtable
+    - craftertable
+    - crafttable
+    - wbench
+    - cbench
+  '59':
+    '0':
+    - crops
+    - crop
+  '60':
+    '0':
+    - soil
+  '61':
+    '0':
+    - furnace
+  '62':
+    '0':
+    - burningfurnace
+    - bfurnace
+  '63':
+    '0':
+    - signpost
+    - spost
+  '64':
+    '0':
+    - woodendoorhalf
+    - wooddoorhalf
+    - wdoorhalf
+    - woodendoorbottom
+    - wooddoorbottom
+    - wdoorbottom
+    - woodendoorblock
+    - wooddoorblock
+    - wdoorblock
+  '65':
+    '0':
+    - ladder
+  '66':
+    '0':
+    - minecarttrack
+    - minecartrails
+    - minecartrail
+    - mcarttrack
+    - mcartrails
+    - mcartrail
+    - mctrack
+    - mcrails
+    - mcrail
+    - track
+    - rails
+    - rail
+  '67':
+    '0':
+    - cobblestonestairs
+    - cstonestairs
+    - stonestairs
+    - cobblestairs
+    - csstairs
+    - sstairs
+    - cstairs
+    - cobblestonestair
+    - cstonestair
+    - stonestair
+    - cobblestair
+    - csstair
+    - sstair
+    - cstair
+  '68':
+    '0':
+    - wallsign
+    - wsign
+  '69':
+    '0':
+    - lever
+  '70':
+    '0':
+    - stonepressureplate
+    - stonepressplate
+    - stonepplate
+    - stoneplate
+    - spressureplate
+    - spressplate
+    - spplate
+    - splate
+    - smoothstonepressureplate
+    - smoothstonepressplate
+    - smoothstonepplate
+    - smoothstoneplate
+    - sstonepressureplate
+    - sstonepressplate
+    - sstonepplate
+    - sstoneplate
+  '71':
+    '0':
+    - irondoorhalf
+    - idoorhalf
+    - irondoorbottom
+    - idoorbottom
+    - irondoorblock
+    - idoorblock
+    - steeldoorhalf
+    - sdoorhalf
+    - steeldoorbottom
+    - sdoorbottom
+    - steeldoorblock
+    - sdoorblock
+  '72':
+    '0':
+    - woodenpressureplate
+    - woodenpressplate
+    - woodenpplate
+    - woodenplate
+    - woodpressureplate
+    - woodpressplate
+    - woodpplate
+    - woodplate
+    - wpressureplate
+    - wpressplate
+    - wpplate
+    - wplate
+  '73':
+    '0':
+    - redstoneore
+    - redsore
+    - redore
+    - rstoneore
+    - rsore
+    - rore
+    - oreredstone
+    - orereds
+    - orered
+    - orerstone
+    - orers
+    - orer
+  '74':
+    '0':
+    - glowingredstoneore
+    - glowredstoneore
+    - gredstoneore
+    - glowingrstoneore
+    - glowrstoneore
+    - grstoneore
+    - glowingredsore
+    - glowredsore
+    - gredsore
+    - glowingredore
+    - glowredore
+    - gredore
+    - glowingrsore
+    - glowrsore
+    - grsore
+    - grore
+    - oreglowingredstone
+    - oreglowredstone
+    - oregredstone
+    - oreglowingrstone
+    - oreglowrstone
+    - oregrstone
+    - oreglowingreds
+    - oreglowreds
+    - oregreds
+    - oreglowingred
+    - oreglowred
+    - oregred
+    - oreglowingrs
+    - oreglowrs
+    - oregrs
+    - oregr
+  '75':
+    '0':
+    - redstonetorchoff
+    - rstonetorchoff
+    - redstorchoff
+    - redtorchoff
+    - rstorchoff
+  '76':
+    '0':
+    - redstonetorch
+    - redstonetorchon
+    - rstonetorchon
+    - rstonetorch
+    - redstorchon
+    - redstorch
+    - redtorchon
+    - redtorch
+    - rstorchon
+    - rstorch
+  '77':
+    '0':
+    - stonebutton
+    - smoothstonebutton
+    - sstonebutton
+    - sbutton
+    - button
+  '78':
+    '0':
+    - snowcover
+    - snowcovering
+    - scover
+  '79':
+    '0':
+    - ice
+    - frozenwater
+    - waterfrozen
+    - freezewater
+    - waterfreeze
+  '80':
+    '0':
+    - snowblock
+    - blocksnow
+    - sblock
+    - blocks
+  '81':
+    '0':
+    - cactus
+    - cactuses
+    - cacti
+  '82':
+    '0':
+    - clayblock
+    - blockclay
+    - cblock
+    - blockc
+  '83':
+    '0':
+    - reedblock
+    - reedsblock
+    - sugarcaneblock
+    - scaneblock
+    - bambooblock
+    - blockreed
+    - blockreeds
+    - blocksugarcane
+    - blockscane
+    - blockbamboo
+  '84':
+    '0':
+    - jukebox
+    - jbox
+  '85':
+    '0':
+    - woodenfence
+    - fence
+    - woodfence
+    - wfence
+    - fencewooden
+    - fencewood
+    - fencew
+  '86':
+    '0':
+    - pumpkin
+  '87':
+    '0':
+    - netherrack
+    - netherrock
+    - netherstone
+    - hellstone
+    - nstone
+    - hstone
+  '88':
+    '0':
+    - soulsand
+    - slowsand
+    - slowmud
+    - ssand
+    - smud
+    - mud
+  '89':
+    '0':
+    - glowstone
+    - glowingstoneblock
+    - lightstoneblock
+    - glowstoneblock
+    - blockglowingstone
+    - blocklightstone
+    - blockglowstone
+    - glowingstoneb
+    - lightstoneb
+    - glowstoneb
+    - bglowingstone
+    - blightstone
+    - bglowstone
+    - glowingstone
+    - lightstone
+    - glowingblock
+    - lightblock
+    - glowblock
+    - lstone
+    - gstone
+  '90':
+    '0':
+    - portal
+  '91':
+    '0':
+    - jackolantern
+    - pumpkinlantern
+    - glowingpumpkin
+    - lightpumpkin
+    - jpumpkin
+    - plantren
+    - glowpumpkin
+    - gpumpkin
+    - lpumpkin
+  '92':
+    '0':
+    - cakeblock
+  '93':
+    '0':
+    - repeateroff
+    - repeatoff
+    - delayeroff
+    - delayoff
+    - dioderoff
+    - diodeoff
+    - repeaterblockoff
+    - repeatblockoff
+    - delayerblockoff
+    - delayblockoff
+    - dioderblockoff
+    - diodeblockoff
+  '94':
+    '0':
+    - repeateron
+    - repeaton
+    - delayeron
+    - delayon
+    - dioderon
+    - diodeon
+    - repeaterblockon
+    - repeatblockon
+    - delayerblockon
+    - delayblockon
+    - dioderblockon
+    - diodeblockon
+  '95':
+    '0':
+    - lockedchest
+    - lockchest
+    - jokechest
+    - aprilfoolschest
+    - aprilchest
+    - lootchest
+  '96':
+    '0':
+    - trapdoor
+    - doortrap
+    - hatch
+    - tdoor
+    - doort
+    - trapd
+    - dtrap
+  '97':
+    '0':
+    - silverfish
+    - monsteregg
+    - monstereggsmoothstone
+    - monstereggsstone
+    - meggsmoothstone
+    - meggsstone
+    - mesmoothstone
+    - messtone
+    - trapsmoothstone
+    - trapsstone
+    - trapstone
+    '1':
+    - silverfishcobblestone
+    - silverfishcstone
+    - sfishcobblestone
+    - sfishcstone
+    - fishcobblestone
+    - fishcstone
+    - sfcobblestone
+    - sfcstone
+    - trapcobblestone
+    - trapcstone
+    - monstereggcobblestone
+    - monstereggcstone
+    - meggcobblestone
+    - meggcstone
+    - mecobblestone
+    - mecstone
+    '2':
+    - silverfishstonebrick
+    - silverfishsbrick
+    - sfishstonebrick
+    - sfishsbrick
+    - fishstonebrick
+    - fishsbrick
+    - sfstonebrick
+    - sfsbrick
+    - trapstonebrick
+    - trapsbrick
+    - monstereggstonebrick
+    - monstereggsbrick
+    - meggstonebrick
+    - meggsbrick
+    - mestonebrick
+    - mesbrick
+  '98':
+    '0':
+    - stonebrick
+    - stonebricks
+    - stonebrickblock
+    - stonebb
+    - sbrick
+    '1':
+    - mossystonebrick
+    - mossystonebricks
+    - mossystonebrickblock
+    - mossystonebb
+    - mossstonebrick
+    - mossstonebricks
+    - mossstonebrickblock
+    - mossstonebb
+    - mstonebrick
+    - mstonebricks
+    - mstonebrickblock
+    - mstonebb
+    - mosssbrick
+    - mosssbricks
+    - mosssbrickblock
+    - mosssbb
+    - msbrick
+    - msbricks
+    - msbrickblock
+    '2':
+    - crackedstone
+    - crackedstonebrick
+    - crackedstonebricks
+    - crackedstonebrickblock
+    - crackedstonebb
+    - crackstonebrick
+    - crackstonebricks
+    - crackstonebrickblock
+    - crackstonebb
+    - crstonebrick
+    - crstonebricks
+    - crstonebrickblock
+    - crstonebb
+    - cracksbrick
+    - cracksbricks
+    - cracksbrickblock
+    - cracksbb
+    - crsbrick
+    - crsbricks
+    - crsbrickblock
+    '3':
+    - circlestone
+    - circlestonebrick
+    - circlestonebricks
+    - circlestonebrickblock
+    - circlestonebb
+    - cistonebrick
+    - cistonebricks
+    - cistonebrickblock
+    - cistonebb
+    - circlesbrick
+    - circlesbricks
+    - circlesbrickblock
+    - circlesbb
+    - cisbrick
+    - cisbricks
+    - cisbrickblock
+  '99':
+    '0':
+    - giantredmushroom
+    - hugeredmushroom
+    - bigredmushroom
+    - gredmushroom
+    - hredmushroom
+    - bredmushroom
+    - giantrmushroom
+    - hugermushroom
+    - bigrmushroom
+    - grmushroom
+    - hrmushroom
+    - brmushroom
+  '100':
+    '0':
+    - giantbrownmushroom
+    - hugebrownmushroom
+    - bigbrownmushroom
+    - gbrownmushroom
+    - hbrownmushroom
+    - bbrownmushroom
+    - giantbmushroom
+    - hugebmushroom
+    - bigbmushroom
+    - gbmushroom
+    - hbmushroom
+    - bbmushroom
+  '101':
+    '0':
+    - ironbars
+    - ironbarsb
+    - ironbarsblock
+    - ironfence
+    - metalbars
+    - metalbarsb
+    - metalbarsblock
+    - metalfence
+    - jailbars
+    - jailbarsb
+    - jailbarsblock
+    - jailfence
+    - mbars
+    - mbarsb
+    - mbarsblock
+    - mfence
+    - jbars
+    - jbarsb
+    - jbarsblock
+    - jfence
+    - ibars
+    - ibarsb
+    - ibarsblock
+    - ifence
+  '102':
+    '0':
+    - glasspane
+    - glassp
+    - paneglass
+    - pglass
+    - flatglass
+    - fglass
+    - skinnyglass
+    - sglass
+    - glassflat
+    - glassf
+    - glassskinny
+    - glasss
+  '103':
+    '0':
+    - melon
+    - watermelon
+    - greenmelon
+    - melongreen
+    - melonblock
+    - watermelonblock
+    - greenmelonblock
+  '104':
+    '0':
+    - pumpkinstem
+    - stempumpkin
+    - pumpstem
+    - stempump
+  '105':
+    '0':
+    - melonstem
+    - watermelonstem
+    - greenmelonstem
+    - stemmelon
+    - stemwatermelon
+    - stemgreenmelon
+  '106':
+    '0':
+    - vines
+    - vine
+    - greenvines
+    - greenvine
+    - gardenvines
+    - gardenvine
+    - vinesgreen
+    - vinegreen
+    - vinesgarden
+    - vinegarden
+    - vinesg
+    - vineg
+    - gvines
+    - gvine
+  '107':
+    '0':
+    - woodenfencegate
+    - wfencegate
+    - woodfencegate
+    - woodengate
+    - woodgate
+    - wgate
+    - gate
+    - gardengate
+    - ggate
+    - fencegate
+    - fencegatewooden
+    - fencegatewood
+  '108':
+    '0':
+    - brickstairs
+    - redbrickstairs
+    - redbstairs
+    - rbrickstairs
+    - bstairs
+    - redstairs
+    - brickstair
+    - redbrickstair
+    - redbstair
+    - rbrickstair
+    - bstair
+    - redstair
+  '109':
+    '0':
+    - stonebrickstairs
+    - stonebstairs
+    - sbstairs
+    - cementbrickstairs
+    - cementstairs
+    - cementbstairs
+    - cbstairs
+    - greybrickstairs
+    - greybstairs
+    - greystairs
+  '110':
+    '0':
+    - mycelium
+    - purplegrass
+    - pinkgrass
+    - mycel
+    - swampgrass
+    - sgrass
+    - mushroomgrass
+    - mushgrass
+  '111':
+    '0':
+    - lilypad
+    - waterlily
+    - lily
+    - swamppad
+    - lpad
+    - wlily
+  '112':
+    '0':
+    - netherbrickblock
+    - nbrickblock
+    - hellbrickblock
+    - deathbrickblock
+    - dbrickblock
+    - hbrickblock
+    - blocknetherbrick
+    - blocknbrick
+    - blockhellbrick
+    - blockdeathbrick
+    - blockdbrick
+    - blockhbrick
+  '113':
+    '0':
+    - netherbrickfence
+    - hellbrickfence
+    - nbrickfence
+    - hbrickfence
+    - netherbfence
+    - hellbfence
+    - netherfence
+    - hellfence
+    - nbfence
+    - hbfence
+    - nfence
+    - hfence
+  '114':
+    '0':
+    - netherbrickstairs
+    - hellbrickstairs
+    - nbrickstairs
+    - hbrickstairs
+    - netherbstairs
+    - hellbstairs
+    - netherstairs
+    - hellstairs
+    - nbstairs
+    - hbstairs
+    - nstairs
+    - hstairs
+    - netherbrickstair
+    - hellbrickstair
+    - nbrickstair
+    - hbrickstair
+    - netherbstair
+    - hellbstair
+    - netherstair
+    - hellstair
+    - nbstair
+    - hbstair
+    - nstair
+    - hstair
+  '115':
+    '0':
+    - netherwarts
+    - netherwart
+    - netherplant
+    - nethercrop
+    - hellwarts
+    - hellwart
+    - hellplant
+    - hellcrop
+    - deathwarts
+    - deathwart
+    - deathplant
+    - deathcrop
+    - nwarts
+    - nwart
+    - ncrop
+    - nplant
+    - hwarts
+    - hwart
+    - hplant
+    - hcrop
+    - dwarts
+    - dwart
+    - dplant
+    - dcrop
+  '116':
+    '0':
+    - enchantmenttable
+    - enchantingtable
+    - enchanttable
+    - etable
+    - magicaltable
+    - magictable
+    - mtable
+    - enchantmentdesk
+    - enchantingdesk
+    - enchantdesk
+    - edesk
+    - magicaldesk
+    - magicdesk
+    - mdesk
+    - booktable
+    - bookdesk
+    - btable
+    - bdesk
+  '117':
+    '0':
+    - brewingstandblock
+    - brewerblock
+    - potionstandblock
+    - potionbrewerblock
+    - pstandblock
+    - bstandblock
+    - pbrewerblock
+  '118':
+    '0':
+    - cauldron
+    - steelcauldron
+    - ironcauldron
+    - icauldron
+    - scauldron
+    - potioncauldron
+    - pcauldron
+  '119':
+    '0':
+    - enderportal
+    - endergoo
+    - endgoo
+    - endportal
+    - egoo
+    - eportal
+  '120':
+    '0':
+    - enderportalframe
+    - endportalframe
+    - endgooframe
+    - endergooframe
+    - egooframe
+    - eportalframe
+    - enderframe
+    - endframe
+  '121':
+    '0':
+    - enderstone
+    - endstone
+    - endrock
+    - enderrock
+    - erock
+    - estone
+  '122':
+    '0':
+    - enderdragonegg
+    - endegg
+    - dragonegg
+    - degg
+    - bossegg
+    - begg
+  '123':
+    '0':
+    - redstonelamp
+    - redstonelampoff
+    - redlamp
+    - redlampoff
+    - rslamp
+    - rslampoff
+  '124':
+    '0':
+    - redstonelampon
+    - redlampon
+    - rslampon
+  '125':
+    '0':
+    - woodenplankdoublestep
+    - woodenplankdstep
+    - woodplankdoublestep
+    - woodplankdstep
+    - wplankdoublestep
+    - wplankdstep
+    - plankdoublestep
+    - plankdstep
+    - woodendoublestep
+    - woodendstep
+    - wooddoublestep
+    - wooddstep
+    - wdoublestep
+    - wdstep
+    - doublewoodenplankstep
+    - dwoodenplankstep
+    - doublewoodplankstep
+    - dwoodplankstep
+    - doublewplankstep
+    - dwplankstep
+    - doubleplankstep
+    - dplankstep
+    - doublewoodenstep
+    - dwoodenstep
+    - doublewoodstep
+    - dwoodstep
+    - doublewstep
+    - dwstep
+    - woodenplankdoubleslab
+    - woodenplankdslab
+    - woodplankdoubleslab
+    - woodplankdslab
+    - wplankdoubleslab
+    - wplankdslab
+    - plankdoubleslab
+    - plankdslab
+    - woodendoubleslab
+    - woodendslab
+    - wooddoubleslab
+    - wooddslab
+    - wdoubleslab
+    - wdslab
+    - doublewoodenplankslab
+    - dwoodenplankslab
+    - doublewoodplankslab
+    - dwoodplankslab
+    - doublewplankslab
+    - dwplankslab
+    - doubleplankslab
+    - dplankslab
+    - doublewoodenslab
+    - dwoodenslab
+    - doublewoodslab
+    - dwoodslab
+    - doublewslab
+    - dwslab
+    - woodenplankdoublehalfblock
+    - woodenplankdhalfblock
+    - woodplankdoublehalfblock
+    - woodplankdhalfblock
+    - wplankdoublehalfblock
+    - wplankdhalfblock
+    - plankdoublehalfblock
+    - plankdhalfblock
+    - woodendoublehalfblock
+    - woodendhalfblock
+    - wooddoublehalfblock
+    - wooddhalfblock
+    - wdoublehalfblock
+    - wdhalfblock
+    - doublewoodenplankhalfblock
+    - dwoodenplankhalfblock
+    - doublewoodplankhalfblock
+    - dwoodplankhalfblock
+    - doublewplankhalfblock
+    - dwplankhalfblock
+    - doubleplankhalfblock
+    - dplankhalfblock
+    - doublewoodenhalfblock
+    - dwoodenhalfblock
+    - doublewoodhalfblock
+    - dwoodhalfblock
+    - doublewhalfblock
+    - dwhalfblock
+    - oakwoodenplankdoublehalfblock
+    - oakwoodenplankdhalfblock
+    - oakwoodplankdoublehalfblock
+    - oakwoodplankdhalfblock
+    - oakwplankdoublehalfblock
+    - oakwplankdhalfblock
+    - oakplankdoublehalfblock
+    - oakplankdhalfblock
+    - oakwoodendoublehalfblock
+    - oakwoodendhalfblock
+    - oakwooddoublehalfblock
+    - oakwooddhalfblock
+    - oakwdoublehalfblock
+    - oakwdhalfblock
+    - oakdoublewoodenplankhalfblock
+    - oakdwoodenplankhalfblock
+    - oakdoublewoodplankhalfblock
+    - oakdwoodplankhalfblock
+    - oakdoublewplankhalfblock
+    - oakdwplankhalfblock
+    - oakdoubleplankhalfblock
+    - oakdplankhalfblock
+    - oakdoublewoodenhalfblock
+    - oakdwoodenhalfblock
+    - oakdoublewoodhalfblock
+    - oakdwoodhalfblock
+    - oakdoublewhalfblock
+    - oakdwhalfblock
+    - oakdoublehalfblock
+    - oakdhalfblock
+    - oakwoodenplankdoublestep
+    - oakwoodenplankdstep
+    - oakwoodplankdoublestep
+    - oakwoodplankdstep
+    - oakwplankdoublestep
+    - oakwplankdstep
+    - oakplankdoublestep
+    - oakplankdstep
+    - oakwoodendoublestep
+    - oakwoodendstep
+    - oakwooddoublestep
+    - oakwooddstep
+    - oakwdoublestep
+    - oakwdstep
+    - oakdoublewoodenplankstep
+    - oakdwoodenplankstep
+    - oakdoublewoodplankstep
+    - oakdwoodplankstep
+    - oakdoublewplankstep
+    - oakdwplankstep
+    - oakdoubleplankstep
+    - oakdplankstep
+    - oakdoublewoodenstep
+    - oakdwoodenstep
+    - oakdoublewoodstep
+    - oakdwoodstep
+    - oakdoublewstep
+    - oakdwstep
+    - oakdoublestep
+    - oakdstep
+    - oakwoodenplankdoubleslab
+    - oakwoodenplankdslab
+    - oakwoodplankdoubleslab
+    - oakwoodplankdslab
+    - oakwplankdoubleslab
+    - oakwplankdslab
+    - oakplankdoubleslab
+    - oakplankdslab
+    - oakwoodendoubleslab
+    - oakwoodendslab
+    - oakwooddoubleslab
+    - oakwooddslab
+    - oakwdoubleslab
+    - oakwdslab
+    - oakdoublewoodenplankslab
+    - oakdwoodenplankslab
+    - oakdoublewoodplankslab
+    - oakdwoodplankslab
+    - oakdoublewplankslab
+    - oakdwplankslab
+    - oakdoubleplankslab
+    - oakdplankslab
+    - oakdoublewoodenslab
+    - oakdwoodenslab
+    - oakdoublewoodslab
+    - oakdwoodslab
+    - oakdoublewslab
+    - oakdwslab
+    - oakdoubleslab
+    - oakdslab
+    '1':
+    - sprucewoodenplankdoublestep
+    - sprucewoodenplankdstep
+    - sprucewoodplankdoublestep
+    - sprucewoodplankdstep
+    - sprucewplankdoublestep
+    - sprucewplankdstep
+    - spruceplankdoublestep
+    - spruceplankdstep
+    - sprucewoodendoublestep
+    - sprucewoodendstep
+    - sprucewooddoublestep
+    - sprucewooddstep
+    - sprucewdoublestep
+    - sprucewdstep
+    - sprucedoublewoodenplankstep
+    - sprucedwoodenplankstep
+    - sprucedoublewoodplankstep
+    - sprucedwoodplankstep
+    - sprucedoublewplankstep
+    - sprucedwplankstep
+    - sprucedoubleplankstep
+    - sprucedplankstep
+    - sprucedoublewoodenstep
+    - sprucedwoodenstep
+    - sprucedoublewoodstep
+    - sprucedwoodstep
+    - sprucedoublewstep
+    - sprucedwstep
+    - sprucedoublestep
+    - sprucedstep
+    - sprucewoodenplankdoubleslab
+    - sprucewoodenplankdslab
+    - sprucewoodplankdoubleslab
+    - sprucewoodplankdslab
+    - sprucewplankdoubleslab
+    - sprucewplankdslab
+    - spruceplankdoubleslab
+    - spruceplankdslab
+    - sprucewoodendoubleslab
+    - sprucewoodendslab
+    - sprucewooddoubleslab
+    - sprucewooddslab
+    - sprucewdoubleslab
+    - sprucewdslab
+    - sprucedoublewoodenplankslab
+    - sprucedwoodenplankslab
+    - sprucedoublewoodplankslab
+    - sprucedwoodplankslab
+    - sprucedoublewplankslab
+    - sprucedwplankslab
+    - sprucedoubleplankslab
+    - sprucedplankslab
+    - sprucedoublewoodenslab
+    - sprucedwoodenslab
+    - sprucedoublewoodslab
+    - sprucedwoodslab
+    - sprucedoublewslab
+    - sprucedwslab
+    - sprucedoubleslab
+    - sprucedslab
+    - sprucewoodenplankdoublehalfblock
+    - sprucewoodenplankdhalfblock
+    - sprucewoodplankdoublehalfblock
+    - sprucewoodplankdhalfblock
+    - sprucewplankdoublehalfblock
+    - sprucewplankdhalfblock
+    - spruceplankdoublehalfblock
+    - spruceplankdhalfblock
+    - sprucewoodendoublehalfblock
+    - sprucewoodendhalfblock
+    - sprucewooddoublehalfblock
+    - sprucewooddhalfblock
+    - sprucewdoublehalfblock
+    - sprucewdhalfblock
+    - sprucedoublewoodenplankhalfblock
+    - sprucedwoodenplankhalfblock
+    - sprucedoublewoodplankhalfblock
+    - sprucedwoodplankhalfblock
+    - sprucedoublewplankhalfblock
+    - sprucedwplankhalfblock
+    - sprucedoubleplankhalfblock
+    - sprucedplankhalfblock
+    - sprucedoublewoodenhalfblock
+    - sprucedwoodenhalfblock
+    - sprucedoublewoodhalfblock
+    - sprucedwoodhalfblock
+    - sprucedoublewhalfblock
+    - sprucedwhalfblock
+    - sprucedoublehalfblock
+    - sprucedhalfblock
+    - darkwoodenplankdoublestep
+    - darkwoodenplankdstep
+    - darkwoodplankdoublestep
+    - darkwoodplankdstep
+    - darkwplankdoublestep
+    - darkwplankdstep
+    - darkplankdoublestep
+    - darkplankdstep
+    - darkwoodendoublestep
+    - darkwoodendstep
+    - darkwooddoublestep
+    - darkwooddstep
+    - darkwdoublestep
+    - darkwdstep
+    - darkdoublewoodenplankstep
+    - darkdwoodenplankstep
+    - darkdoublewoodplankstep
+    - darkdwoodplankstep
+    - darkdoublewplankstep
+    - darkdwplankstep
+    - darkdoubleplankstep
+    - darkdplankstep
+    - darkdoublewoodenstep
+    - darkdwoodenstep
+    - darkdoublewoodstep
+    - darkdwoodstep
+    - darkdoublewstep
+    - darkdwstep
+    - darkdoublestep
+    - darkdstep
+    - darkwoodenplankdoubleslab
+    - darkwoodenplankdslab
+    - darkwoodplankdoubleslab
+    - darkwoodplankdslab
+    - darkwplankdoubleslab
+    - darkwplankdslab
+    - darkplankdoubleslab
+    - darkplankdslab
+    - darkwoodendoubleslab
+    - darkwoodendslab
+    - darkwooddoubleslab
+    - darkwooddslab
+    - darkwdoubleslab
+    - darkwdslab
+    - darkdoublewoodenplankslab
+    - darkdwoodenplankslab
+    - darkdoublewoodplankslab
+    - darkdwoodplankslab
+    - darkdoublewplankslab
+    - darkdwplankslab
+    - darkdoubleplankslab
+    - darkdplankslab
+    - darkdoublewoodenslab
+    - darkdwoodenslab
+    - darkdoublewoodslab
+    - darkdwoodslab
+    - darkdoublewslab
+    - darkdwslab
+    - darkdoubleslab
+    - darkdslab
+    - darkwoodenplankdoublehalfblock
+    - darkwoodenplankdhalfblock
+    - darkwoodplankdoublehalfblock
+    - darkwoodplankdhalfblock
+    - darkwplankdoublehalfblock
+    - darkwplankdhalfblock
+    - darkplankdoublehalfblock
+    - darkplankdhalfblock
+    - darkwoodendoublehalfblock
+    - darkwoodendhalfblock
+    - darkwooddoublehalfblock
+    - darkwooddhalfblock
+    - darkwdoublehalfblock
+    - darkwdhalfblock
+    - darkdoublewoodenplankhalfblock
+    - darkdwoodenplankhalfblock
+    - darkdoublewoodplankhalfblock
+    - darkdwoodplankhalfblock
+    - darkdoublewplankhalfblock
+    - darkdwplankhalfblock
+    - darkdoubleplankhalfblock
+    - darkdplankhalfblock
+    - darkdoublewoodenhalfblock
+    - darkdwoodenhalfblock
+    - darkdoublewoodhalfblock
+    - darkdwoodhalfblock
+    - darkdoublewhalfblock
+    - darkdwhalfblock
+    - darkdoublehalfblock
+    - darkdhalfblock
+    '2':
+    - birchwoodenplankdoublestep
+    - birchwoodenplankdstep
+    - birchwoodplankdoublestep
+    - birchwoodplankdstep
+    - birchwplankdoublestep
+    - birchwplankdstep
+    - birchplankdoublestep
+    - birchplankdstep
+    - birchwoodendoublestep
+    - birchwoodendstep
+    - birchwooddoublestep
+    - birchwooddstep
+    - birchwdoublestep
+    - birchwdstep
+    - birchdoublewoodenplankstep
+    - birchdwoodenplankstep
+    - birchdoublewoodplankstep
+    - birchdwoodplankstep
+    - birchdoublewplankstep
+    - birchdwplankstep
+    - birchdoubleplankstep
+    - birchdplankstep
+    - birchdoublewoodenstep
+    - birchdwoodenstep
+    - birchdoublewoodstep
+    - birchdwoodstep
+    - birchdoublewstep
+    - birchdwstep
+    - birchdoublestep
+    - birchdstep
+    - birchwoodenplankdoubleslab
+    - birchwoodenplankdslab
+    - birchwoodplankdoubleslab
+    - birchwoodplankdslab
+    - birchwplankdoubleslab
+    - birchwplankdslab
+    - birchplankdoubleslab
+    - birchplankdslab
+    - birchwoodendoubleslab
+    - birchwoodendslab
+    - birchwooddoubleslab
+    - birchwooddslab
+    - birchwdoubleslab
+    - birchwdslab
+    - birchdoublewoodenplankslab
+    - birchdwoodenplankslab
+    - birchdoublewoodplankslab
+    - birchdwoodplankslab
+    - birchdoublewplankslab
+    - birchdwplankslab
+    - birchdoubleplankslab
+    - birchdplankslab
+    - birchdoublewoodenslab
+    - birchdwoodenslab
+    - birchdoublewoodslab
+    - birchdwoodslab
+    - birchdoublewslab
+    - birchdwslab
+    - birchdoubleslab
+    - birchdslab
+    - birchwoodenplankdoublehalfblock
+    - birchwoodenplankdhalfblock
+    - birchwoodplankdoublehalfblock
+    - birchwoodplankdhalfblock
+    - birchwplankdoublehalfblock
+    - birchwplankdhalfblock
+    - birchplankdoublehalfblock
+    - birchplankdhalfblock
+    - birchwoodendoublehalfblock
+    - birchwoodendhalfblock
+    - birchwooddoublehalfblock
+    - birchwooddhalfblock
+    - birchwdoublehalfblock
+    - birchwdhalfblock
+    - birchdoublewoodenplankhalfblock
+    - birchdwoodenplankhalfblock
+    - birchdoublewoodplankhalfblock
+    - birchdwoodplankhalfblock
+    - birchdoublewplankhalfblock
+    - birchdwplankhalfblock
+    - birchdoubleplankhalfblock
+    - birchdplankhalfblock
+    - birchdoublewoodenhalfblock
+    - birchdwoodenhalfblock
+    - birchdoublewoodhalfblock
+    - birchdwoodhalfblock
+    - birchdoublewhalfblock
+    - birchdwhalfblock
+    - birchdoublehalfblock
+    - birchdhalfblock
+    - lightwoodenplankdoublehalfblock
+    - lightwoodenplankdhalfblock
+    - lightwoodplankdoublehalfblock
+    - lightwoodplankdhalfblock
+    - lightwplankdoublehalfblock
+    - lightwplankdhalfblock
+    - lightplankdoublehalfblock
+    - lightplankdhalfblock
+    - lightwoodendoublehalfblock
+    - lightwoodendhalfblock
+    - lightwooddoublehalfblock
+    - lightwooddhalfblock
+    - lightwdoublehalfblock
+    - lightwdhalfblock
+    - lightdoublewoodenplankhalfblock
+    - lightdwoodenplankhalfblock
+    - lightdoublewoodplankhalfblock
+    - lightdwoodplankhalfblock
+    - lightdoublewplankhalfblock
+    - lightdwplankhalfblock
+    - lightdoubleplankhalfblock
+    - lightdplankhalfblock
+    - lightdoublewoodenhalfblock
+    - lightdwoodenhalfblock
+    - lightdoublewoodhalfblock
+    - lightdwoodhalfblock
+    - lightdoublewhalfblock
+    - lightdwhalfblock
+    - lightdoublehalfblock
+    - lightdhalfblock
+    - lightwoodenplankdoublestep
+    - lightwoodenplankdstep
+    - lightwoodplankdoublestep
+    - lightwoodplankdstep
+    - lightwplankdoublestep
+    - lightwplankdstep
+    - lightplankdoublestep
+    - lightplankdstep
+    - lightwoodendoublestep
+    - lightwoodendstep
+    - lightwooddoublestep
+    - lightwooddstep
+    - lightwdoublestep
+    - lightwdstep
+    - lightdoublewoodenplankstep
+    - lightdwoodenplankstep
+    - lightdoublewoodplankstep
+    - lightdwoodplankstep
+    - lightdoublewplankstep
+    - lightdwplankstep
+    - lightdoubleplankstep
+    - lightdplankstep
+    - lightdoublewoodenstep
+    - lightdwoodenstep
+    - lightdoublewoodstep
+    - lightdwoodstep
+    - lightdoublewstep
+    - lightdwstep
+    - lightdoublestep
+    - lightdstep
+    - lightwoodenplankdoubleslab
+    - lightwoodenplankdslab
+    - lightwoodplankdoubleslab
+    - lightwoodplankdslab
+    - lightwplankdoubleslab
+    - lightwplankdslab
+    - lightplankdoubleslab
+    - lightplankdslab
+    - lightwoodendoubleslab
+    - lightwoodendslab
+    - lightwooddoubleslab
+    - lightwooddslab
+    - lightwdoubleslab
+    - lightwdslab
+    - lightdoublewoodenplankslab
+    - lightdwoodenplankslab
+    - lightdoublewoodplankslab
+    - lightdwoodplankslab
+    - lightdoublewplankslab
+    - lightdwplankslab
+    - lightdoubleplankslab
+    - lightdplankslab
+    - lightdoublewoodenslab
+    - lightdwoodenslab
+    - lightdoublewoodslab
+    - lightdwoodslab
+    - lightdoublewslab
+    - lightdwslab
+    - lightdoubleslab
+    - lightdslab
+    '3':
+    - junglewoodenplankdoublestep
+    - junglewoodenplankdstep
+    - junglewoodplankdoublestep
+    - junglewoodplankdstep
+    - junglewplankdoublestep
+    - junglewplankdstep
+    - jungleplankdoublestep
+    - jungleplankdstep
+    - junglewoodendoublestep
+    - junglewoodendstep
+    - junglewooddoublestep
+    - junglewooddstep
+    - junglewdoublestep
+    - junglewdstep
+    - jungledoublewoodenplankstep
+    - jungledwoodenplankstep
+    - jungledoublewoodplankstep
+    - jungledwoodplankstep
+    - jungledoublewplankstep
+    - jungledwplankstep
+    - jungledoubleplankstep
+    - jungledplankstep
+    - jungledoublewoodenstep
+    - jungledwoodenstep
+    - jungledoublewoodstep
+    - jungledwoodstep
+    - jungledoublewstep
+    - jungledwstep
+    - jungledoublestep
+    - jungledstep
+    - junglewoodenplankdoubleslab
+    - junglewoodenplankdslab
+    - junglewoodplankdoubleslab
+    - junglewoodplankdslab
+    - junglewplankdoubleslab
+    - junglewplankdslab
+    - jungleplankdoubleslab
+    - jungleplankdslab
+    - junglewoodendoubleslab
+    - junglewoodendslab
+    - junglewooddoubleslab
+    - junglewooddslab
+    - junglewdoubleslab
+    - junglewdslab
+    - jungledoublewoodenplankslab
+    - jungledwoodenplankslab
+    - jungledoublewoodplankslab
+    - jungledwoodplankslab
+    - jungledoublewplankslab
+    - jungledwplankslab
+    - jungledoubleplankslab
+    - jungledplankslab
+    - jungledoublewoodenslab
+    - jungledwoodenslab
+    - jungledoublewoodslab
+    - jungledwoodslab
+    - jungledoublewslab
+    - jungledwslab
+    - jungledoubleslab
+    - jungledslab
+    - junglewoodenplankdoublehalfblock
+    - junglewoodenplankdhalfblock
+    - junglewoodplankdoublehalfblock
+    - junglewoodplankdhalfblock
+    - junglewplankdoublehalfblock
+    - junglewplankdhalfblock
+    - jungleplankdoublehalfblock
+    - jungleplankdhalfblock
+    - junglewoodendoublehalfblock
+    - junglewoodendhalfblock
+    - junglewooddoublehalfblock
+    - junglewooddhalfblock
+    - junglewdoublehalfblock
+    - junglewdhalfblock
+    - jungledoublewoodenplankhalfblock
+    - jungledwoodenplankhalfblock
+    - jungledoublewoodplankhalfblock
+    - jungledwoodplankhalfblock
+    - jungledoublewplankhalfblock
+    - jungledwplankhalfblock
+    - jungledoubleplankhalfblock
+    - jungledplankhalfblock
+    - jungledoublewoodenhalfblock
+    - jungledwoodenhalfblock
+    - jungledoublewoodhalfblock
+    - jungledwoodhalfblock
+    - jungledoublewhalfblock
+    - jungledwhalfblock
+    - jungledoublehalfblock
+    - jungledhalfblock
+    - forestwoodenplankdoublehalfblock
+    - forestwoodenplankdhalfblock
+    - forestwoodplankdoublehalfblock
+    - forestwoodplankdhalfblock
+    - forestwplankdoublehalfblock
+    - forestwplankdhalfblock
+    - forestplankdoublehalfblock
+    - forestplankdhalfblock
+    - forestwoodendoublehalfblock
+    - forestwoodendhalfblock
+    - forestwooddoublehalfblock
+    - forestwooddhalfblock
+    - forestwdoublehalfblock
+    - forestwdhalfblock
+    - forestdoublewoodenplankhalfblock
+    - forestdwoodenplankhalfblock
+    - forestdoublewoodplankhalfblock
+    - forestdwoodplankhalfblock
+    - forestdoublewplankhalfblock
+    - forestdwplankhalfblock
+    - forestdoubleplankhalfblock
+    - forestdplankhalfblock
+    - forestdoublewoodenhalfblock
+    - forestdwoodenhalfblock
+    - forestdoublewoodhalfblock
+    - forestdwoodhalfblock
+    - forestdoublewhalfblock
+    - forestdwhalfblock
+    - forestdoublehalfblock
+    - forestdhalfblock
+    - forestwoodenplankdoublestep
+    - forestwoodenplankdstep
+    - forestwoodplankdoublestep
+    - forestwoodplankdstep
+    - forestwplankdoublestep
+    - forestwplankdstep
+    - forestplankdoublestep
+    - forestplankdstep
+    - forestwoodendoublestep
+    - forestwoodendstep
+    - forestwooddoublestep
+    - forestwooddstep
+    - forestwdoublestep
+    - forestwdstep
+    - forestdoublewoodenplankstep
+    - forestdwoodenplankstep
+    - forestdoublewoodplankstep
+    - forestdwoodplankstep
+    - forestdoublewplankstep
+    - forestdwplankstep
+    - forestdoubleplankstep
+    - forestdplankstep
+    - forestdoublewoodenstep
+    - forestdwoodenstep
+    - forestdoublewoodstep
+    - forestdwoodstep
+    - forestdoublewstep
+    - forestdwstep
+    - forestdoublestep
+    - forestdstep
+    - forestwoodenplankdoubleslab
+    - forestwoodenplankdslab
+    - forestwoodplankdoubleslab
+    - forestwoodplankdslab
+    - forestwplankdoubleslab
+    - forestwplankdslab
+    - forestplankdoubleslab
+    - forestplankdslab
+    - forestwoodendoubleslab
+    - forestwoodendslab
+    - forestwooddoubleslab
+    - forestwooddslab
+    - forestwdoubleslab
+    - forestwdslab
+    - forestdoublewoodenplankslab
+    - forestdwoodenplankslab
+    - forestdoublewoodplankslab
+    - forestdwoodplankslab
+    - forestdoublewplankslab
+    - forestdwplankslab
+    - forestdoubleplankslab
+    - forestdplankslab
+    - forestdoublewoodenslab
+    - forestdwoodenslab
+    - forestdoublewoodslab
+    - forestdwoodslab
+    - forestdoublewslab
+    - forestdwslab
+    - forestdoubleslab
+    - forestdslab
+  '126':
+    '0':
+    - woodenplankstep
+    - woodplankstep
+    - wplankstep
+    - plankstep
+    - woodenstep
+    - woodstep
+    - wstep
+    - woodenplankslab
+    - woodplankslab
+    - wplankslab
+    - plankslab
+    - woodenslab
+    - woodslab
+    - wslab
+    - woodenplankhalfblock
+    - woodplankhalfblock
+    - wplankhalfblock
+    - plankhalfblock
+    - woodenhalfblock
+    - woodhalfblock
+    - whalfblock
+    - oakwoodenplankstep
+    - oakwoodplankstep
+    - oakwplankstep
+    - oakplankstep
+    - oakwoodenstep
+    - oakwoodstep
+    - oakwstep
+    - oakstep
+    - oakwoodenplankslab
+    - oakwoodplankslab
+    - oakwplankslab
+    - oakplankslab
+    - oakwoodenslab
+    - oakwoodslab
+    - oakwslab
+    - oakslab
+    - oakwoodenplankhalfblock
+    - oakwoodplankhalfblock
+    - oakwplankhalfblock
+    - oakplankhalfblock
+    - oakwoodenhalfblock
+    - oakwoodhalfblock
+    - oakwhalfblock
+    - oakhalfblock
+    '1':
+    - sprucewoodenplankstep
+    - sprucewoodplankstep
+    - sprucewplankstep
+    - spruceplankstep
+    - sprucewoodenstep
+    - sprucewoodstep
+    - sprucewstep
+    - sprucestep
+    - sprucewoodenplankslab
+    - sprucewoodplankslab
+    - sprucewplankslab
+    - spruceplankslab
+    - sprucewoodenslab
+    - sprucewoodslab
+    - sprucewslab
+    - spruceslab
+    - sprucewoodenplankhalfblock
+    - sprucewoodplankhalfblock
+    - sprucewplankhalfblock
+    - spruceplankhalfblock
+    - sprucewoodenhalfblock
+    - sprucewoodhalfblock
+    - sprucewhalfblock
+    - sprucehalfblock
+    - darkwoodenplankstep
+    - darkwoodplankstep
+    - darkwplankstep
+    - darkplankstep
+    - darkwoodenstep
+    - darkwoodstep
+    - darkwstep
+    - darkstep
+    - darkwoodenplankslab
+    - darkwoodplankslab
+    - darkwplankslab
+    - darkplankslab
+    - darkwoodenslab
+    - darkwoodslab
+    - darkwslab
+    - darkslab
+    - darkwoodenplankhalfblock
+    - darkwoodplankhalfblock
+    - darkwplankhalfblock
+    - darkplankhalfblock
+    - darkwoodenhalfblock
+    - darkwoodhalfblock
+    - darkwhalfblock
+    - darkhalfblock
+    '2':
+    - birchwoodenplankstep
+    - birchwoodplankstep
+    - birchwplankstep
+    - birchplankstep
+    - birchwoodenstep
+    - birchwoodstep
+    - birchwstep
+    - birchstep
+    - birchwoodenplankslab
+    - birchwoodplankslab
+    - birchwplankslab
+    - birchplankslab
+    - birchwoodenslab
+    - birchwoodslab
+    - birchwslab
+    - birchslab
+    - birchwoodenplankhalfblock
+    - birchwoodplankhalfblock
+    - birchwplankhalfblock
+    - birchplankhalfblock
+    - birchwoodenhalfblock
+    - birchwoodhalfblock
+    - birchwhalfblock
+    - birchhalfblock
+    - lightwoodenplankstep
+    - lightwoodplankstep
+    - lightwplankstep
+    - lightplankstep
+    - lightwoodenstep
+    - lightwoodstep
+    - lightwstep
+    - lightstep
+    - lightwoodenplankslab
+    - lightwoodplankslab
+    - lightwplankslab
+    - lightplankslab
+    - lightwoodenslab
+    - lightwoodslab
+    - lightwslab
+    - lightslab
+    - lightwoodenplankhalfblock
+    - lightwoodplankhalfblock
+    - lightwplankhalfblock
+    - lightplankhalfblock
+    - lightwoodenhalfblock
+    - lightwoodhalfblock
+    - lightwhalfblock
+    - lighthalfblock
+    '3':
+    - junglewoodenplankstep
+    - junglewoodplankstep
+    - junglewplankstep
+    - jungleplankstep
+    - junglewoodenstep
+    - junglewoodstep
+    - junglewstep
+    - junglestep
+    - junglewoodenplankslab
+    - junglewoodplankslab
+    - junglewplankslab
+    - jungleplankslab
+    - junglewoodenslab
+    - junglewoodslab
+    - junglewslab
+    - jungleslab
+    - junglewoodenplankhalfblock
+    - junglewoodplankhalfblock
+    - junglewplankhalfblock
+    - jungleplankhalfblock
+    - junglewoodenhalfblock
+    - junglewoodhalfblock
+    - junglewhalfblock
+    - junglehalfblock
+    - forestwoodenplankstep
+    - forestwoodplankstep
+    - forestwplankstep
+    - forestplankstep
+    - forestwoodenstep
+    - forestwoodstep
+    - forestwstep
+    - foreststep
+    - forestwoodenplankslab
+    - forestwoodplankslab
+    - forestwplankslab
+    - forestplankslab
+    - forestwoodenslab
+    - forestwoodslab
+    - forestwslab
+    - forestslab
+    - forestwoodenplankhalfblock
+    - forestwoodplankhalfblock
+    - forestwplankhalfblock
+    - forestplankhalfblock
+    - forestwoodenhalfblock
+    - forestwoodhalfblock
+    - forestwhalfblock
+    - foresthalfblock
+  '127':
+    '0':
+    - cocoaplant
+    - cocoplant
+    - cplant
+    - cocoafruit
+    - cocofruit
+    - cfruit
+    - cocoapod
+    - cocopod
+    - cpod
+  '128':
+    '0':
+    - sandstonestairs
+    - sandstairs
+    - sandsstairs
+    - sstonestairs
+    - ssstairs
+    - sandstair
+    - sandstonestair
+    - sandsstair
+    - sstonestair
+    - ssstair
+  '129':
+    '0':
+    - emeraldore
+    - eore
+    - oreemerald
+    - oree
+  '130':
+    '0':
+    - enderchest
+    - endchest
+    - echest
+    - chestender
+    - chestend
+    - cheste
+    - endercontainer
+    - endcontainer
+    - econtainer
+  '131':
+    '0':
+    - tripwirehook
+    - tripwire
+    - trip
+    - tripwirelever
+    - triphook
+  '132':
+    '0':
+    - tripwireblock
+    - tripblock
+    - blocktrip
+    - blocktripwire
+  '133':
+    '0':
+    - emeraldblock
+    - blockemerald
+    - eblock
+    - blocke
+  '134':
+    '0':
+    - sprucewoodenplankstairs
+    - sprucewoodplankstairs
+    - sprucewplankstairs
+    - spruceplankstairs
+    - sprucewoodenstairs
+    - sprucewoodstairs
+    - sprucewstairs
+    - sprucestairs
+    - darkwoodenplankstairs
+    - darkwoodplankstairs
+    - darkwplankstairs
+    - darkplankstairs
+    - darkwoodenstairs
+    - darkwoodstairs
+    - darkwstairs
+    - darkstairs
+    - sprucewoodenplankstair
+    - sprucewoodplankstair
+    - sprucewplankstair
+    - spruceplankstair
+    - sprucewoodenstair
+    - sprucewoodstair
+    - sprucewstair
+    - sprucestair
+    - darkwoodenplankstair
+    - darkwoodplankstair
+    - darkwplankstair
+    - darkplankstair
+    - darkwoodenstair
+    - darkwoodstair
+    - darkwstair
+    - darkstair
+  '135':
+    '0':
+    - birchwoodenplankstairs
+    - birchwoodplankstairs
+    - birchwplankstairs
+    - birchplankstairs
+    - birchwoodenstairs
+    - birchwoodstairs
+    - birchwstairs
+    - birchstairs
+    - lightwoodenplankstairs
+    - lightwoodplankstairs
+    - lightwplankstairs
+    - lightplankstairs
+    - lightwoodenstairs
+    - lightwoodstairs
+    - lightwstairs
+    - lightstairs
+    - birchwoodenplankstair
+    - birchwoodplankstair
+    - birchwplankstair
+    - birchplankstair
+    - birchwoodenstair
+    - birchwoodstair
+    - birchwstair
+    - birchstair
+    - lightwoodenplankstair
+    - lightwoodplankstair
+    - lightwplankstair
+    - lightplankstair
+    - lightwoodenstair
+    - lightwoodstair
+    - lightwstair
+    - lightstair
+  '136':
+    '0':
+    - junglewoodenplankstairs
+    - junglewoodplankstairs
+    - junglewplankstairs
+    - jungleplankstairs
+    - junglewoodenstairs
+    - junglewoodstairs
+    - junglewstairs
+    - junglestairs
+    - forestwoodenplankstairs
+    - forestwoodplankstairs
+    - forestwplankstairs
+    - forestplankstairs
+    - forestwoodenstairs
+    - forestwoodstairs
+    - forestwstairs
+    - foreststairs
+    - junglewoodenplankstair
+    - junglewoodplankstair
+    - junglewplankstair
+    - jungleplankstair
+    - junglewoodenstair
+    - junglewoodstair
+    - junglewstair
+    - junglestair
+    - forestwoodenplankstair
+    - forestwoodplankstair
+    - forestwplankstair
+    - forestplankstair
+    - forestwoodenstair
+    - forestwoodstair
+    - forestwstair
+    - foreststair
+  '137':
+    '0':
+    - commandblock
+    - blockcommand
+    - cmdblock
+    - blockcmd
+    - macroblock
+    - blockmacro
+  '138':
+    '0':
+    - beacon
+    - beaconblock
+  '139':
+    '0':
+    - cobblestonewall
+    - cstonewall
+    - cobblewall
+    - cobblestonefence
+    - cstonefence
+    - cobblefence
+    '1':
+    - mosscobblestonewall
+    - mosscstonewall
+    - mosscobblewall
+    - mcobblestonewall
+    - mcstonewall
+    - mcobblewall
+    - mosscobblestonefence
+    - mosscstonefence
+    - mosscobblefence
+    - mcobblestonefence
+    - mcstonefence
+    - mcobblefence
+  '140':
+    '0':
+    - flowerpot
+    - emptyflowerpot
+    - emptypot
+    - flowerpotblock
+    - potblock
+    '1':
+    - roseflowerpot
+    - rosepot
+    '2':
+    - dandelionflowerpot
+    - dandelionpot
+    '3':
+    - oaksaplingflowerpot
+    - saplingflowerpot
+    - oakflowerpot
+    - oaksaplingpot
+    - saplingpot
+    - oakpot
+    '4':
+    - sprucesaplingflowerpot
+    - spruceflowerpot
+    - darksaplingflowerpot
+    - darkflowerpot
+    - pinesaplingflowerpot
+    - pineflowerpot
+    - sprucesaplingpot
+    - sprucepot
+    - darksaplingpot
+    - darkpot
+    - pinesaplingpot
+    - pinepot
+    '5':
+    - birchsaplingflowerpot
+    - birchflowerpot
+    - lightsaplingflowerpot
+    - lightflowerpot
+    - whitesaplingflowerpot
+    - whiteflowerpot
+    - birchsaplingpot
+    - birchpot
+    - lightsaplingpot
+    - lightpot
+    - whitesaplingpot
+    - whitepot
+    '6':
+    - forestsaplingflowerpot
+    - forestflowerpot
+    - junglesaplingflowerpot
+    - jungleflowerpot
+    - forestsaplingpot
+    - forestpot
+    - junglesaplingpot
+    - junglepot
+    '7':
+    - redmushroomflowerpot
+    - redshroomflowerpot
+    - redmushflowerpot
+    - rmushroomflowerpot
+    - rshroomflowerpot
+    - rmushflowerpot
+    - redmushroompot
+    - redshroompot
+    - redmushpot
+    - rmushroompot
+    - rshroompot
+    - rmushpot
+    - bshroomflowerpot
+    '8':
+    - brownmushroomflowerpot
+    - brownshroomflowerpot
+    - brownmushflowerpot
+    - bmushroomflowerpot
+    - bmushflowerpot
+    - brownmushroompot
+    - brownshroompot
+    - brownmushpot
+    - bmushroompot
+    - bshroompot
+    - bmushpot
+    '9':
+    - cactusflowerpot
+    - cactuspot
+    '10':
+    - deadbushflowerpot
+    - dbushflowerpot
+    - deadsaplingflowerpot
+    - dsaplingflowerpot
+    - deadshrubflowerpot
+    - dshrubflowerpot
+    - deadbushpot
+    - dbushpot
+    - deadsaplingpot
+    - dsaplingpot
+    - deadshrubpot
+    - dshrubpot
+    '11':
+    - fernflowerpot
+    - bushflowerpot
+    - fernpot
+    - bushpot
+  '141':
+    '0':
+    - plantedcarrot
+    - plantcarrot
+    - carrots
+    - growingcarrot
+  '142':
+    '0':
+    - potatoplant
+    - potatoes
+    - plantedpotato
+    - plantpotato
+    - growingpotato
+  '143':
+    '0':
+    - woodenbutton
+    - woodenplankbutton
+    - woodplankbutton
+    - wplankbutton
+    - plankbutton
+    - woodbutton
+    - wbutton
+  '144':
+    '0':
+    - headblock
+  '145':
+    '0':
+    - anvil
+    '1':
+    - slightlydamagedanvil
+    - slightdamageanvil
+    - damagedanvil
+    '2':
+    - verydamagedanvil
+  '146':
+    '0':
+    - trapchest
+    - trappedchest
+    - chesttrapped
+    - chesttrap
+  '147':
+    '0':
+    - goldpressureplate
+    - weightedgoldpressureplate
+    - weightgoldpressureplate
+    - wgoldpressureplate
+    - weightedgoldpressplate
+    - weightgoldpressplate
+    - wgoldpressplate
+    - goldpressplate
+    - weightedgoldpplate
+    - weightgoldpplate
+    - wgoldpplate
+    - goldpplate
+    - weightedgoldplate
+    - weightgoldplate
+    - wgoldplate
+    - goldplate
+    - weightedgpressureplate
+    - weightgpressureplate
+    - wgpressureplate
+    - gpressureplate
+    - weightedgpressplate
+    - weightgpressplate
+    - wgpressplate
+    - gpressplate
+    - weightedgpplate
+    - weightgpplate
+    - wgpplate
+    - gpplate
+    - weightedgplate
+    - weightgplate
+    - wgplate
+    - gplate
+  '148':
+    '0':
+    - ironpressureplate
+    - weightedironpressureplate
+    - weightironpressureplate
+    - wironpressureplate
+    - weightedironpressplate
+    - weightironpressplate
+    - wironpressplate
+    - ironpressplate
+    - weightedironpplate
+    - weightironpplate
+    - wironpplate
+    - ironpplate
+    - weightedironplate
+    - weightironplate
+    - wironplate
+    - ironplate
+    - weightedipressureplate
+    - weightipressureplate
+    - wipressureplate
+    - ipressureplate
+    - weightedipressplate
+    - weightipressplate
+    - wipressplate
+    - ipressplate
+    - weightedipplate
+    - weightipplate
+    - wipplate
+    - ipplate
+    - weightediplate
+    - weightiplate
+    - wiplate
+    - iplate
+  '149':
+    '0':
+    - redstonecomparatoroff
+    - redstonecompereroff
+    - redstonecompareoff
+    - rstonecomparatoroff
+    - rstonecompereroff
+    - rstonecompareoff
+    - redscomparatoroff
+    - redscompereroff
+    - redscompareoff
+    - rscomparatoroff
+    - rscompereroff
+    - rscompareoff
+    - comparatoroff
+    - compereroff
+    - compareoff
+    - redstonecomparatorblockoff
+    - redstonecompererblockoff
+    - redstonecompareblockoff
+    - rstonecomparatorblockoff
+    - rstonecompererblockoff
+    - rstonecompareblockoff
+    - redscomparatorblockoff
+    - redscompererblockoff
+    - redscompareblockoff
+    - rscomparatorblockoff
+    - rscompererblockoff
+    - rscompareblockoff
+    - comparatorblockoff
+    - compererblockoff
+    - compareblockoff
+  '150':
+    '0':
+    - redstonecomparatoron
+    - redstonecompereron
+    - redstonecompareon
+    - rstonecomparatoron
+    - rstonecompereron
+    - rstonecompareon
+    - redscomparatoron
+    - redscompereron
+    - redscompareon
+    - rscomparatoron
+    - rscompereron
+    - rscompareon
+    - comparatoron
+    - compereron
+    - compareon
+    - redstonecomparatorblockon
+    - redstonecompererblockon
+    - redstonecompareblockon
+    - rstonecomparatorblockon
+    - rstonecompererblockon
+    - rstonecompareblockon
+    - redscomparatorblockon
+    - redscompererblockon
+    - redscompareblockon
+    - rscomparatorblockon
+    - rscompererblockon
+    - rscompareblockon
+    - comparatorblockon
+    - compererblockon
+    - compareblockon
+  '151':
+    '0':
+    - daylightsensor
+    - daylightsense
+    - lightsensor
+    - lightsense
+    - daysensor
+    - daysense
+    - timesensor
+    - timesense
+  '152':
+    '0':
+    - redstoneblock
+    - rstoneblock
+    - redsblock
+    - rsblock
+    - blockredstone
+    - blockrstone
+    - blockreds
+    - blockrs
+  '153':
+    '0':
+    - netherquartzore
+    - hellquartzore
+    - deathquartzore
+    - nquartzore
+    - hquartzore
+    - dquartzore
+    - quartzore
+    - netherqore
+    - hellqore
+    - deathqore
+    - nqore
+    - hqore
+    - dqore
+    - qore
+  '154':
+    '0':
+    - hopper
+    - chestpuller
+    - chestpull
+    - cheststorer
+    - cheststore
+    - itempuller
+    - itempull
+    - itemstorer
+    - itemstore
+  '155':
+    '0':
+    - quartzblock
+    - normalquartzblock
+    - nquartzblock
+    - normalqblock
+    - nqblock
+    - qblock
+    - blocknormalquartz
+    - blocknquartz
+    - blockquartz
+    - blocknormalq
+    - blocknq
+    - blockq
+    '1':
+    - chiseledquartzblock
+    - chiselquartzblock
+    - cquartzblock
+    - chiseledqblock
+    - chiselqblock
+    - cqblock
+    - blockchiseledquartz
+    - blockchiselquartz
+    - blockcquartz
+    - blockchiseledq
+    - blockchiselq
+    - blockcq
+    '2':
+    - pillarquartzblock
+    - pquartzblock
+    - pillarqblock
+    - pqblock
+    - blockpillarquartz
+    - blockpquartz
+    - blockpillarq
+    - blockpq
+  '156':
+    '0':
+    - quartzstairs
+    - qstairs
+    - quartzstair
+    - qstair
+  '157':
+    '0':
+    - activatorrails
+    - activaterails
+    - triggerrails
+    - arails
+    - trails
+    - activatorrail
+    - activaterail
+    - triggerrail
+    - arail
+    - trail
+    - activatortrack
+    - activatetrack
+    - triggertrack
+    - atrack
+    - ttrack
+  '158':
+    '0':
+    - dropper
+    - drop
+    - chestdispenser
+    - chestdispense
+    - chestdropper
+    - chestdrop
+  '159':
+    '0':
+    - whiteclay
+    - whitesclay
+    - whitestainedclay
+    - wclay
+    - wsclay
+    - wstainedclay
+    - sclay
+    - stainedclay
+    '1':
+    - orangeclay
+    - orangesclay
+    - orangestainedclay
+    - oclay
+    - osclay
+    - ostainedclay
+    '2':
+    - magentaclay
+    - magentasclay
+    - magentastainedclay
+    - mclay
+    - msclay
+    - mstainedclay
+    '3':
+    - lightblueclay
+    - lightbluesclay
+    - lightbluestainedclay
+    - lblueclay
+    - lbluesclay
+    - lbluestainedclay
+    - lightbluclay
+    - lightblusclay
+    - lightblustainedclay
+    - lbluclay
+    - lblusclay
+    - lblustainedclay
+    '4':
+    - yellowclay
+    - yellowsclay
+    - yellowstainedclay
+    - yclay
+    - ysclay
+    - ystainedclay
+    '5':
+    - lightgreenclay
+    - lightgreensclay
+    - lightgreenstainedclay
+    - lgreenclay
+    - lgreensclay
+    - lgreenstainedclay
+    - lightgreclay
+    - lightgresclay
+    - lightgrestainedclay
+    - lgreclay
+    - lgresclay
+    - lgrestainedclay
+    - limeclay
+    - limesclay
+    - limestainedclay
+    - lclay
+    - lsclay
+    - lstainedclay
+    '6':
+    - pinkclay
+    - pinksclay
+    - pinkstainedclay
+    - piclay
+    - pisclay
+    - pistainedclay
+    '7':
+    - darkgrayclay
+    - darkgraysclay
+    - darkgraystainedclay
+    - dgrayclay
+    - dgraysclay
+    - dgraystainedclay
+    - darkgraclay
+    - darkgrasclay
+    - darkgrastainedclay
+    - dgraclay
+    - dgrasclay
+    - dgrastainedclay
+    - grayclay
+    - graysclay
+    - graystainedclay
+    - graclay
+    - grasclay
+    - grastainedclay
+    '8':
+    - lightgrayclay
+    - lightgraysclay
+    - lightgraystainedclay
+    - lgrayclay
+    - lgraysclay
+    - lgraystainedclay
+    - lightgraclay
+    - lightgrasclay
+    - lightgrastainedclay
+    - lgraclay
+    - lgrasclay
+    - lgrastainedclay
+    - silverclay
+    - silversclay
+    - silverstainedclay
+    - siclay
+    - siasclay
+    - siastainedclay
+    '9':
+    - cyanclay
+    - cyansclay
+    - cyanstainedclay
+    - cclay
+    - csclay
+    - cstainedclay
+    '10':
+    - purpleclay
+    - purplesclay
+    - purplestainedclay
+    - puclay
+    - pusclay
+    - pustainedclay
+    '11':
+    - blueclay
+    - bluesclay
+    - bluestainedclay
+    - bluclay
+    - blusclay
+    - blustainedclay
+    '12':
+    - brownclay
+    - brownsclay
+    - brownstainedclay
+    - broclay
+    - brosclay
+    - brostainedclay
+    '13':
+    - darkgreenclay
+    - darkgreensclay
+    - darkgreenstainedclay
+    - dgreenclay
+    - dgreensclay
+    - dgreenstainedclay
+    - greenclay
+    - greensclay
+    - greenstainedclay
+    - darkgreclay
+    - darkgresclay
+    - darkgrestainedclay
+    - dgreclay
+    - dgresclay
+    - dgrestainedclay
+    - greclay
+    - gresclay
+    - grestainedclay
+    '14':
+    - redclay
+    - redsclay
+    - redstainedclay
+    - rclay
+    - rsclay
+    - rstainedclay
+    '15':
+    - blackclay
+    - blacksclay
+    - blackstainedclay
+    - blaclay
+    - blasclay
+    - blastainedclay
+  '170':
+    '0':
+    - hay
+    - hayblock
+    - haybale
+  '171':
+    '0':
+    - whitecarpet
+    - whitefloor
+    - wcarpet
+    - wfloor
+    - carpet
+    - floor
+    '1':
+    - orangecarpet
+    - orangefloor
+    - ocarpet
+    - ofloor
+    '2':
+    - magentacarpet
+    - magentafloor
+    - mcarpet
+    - mfloor
+    '3':
+    - lightbluecarpet
+    - lightbluefloor
+    - lbluecarpet
+    - lbluefloor
+    - lightblucarpet
+    - lightblufloor
+    - lblucarpet
+    - lblufloor
+    '4':
+    - yellowcarpet
+    - yellowfloor
+    - ycarpet
+    - yfloor
+    '5':
+    - lightgreencarpet
+    - lightgreenfloor
+    - lgreencarpet
+    - lgreenfloor
+    - lightgrecarpet
+    - lightgrefloor
+    - lgrecarpet
+    - lgrefloor
+    - limecarpet
+    - limefloor
+    - lcarpet
+    - lfloor
+    '6':
+    - pinkcarpet
+    - pinkfloor
+    - picarpet
+    - pifloor
+    '7':
+    - darkgraycarpet
+    - darkgrayfloor
+    - dgraycarpet
+    - dgrayfloor
+    - darkgracarpet
+    - darkgrafloor
+    - dgracarpet
+    - dgrafloor
+    - graycarpet
+    - grayfloor
+    - gracarpet
+    - grafloor
+    '8':
+    - lightgraycarpet
+    - lightgrayfloor
+    - lgraycarpet
+    - lgrayfloor
+    - lightgracarpet
+    - lightgrafloor
+    - lgracarpet
+    - lgrafloor
+    - silvercarpet
+    - silverfloor
+    - sicarpet
+    - siafloor
+    '9':
+    - cyancarpet
+    - cyanfloor
+    - ccarpet
+    - cfloor
+    '10':
+    - purplecarpet
+    - purplefloor
+    - pucarpet
+    - pufloor
+    '11':
+    - bluecarpet
+    - bluefloor
+    - blucarpet
+    - blufloor
+    '12':
+    - browncarpet
+    - brownfloor
+    - brocarpet
+    - brofloor
+    '13':
+    - darkgreencarpet
+    - darkgreenfloor
+    - dgreencarpet
+    - dgreenfloor
+    - greencarpet
+    - greenfloor
+    - darkgrecarpet
+    - darkgrefloor
+    - dgrecarpet
+    - dgrefloor
+    - grecarpet
+    - grefloor
+    '14':
+    - redcarpet
+    - redfloor
+    - rcarpet
+    - rfloor
+    '15':
+    - blackcarpet
+    - blackfloor
+    - blacarpet
+    - blafloor
+  '172':
+    '0':
+    - hardenedclay
+    - hardclay
+    - hclay
+  '173':
+    '0':
+    - coalblock
+    - blockcoal
+  '256':
+    '0':
+    - ironshovel
+    - ironspade
+    - ishovel
+    - ispade
+    - steelshovel
+    - steelspade
+  '257':
+    '0':
+    - ironpickaxe
+    - ironpick
+    - steelpickaxe
+    - steelpick
+    - ipickaxe
+    - ipick
+  '258':
+    '0':
+    - ironaxe
+    - iaxe
+    - steelaxe
+  '259':
+    '0':
+    - flintandsteel
+    - flintandiron
+    - flintandtinder
+    - flintnsteel
+    - flintniron
+    - flintntinder
+    - flintsteel
+    - flintiron
+    - flinttinder
+    - lighter
+  '260':
+    '0':
+    - apple
+    - normalapple
+    - redapple
+  '261':
+    '0':
+    - bow
+  '262':
+    '0':
+    - arrow
+  '263':
+    '0':
+    - coal
+    '1':
+    - charcoal
+    - ccoal
+  '264':
+    '0':
+    - diamond
+    - crystal
+  '265':
+    '0':
+    - ironingot
+    - ironbar
+    - ironi
+    - steelingot
+    - steelbar
+    - steeli
+    - iingot
+    - ibar
+    - ingotiron
+    - bariron
+    - iiron
+    - ingotsteel
+    - barsteel
+    - isteel
+    - ingoti
+    - bari
+  '266':
+    '0':
+    - goldingot
+    - goldbar
+    - goldi
+    - gingot
+    - gbar
+    - ingotgold
+    - bargold
+    - igold
+    - ingotg
+    - barg
+  '267':
+    '0':
+    - ironsword
+    - steelsword
+    - isword
+  '268':
+    '0':
+    - woodensword
+    - woodsword
+    - wsword
+  '269':
+    '0':
+    - woodenshovel
+    - woodenspade
+    - woodshovel
+    - woodspade
+    - wshovel
+    - wspade
+  '270':
+    '0':
+    - woodenpickaxe
+    - woodenpick
+    - woodpickaxe
+    - woodpick
+    - wpickaxe
+    - wpick
+  '271':
+    '0':
+    - woodenaxe
+    - woodaxe
+    - waxe
+  '272':
+    '0':
+    - stonesword
+    - smoothstonesword
+    - cobblestonesword
+    - sstonesword
+    - cstonesword
+    - sssword
+    - cssword
+    - ssword
+  '273':
+    '0':
+    - stoneshovel
+    - smoothstoneshovel
+    - smoothstonespade
+    - cobblestoneshovel
+    - cobblestonespade
+    - sstoneshovel
+    - sstonespade
+    - cstoneshovel
+    - cstonespade
+    - stonespade
+    - ssshovel
+    - csshovel
+    - ssspade
+    - csspade
+    - sshovel
+    - sspade
+  '274':
+    '0':
+    - stonepickaxe
+    - smoothstonepickaxe
+    - cobblestonepickaxe
+    - smoothstonepick
+    - cobblestonepick
+    - sstonepickaxe
+    - sstonepick
+    - cstonepickaxe
+    - cstonepick
+    - stonepick
+    - sspickaxe
+    - sspick
+    - cspickaxe
+    - cspick
+    - spickaxe
+    - spick
+  '275':
+    '0':
+    - stoneaxe
+    - smoothstoneaxe
+    - cobblestoneaxe
+    - sstoneaxe
+    - cstoneaxe
+    - ssaxe
+    - csaxe
+    - saxe
+  '276':
+    '0':
+    - diamondsword
+    - crystalsword
+    - dsword
+  '277':
+    '0':
+    - diamondshovel
+    - diamondspade
+    - crystalshovel
+    - crystalspade
+    - dshovel
+    - dspade
+  '278':
+    '0':
+    - diamondpickaxe
+    - diamondpick
+    - crystalpickaxe
+    - crystalpick
+    - dpickaxe
+    - dpick
+  '279':
+    '0':
+    - diamondaxe
+    - crystalaxe
+    - daxe
+  '280':
+    '0':
+    - stick
+    - twig
+    - branch
+  '281':
+    '0':
+    - bowl
+  '282':
+    '0':
+    - mushroomsoup
+    - mrsoup
+    - soup
+  '283':
+    '0':
+    - goldsword
+    - gsword
+  '284':
+    '0':
+    - goldshovel
+    - goldspade
+    - gshovel
+    - gspade
+  '285':
+    '0':
+    - goldpickaxe
+    - goldpick
+    - gpickaxe
+    - gpick
+  '286':
+    '0':
+    - goldaxe
+    - gaxe
+  '287':
+    '0':
+    - string
+  '288':
+    '0':
+    - feather
+  '289':
+    '0':
+    - gunpowder
+    - sulfur
+  '290':
+    '0':
+    - woodenhoe
+    - woodhoe
+    - whoe
+  '291':
+    '0':
+    - stonehoe
+    - smoothstonehoe
+    - cobblestonehoe
+    - sstonehoe
+    - cstonehoe
+    - sshoe
+    - cshoe
+    - shoe
+  '292':
+    '0':
+    - ironhoe
+    - steelhoe
+    - ihoe
+  '293':
+    '0':
+    - diamondhoe
+    - crystalhoe
+    - dhoe
+  '294':
+    '0':
+    - goldhoe
+    - ghoe
+  '295':
+    '0':
+    - seeds
+    - seed
+  '296':
+    '0':
+    - wheat
+  '297':
+    '0':
+    - bread
+  '298':
+    '0':
+    - leatherhelmet
+    - leatherhelm
+    - leatherhat
+    - leathercoif
+    - lhelmet
+    - lhelm
+    - lhat
+    - lcoif
+  '299':
+    '0':
+    - leatherchestplate
+    - leatherplatebody
+    - leatherplate
+    - leathershirt
+    - leathertunic
+    - lchestplate
+    - lplatebody
+    - lplate
+    - lshirt
+    - ltunic
+  '300':
+    '0':
+    - leatherleggings
+    - leatherlegs
+    - leatherpants
+    - lleggings
+    - llegs
+    - lpants
+  '301':
+    '0':
+    - leatherboots
+    - leathershoes
+    - lboots
+    - lshoes
+  '302':
+    '0':
+    - chainmailhelmet
+    - chainmailhelm
+    - chainmailhat
+    - chainmailcoif
+    - chainmhelmet
+    - chainmhelm
+    - chainmhat
+    - chainmcoif
+    - cmailhelmet
+    - cmailhelm
+    - cmailhat
+    - cmailcoif
+    - chainhelmet
+    - chainhelm
+    - chainhat
+    - chaincoif
+    - cmhelmet
+    - cmhelm
+    - cmhat
+    - cmcoif
+  '303':
+    '0':
+    - chainmailchestplate
+    - chainmailplatebody
+    - chainmailplate
+    - chainmailshirt
+    - chainmailtunic
+    - chainmchestplate
+    - chainmplatebody
+    - chainmplate
+    - chainmshirt
+    - chainmtunic
+    - cmailchestplate
+    - cmailplatebody
+    - cmailplate
+    - cmailshirt
+    - cmailtunic
+    - chainchestplate
+    - chainplatebody
+    - chainplate
+    - chainshirt
+    - chaintunic
+    - cmchestplate
+    - cmplatebody
+    - cmplate
+    - cmshirt
+    - cmtunic
+  '304':
+    '0':
+    - chainmailleggings
+    - chainmaillegs
+    - chainmailpants
+    - chainmleggings
+    - chainmlegs
+    - chainmpants
+    - cmailleggings
+    - cmaillegs
+    - cmailpants
+    - chainleggings
+    - chainlegs
+    - chainpants
+    - cmleggings
+    - cmlegs
+    - cmpants
+  '305':
+    '0':
+    - chainmailboots
+    - chainmailshoes
+    - chainmboots
+    - chainmshoes
+    - cmailboots
+    - cmailshoes
+    - chainboots
+    - chainshoes
+    - cmboots
+    - cmshoes
+  '306':
+    '0':
+    - ironhelmet
+    - ironhelm
+    - ironhat
+    - ironcoif
+    - ihelmet
+    - ihelm
+    - ihat
+    - icoif
+    - steelhelmet
+    - steelhelm
+    - steelhat
+    - steelcoif
+    - shelmet
+    - shelm
+    - shat
+    - scoif
+  '307':
+    '0':
+    - ironchestplate
+    - ironplatebody
+    - ironshirt
+    - irontunic
+    - ichestplate
+    - iplatebody
+    - ishirt
+    - itunic
+    - steelchestplate
+    - steelplatebody
+    - steelplate
+    - steelshirt
+    - steeltunic
+    - schestplate
+    - splatebody
+    - sshirt
+    - stunic
+  '308':
+    '0':
+    - ironleggings
+    - ironlegs
+    - ironpants
+    - ileggings
+    - ilegs
+    - ipants
+    - steelleggings
+    - steellegs
+    - steelpants
+    - sleggings
+    - slegs
+    - spants
+  '309':
+    '0':
+    - ironboots
+    - ironshoes
+    - iboots
+    - ishoes
+    - steelboots
+    - steelshoes
+    - sboots
+    - sshoes
+  '310':
+    '0':
+    - diamondhelmet
+    - diamondhelm
+    - diamondhat
+    - diamondcoif
+    - dhelmet
+    - dhelm
+    - dhat
+    - dcoif
+    - crystalhelmet
+    - crystalhelm
+    - crystalhat
+    - crystalcoif
+    - chelmet
+    - chelm
+    - chat
+    - ccoif
+  '311':
+    '0':
+    - diamondchestplate
+    - diamondplatebody
+    - diamondplate
+    - diamondshirt
+    - diamondtunic
+    - dchestplate
+    - dplatebody
+    - dplate
+    - dshirt
+    - dtunic
+    - crystalchestplate
+    - crystalplatebody
+    - crystalplate
+    - crystalshirt
+    - crystaltunic
+    - cchestplate
+    - cplatebody
+    - cplate
+    - cshirt
+    - ctunic
+  '312':
+    '0':
+    - diamondleggings
+    - diamondlegs
+    - diamondpants
+    - dleggings
+    - dlegs
+    - dpants
+    - crystalleggings
+    - crystallegs
+    - crystalpants
+    - cleggings
+    - clegs
+    - cpants
+  '313':
+    '0':
+    - diamondboots
+    - diamondshoes
+    - dboots
+    - dshoes
+    - crystalboots
+    - crystalshoes
+    - cboots
+    - cshoes
+  '314':
+    '0':
+    - goldhelmet
+    - goldhelm
+    - goldhat
+    - goldcoif
+    - ghelmet
+    - ghelm
+    - ghat
+    - gcoif
+  '315':
+    '0':
+    - goldchestplate
+    - goldplatebody
+    - goldshirt
+    - goldtunic
+    - gchestplate
+    - gplatebody
+    - gplateplate
+    - gshirt
+    - gtunic
+  '316':
+    '0':
+    - goldleggings
+    - goldlegs
+    - goldpants
+    - gleggings
+    - glegs
+    - gpants
+  '317':
+    '0':
+    - goldboots
+    - goldshoes
+    - gboots
+    - gshoes
+  '318':
+    '0':
+    - flint
+  '319':
+    '0':
+    - pork
+    - porkchop
+    - rawpork
+    - rpork
+    - rawporkchop
+    - rporkchop
+  '320':
+    '0':
+    - cookedpork
+    - grilledpork
+    - grillpork
+    - gpork
+    - cookpork
+    - cpork
+    - grilledporkchop
+    - grillporkchop
+    - gporkchop
+    - cookedporkchop
+    - cookporkchop
+    - cporkchop
+    - bacon
+  '321':
+    '0':
+    - painting
+    - picture
+  '322':
+    '0':
+    - goldenapple
+    - goldapple
+    - gapple
+    '1':
+    - enchantedgoldenapple
+    - enchantedgoldapple
+    - enchantedgapple
+    - supergoldenapple
+    - supergoldapple
+    - supergapple
+    - magicalgoldenapple
+    - magicalgoldapple
+    - magicalgapple
+    - magicgoldenapple
+    - magicgoldapple
+    - magicgapple
+    - egoldenapple
+    - egoldapple
+    - egapple
+    - sgoldenapple
+    - sgoldapple
+    - sgapple
+    - mgoldenapple
+    - mgoldapple
+    - mgapple
+  '323':
+    '0':
+    - sign
+  '324':
+    '0':
+    - woodendoor
+    - wooddoor
+    - wdoor
+    - door
+  '325':
+    '0':
+    - bucket
+    - bukkit
+  '326':
+    '0':
+    - waterbucket
+    - waterbukkit
+    - wbucket
+    - wbukkit
+  '327':
+    '0':
+    - magmabucket
+    - magmabukkit
+    - lavabucket
+    - lavabukkit
+    - lbucket
+    - lbukkit
+  '328':
+    '0':
+    - minecart
+    - mcart
+    - cart
+  '329':
+    '0':
+    - saddle
+  '330':
+    '0':
+    - irondoor
+    - idoor
+    - steeldoor
+    - sdoor
+    - dooriron
+    - doori
+    - doorsteel
+    - doors
+  '331':
+    '0':
+    - redstonedust
+    - redstone
+    - rstonedust
+    - rstone
+    - redsdust
+    - reddust
+    - rsdust
+    - rdust
+  '332':
+    '0':
+    - snow
+    - snowball
+    - snball
+  '333':
+    '0':
+    - boat
+  '334':
+    '0':
+    - leather
+  '335':
+    '0':
+    - milkbucket
+    - milkbukkit
+    - mbucket
+    - mbukkit
+  '336':
+    '0':
+    - claybrick
+    - brick
+  '337':
+    '0':
+    - clayball
+    - cball
+    - clay
+  '338':
+    '0':
+    - reeds
+    - reed
+    - sugarcane
+    - scane
+    - bamboo
+  '339':
+    '0':
+    - paper
+    - papyrus
+  '340':
+    '0':
+    - book
+  '341':
+    '0':
+    - slimeball
+    - slball
+  '342':
+    '0':
+    - chestminecart
+    - storageminecart
+    - storagemcart
+    - chestmcart
+    - storagecart
+    - chestcart
+    - sminecart
+    - cminecart
+    - smcart
+    - cmcart
+    - scart
+    - ccart
+  '343':
+    '0':
+    - furnaceminecart
+    - engineminecart
+    - poweredminecart
+    - powerminecart
+    - enginemcart
+    - poweredmcart
+    - powermcart
+    - furnacemcart
+    - enginecart
+    - poweredcart
+    - powercart
+    - furnacecart
+    - eminecart
+    - pminecart
+    - fminecart
+    - emcart
+    - pmcart
+    - fmcart
+    - ecart
+    - pcart
+    - fcart
+  '344':
+    '0':
+    - egg
+  '345':
+    '0':
+    - compass
+  '346':
+    '0':
+    - fishingrod
+    - fishrod
+    - frod
+    - rod
+  '347':
+    '0':
+    - watch
+    - goldwatch
+    - goldclock
+    - gwatch
+    - gclock
+    - clock
+  '348':
+    '0':
+    - glowstonedust
+    - glowingstoneblockdust
+    - lightstoneblockdust
+    - glowstoneblockdust
+    - blockglowingstonedust
+    - blocklightstonedust
+    - blockglowstonedust
+    - glowingstonebdust
+    - lightstonebdust
+    - glowstonebdust
+    - bglowingstonedust
+    - blightstonedust
+    - bglowstonedust
+    - glowingstonedust
+    - lightstonedust
+    - glowingblockdust
+    - lightblockdust
+    - glowblockdust
+    - lbdust
+    - gbdust
+    - lsdust
+    - gsdust
+  '349':
+    '0':
+    - rawfish
+    - rafish
+    - fish
+  '350':
+    '0':
+    - cookedfish
+    - cookfish
+    - cfish
+    - grilledfish
+    - grillfish
+    - gfish
+    - roastedfish
+    - roastfish
+    - rofish
+  '351':
+    '0':
+    - dye
+    - inksack
+    - inksac
+    - isack
+    - isac
+    - sack
+    - sac
+    - blackinksack
+    - blackinksac
+    - blackisack
+    - blackisac
+    - blacksack
+    - blacksac
+    - inksackblack
+    - inksacblack
+    - isackblack
+    - isacclack
+    - sackblack
+    - sacblack
+    - blackinksackcolour
+    - blackinksaccolour
+    - blackisackcolour
+    - blackisaccolour
+    - blacksackcolour
+    - blacksaccolour
+    - inksackblackcolour
+    - inksacblackcolour
+    - isackblackcolour
+    - isacclackcolour
+    - sackblackcolour
+    - sacblackcolour
+    - blackinksackcolor
+    - blackinksaccolor
+    - blackisackcolor
+    - blackisaccolor
+    - blacksackcolor
+    - blacksaccolor
+    - inksackblackcolor
+    - inksacblackcolor
+    - isackblackcolor
+    - isacblackcolor
+    - sackblackcolor
+    - sacblackcolor
+    - blackinksackdye
+    - blackinksacdye
+    - blackisackdye
+    - blackisacdye
+    - blacksackdye
+    - blacksacdye
+    - inksackblackdye
+    - inksacblackdye
+    - isackblackdye
+    - isacclackdye
+    - sackblackdye
+    - sacblackdye
+    - blackcolor
+    - blackdye
+    '1':
+    - rosered
+    - roseredcolor
+    - roseredcolour
+    - rosereddye
+    - redrosecolor
+    - redrosecolour
+    - redrosedye
+    - redr
+    - redrcolor
+    - redrcolour
+    - redrdye
+    - redcolor
+    - redcolour
+    - reddye
+    '2':
+    - cactusgreen
+    - greencactus
+    - cactusgreencolour
+    - greencactuscolour
+    - cactusgreencolor
+    - greencactuscolor
+    - cactusgreendye
+    - greencactusdye
+    - greencolour
+    - greencolor
+    - greendye
+    '3':
+    - cocoabeans
+    - cocoabean
+    - cocobeans
+    - cocobean
+    - cbeans
+    - cbean
+    - beans
+    - bean
+    - browncocoabeans
+    - browncocoabean
+    - browncocobeans
+    - browncocobean
+    - browncbeans
+    - browncbean
+    - brownbeans
+    - brownbean
+    - brownb
+    - cocoabeanscolour
+    - cocoabeancolour
+    - cocobeanscolour
+    - cocobeancolour
+    - cbeanscolour
+    - cbeancolour
+    - beanscolour
+    - beancolour
+    - browncocoabeanscolour
+    - browncocoabeancolour
+    - browncocobeanscolour
+    - browncocobeancolour
+    - browncbeanscolour
+    - browncbeancolour
+    - brownbeanscolour
+    - brownbeancolour
+    - brownbcolour
+    - cocoabeanscolor
+    - cocoabeancolor
+    - cocobeanscolor
+    - cocobeancolor
+    - cbeanscolor
+    - cbeancolor
+    - beanscolor
+    - beancolor
+    - browncocoabeanscolor
+    - browncocoabeancolor
+    - browncocobeanscolor
+    - browncocobeancolor
+    - browncbeanscolor
+    - browncbeancolor
+    - brownbeanscolor
+    - brownbeancolor
+    - brownbcolor
+    - cocoabeansdye
+    - cocoabeandye
+    - cocobeansdye
+    - cocobeandye
+    - cbeansdye
+    - cbeandye
+    - beansdye
+    - beandye
+    - browncocoabeansdye
+    - browncocoabeandye
+    - browncocobeansdye
+    - browncocobeandye
+    - browncbeansdye
+    - browncbeandye
+    - brownbeansdye
+    - brownbeandye
+    - brownbdye
+    - browncolour
+    - browncolor
+    - browndye
+    '4':
+    - lapislazuli
+    - bluelapislzuli
+    - bluelapisl
+    - bluelapis
+    - bluel
+    - lapislazuliblue
+    - lapislblue
+    - lapisblue
+    - lapisl
+    - lapis
+    - bluelapislazulicolour
+    - bluelapislcolour
+    - bluelapiscolour
+    - lapislazulibluecolour
+    - lapislbluecolour
+    - lapisbluecolour
+    - lapislazulicolour
+    - lapislcolour
+    - lapiscolour
+    - bluelapislazulicolor
+    - bluelapislcolor
+    - bluelapiscolor
+    - lapislazulibluecolor
+    - lapislbluecolor
+    - lapisbluecolor
+    - lapislazulicolor
+    - lapislcolor
+    - lapiscolor
+    - bluelapislazulidye
+    - bluelapisldye
+    - bluelapisdye
+    - lapislazulibluedye
+    - lapislbluedye
+    - lapisbluedye
+    - lapislazulidye
+    - lapisldye
+    - lapisdye
+    - bluecolour
+    - bluecolor
+    - bluedye
+    '5':
+    - purpledye
+    - purplecolour
+    - purplecolor
+    '6':
+    - cyandye
+    - cyancolour
+    - cyancolor
+    '7':
+    - lightgraydye
+    - lightgraycolour
+    - lightgraycolor
+    - lgraycolour
+    - lgraycolor
+    - lgraydye
+    - silvercolour
+    - silvercolor
+    - silverdye
+    '8':
+    - darkgraydye
+    - darkgraycolour
+    - darkgraycolor
+    - dgraycolour
+    - dgraycolor
+    - dgraydye
+    - graycolour
+    - graycolor
+    - graydye
+    '9':
+    - pinkdye
+    - pinkcolour
+    - pinkcolor
+    '10':
+    - limedye
+    - limecolour
+    - limecolor
+    '11':
+    - dandelionyellow
+    - dandelionyellowcolour
+    - dandelionyellowcolor
+    - dandelionyellowdye
+    - yellowdandelion
+    - yellowdandelioncolour
+    - yellowdandelioncolor
+    - yellowdandeliondye
+    - yellowd
+    - yellowdcolour
+    - yellowdcolor
+    - yellowddye
+    - dyellow
+    - dyellowcolour
+    - dyellowcolor
+    - dyellowdye
+    - yellowcolour
+    - yellowcolor
+    - yellowdye
+    '12':
+    - lightbluecolour
+    - lightbluecolor
+    - lightbluedye
+    - lbluecolour
+    - lbluecolor
+    - lbluedye
+    '13':
+    - magentacolour
+    - magentacolor
+    - magentadye
+    '14':
+    - orangecolour
+    - orangecolor
+    - orangedye
+    '15':
+    - bonemeal
+    - whitebonemeal
+    - whitebonemealcolour
+    - whitebonemealcolor
+    - whitebonemealdye
+    - bonemealwhite
+    - bonemealwhitecolour
+    - bonemealwhitecolor
+    - bonemealwhitedye
+    - whitebonem
+    - whitebonemcolour
+    - whitebonemcolor
+    - whitebonemdye
+    - bonemwhite
+    - bonemwhitecolour
+    - bonemwhitecolor
+    - bonemwhitedye
+    - bonemealcolour
+    - bonemealcolor
+    - bonemealdye
+    - bonem
+    - bonemcolour
+    - bonemcolor
+    - bonemdye
+    - whitecolour
+    - whitecolor
+    - whitedye
+  '352':
+    '0':
+    - bone
+  '353':
+    '0':
+    - sugar
+    - whitedust
+  '354':
+    '0':
+    - cake
+  '355':
+    '0':
+    - bed
+  '356':
+    '0':
+    - redstonerepeater
+    - redstonerepeat
+    - redstonedelayer
+    - redstonedelay
+    - redstonedioder
+    - redstonediode
+    - rstonerepeater
+    - rstonerepeat
+    - rstonedelayer
+    - rstonedelay
+    - rstonedioder
+    - rstonediode
+    - redsrepeater
+    - redsrepeat
+    - redsdelayer
+    - redsdelay
+    - redsdioder
+    - redsdiode
+    - rsrepeater
+    - rsrepeat
+    - rsdelayer
+    - rsdelay
+    - rsdioder
+    - rsdiode
+    - repeater
+    - repeat
+    - delayer
+    - delay
+    - dioder
+    - diode
+  '357':
+    '0':
+    - cookie
+  '358':
+    '0':
+    - chart
+    - map0
+    '1':
+    - map1
+    '2':
+    - map2
+    '3':
+    - map3
+    '4':
+    - map4
+    '5':
+    - map5
+    '6':
+    - map6
+    '7':
+    - map7
+    '8':
+    - map8
+    '9':
+    - map9
+    '10':
+    - map10
+    '11':
+    - map11
+    '12':
+    - map12
+    '13':
+    - map13
+    '14':
+    - map14
+    '15':
+    - map15
+  '359':
+    '0':
+    - shears
+    - shear
+    - sheers
+    - sheer
+    - woolcutters
+    - woolcutter
+    - cutterswool
+    - cutterwool
+  '360':
+    '0':
+    - melonslice
+    - mslice
+    - slicemelon
+    - watermelonslice
+    - greenmelonslice
+    - melongreenslice
+  '361':
+    '0':
+    - pumpkinseeds
+    - pseeds
+    - seedsp
+    - seedspumpkin
+    - pumpseeds
+    - seedspump
+  '362':
+    '0':
+    - melonseeds
+    - mseeds
+    - watermelonseeds
+    - greenmelonseeds
+    - gmelonseeds
+    - seedsmelon
+    - seedswatermelon
+  '363':
+    '0':
+    - rawbeef
+    - rawsteak
+    - uncookedbeef
+    - uncookedsteak
+    - cowmeat
+    - plainbeef
+  '364':
+    '0':
+    - beef
+    - steak
+    - cookedbeef
+    - grilledbeef
+    - cookedsteak
+    - grilledsteak
+    - cookedcowmeat
+  '365':
+    '0':
+    - rawchicken
+    - uncookedchicken
+    - plainchicken
+    - chickenplain
+    - chickenuncooked
+    - chickenraw
+  '366':
+    '0':
+    - cookedchicken
+    - grilledchicken
+    - toastedchicken
+    - gchicken
+    - bbqchicken
+    - friedchicken
+    - cchicken
+  '367':
+    '0':
+    - rottenflesh
+    - zombieflesh
+    - rottenmeat
+    - zombiemeat
+    - badflesh
+    - poisonflesh
+    - zombieremains
+  '368':
+    '0':
+    - enderpearl
+    - endpearl
+    - pearl
+    - epearl
+    - bluepearl
+    - endergem
+  '369':
+    '0':
+    - blazerod
+    - goldenrod
+    - goldrod
+    - blazestick
+    - goldstick
+    - brod
+    - grod
+    - bstick
+    - gstick
+  '370':
+    '0':
+    - ghasttear
+    - ghastdrop
+    - ghosttear
+    - ghostdrop
+    - gtear
+    - gdrop
+    - tear
+  '371':
+    '0':
+    - goldnugget
+    - gnugget
+    - goldball
+    - goldpebble
+    - gball
+    - gpebble
+    - pigzombienugget
+    - pigznugget
+    - pzombienugget
+    - pznugget
+    - pigzombieball
+    - pigzball
+    - pzombieball
+    - pzball
+    - pigzombiepebble
+    - pigzpebble
+    - pzombiepebble
+    - pzpebble
+  '372':
+    '0':
+    - netherstalk
+    - deathstalk
+    - hellstalk
+    - nstalk
+    - dstalk
+    - hstalk
+  '373':
+    '0':
+    - potion
+    - mixture
+    - potions
+    - waterbottle
+    - fullbottle
+    - watervase
+    - fullvase
+    '6':
+    - clearpotion
+    - clearpot
+    '7':
+    - clearextendedpotion
+    - clearexpotion
+    - clear2potion
+    - clearextendedpot
+    - clearexpot
+    - clear2pot
+    '11':
+    - diffusepotion
+    - diffusepot
+    '13':
+    - artlesspotion
+    - artlesspot
+    '14':
+    - thinpotion
+    - thinpot
+    '15':
+    - thinextendedpotion
+    - thinexpotion
+    - thin2potion
+    - thinextendedpot
+    - thinexpot
+    - thin2pot
+    '16':
+    - awkwardpotion
+    - awkwardpot
+    '22':
+    - bunglingpotion
+    - bunglingpot
+    '23':
+    - bunglingextendedpotion
+    - bunglingexpotion
+    - bungling2potion
+    - bunglingextendedpot
+    - bunglingexpot
+    - bungling2pot
+    '27':
+    - smoothpotion
+    - smoothpot
+    '29':
+    - suavepotion
+    - suavepot
+    '30':
+    - debonairpotion
+    - debonairpot
+    '31':
+    - debonairextendedpotion
+    - debonairexpotion
+    - debonair2potion
+    - debonairextendedpot
+    - debonairexpot
+    - debonair2pot
+    '32':
+    - thickpotion
+    - thickpot
+    '38':
+    - charmingpotion
+    - charmingpot
+    '39':
+    - charmingextendedpotion
+    - charmingexpotion
+    - charming2potion
+    - charmingextendedpot
+    - charmingexpot
+    - charming2pot
+    '43':
+    - refinedpotion
+    - refinedpot
+    '45':
+    - cordialpotion
+    - cordialpot
+    '46':
+    - sparklingpotion
+    - sparklingpot
+    '47':
+    - sparklingextendedpotion
+    - sparklingexpotion
+    - sparkling2potion
+    - sparklingextendedpot
+    - sparklingexpot
+    - sparkling2pot
+    '48':
+    - potentpotion
+    - potentpot
+    '54':
+    - rankpotion
+    - rankpot
+    '55':
+    - rankextendedpotion
+    - rankexpotion
+    - rank2potion
+    - rankextendedpot
+    - rankexpot
+    - rank2pot
+    '59':
+    - acridpotion
+    - acridpot
+    '61':
+    - grosspotion
+    - grosspot
+    '62':
+    - stinkypotion
+    - stinkypot
+    '63':
+    - stinkyextendedpotion
+    - stinkyexpotion
+    - stinky2potion
+    - stinkyextendedpot
+    - stinkyexpot
+    - stinky2pot
+    '64':
+    - mundaneextendedpotion
+    - mundaneexpotion
+    - mundane2potion
+    - mundaneextendedpot
+    - mundaneexpot
+    - mundane2pot
+    '8192':
+    - mundanepotion
+    - mundanepot
+    '8193':
+    - regenerationpotion
+    - regeneratepotion
+    - regenpotion
+    - regenerationpot
+    - regeneratepot
+    - regenpot
+    - rpot
+    '8194':
+    - swiftnesspotion
+    - swiftpotion
+    - speedpotion
+    - swiftnesspot
+    - swiftpot
+    - speedpot
+    - swpot
+    '8195':
+    - fireresistancepotion
+    - fireresistpotion
+    - firerespotion
+    - fireresistancepot
+    - fireresistpot
+    - firerespot
+    - fpot
+    '8196':
+    - poisonpotion
+    - acidpotion
+    - poisonpot
+    - acidpot
+    - ppot
+    '8197':
+    - healingpotion
+    - healpotion
+    - lifepotion
+    - healingpot
+    - healpot
+    - lifepot
+    - hpot
+    '8198':
+    - nightvisionpotion
+    - nvisionpotion
+    - nightvpotion
+    - darkvisionpotion
+    - dvisionpotion
+    - darkvpotion
+    - nightvisionpot
+    - nvisionpot
+    - nightvpot
+    - darkvisionpot
+    - dvisionpot
+    - darkvpot
+    - npot
+    '8200':
+    - weaknesspotion
+    - weakpotion
+    - weaknesspot
+    - weakpot
+    - wpot
+    '8201':
+    - strengthpotion
+    - strongpotion
+    - strpotion
+    - strengthpot
+    - strongpot
+    - strpot
+    - stpot
+    '8202':
+    - slownesspotion
+    - slowpotion
+    - slownesspot
+    - slowpot
+    - slpot
+    '8204':
+    - harmingpotion
+    - damagepotion
+    - dmgpotion
+    - harmingpot
+    - damagepot
+    - dmgpot
+    - dpot
+    '8206':
+    - invisibilitypotion
+    - invisiblepotion
+    - invpotion
+    - invisibilitypot
+    - invisiblepot
+    - invpot
+    - ipot
+    '8225':
+    - regenerationleveliipotion
+    - regenerateleveliipotion
+    - regenleveliipotion
+    - regenerationlevel2potion
+    - regeneratelevel2potion
+    - regenlevel2potion
+    - regenerationiipotion
+    - regenerateiipotion
+    - regeniipotion
+    - regenerationleveliipot
+    - regenerateleveliipot
+    - regenleveliipot
+    - regenerationlevel2pot
+    - regeneratelevel2pot
+    - regenlevel2pot
+    - regenerationiipot
+    - regenerateiipot
+    - regeniipot
+    - r2pot
+    '8226':
+    - swiftnessleveliipotion
+    - swiftleveliipotion
+    - speedleveliipotion
+    - swiftnesslevel2potion
+    - swiftlevel2potion
+    - speedlevel2potion
+    - swiftnessiipotion
+    - swiftiipotion
+    - speediipotion
+    - swiftnessleveliipot
+    - swiftleveliipot
+    - speedleveliipot
+    - swiftnesslevel2pot
+    - swiftlevel2pot
+    - speedlevel2pot
+    - swiftnessiipot
+    - swiftiipot
+    - speediipot
+    - sw2pot
+    '8228':
+    - poisonleveliipotion
+    - acidleveliipotion
+    - poisonlevel2potion
+    - acidlevel2potion
+    - poisoniipotion
+    - acidiipotion
+    - poisonleveliipot
+    - acidleveliipot
+    - poisonlevel2pot
+    - acidlevel2pot
+    - poisoniipot
+    - acidiipot
+    - p2pot
+    '8229':
+    - healingleveliipotion
+    - healleveliipotion
+    - healinglevel2potion
+    - heallevel2potion
+    - healingiipotion
+    - healiipotion
+    - healingleveliipot
+    - healleveliipot
+    - healinglevel2pot
+    - heallevel2pot
+    - healingiipot
+    - healiipot
+    - h2pot
+    '8233':
+    - strengthleveliipotion
+    - strongleveliipotion
+    - strleveliipotion
+    - strengthlevel2potion
+    - stronglevel2potion
+    - strlevel2potion
+    - strengthiipotion
+    - strongiipotion
+    - striipotion
+    - strengthleveliipot
+    - strongleveliipot
+    - strleveliipot
+    - strengthlevel2pot
+    - stronglevel2pot
+    - strlevel2pot
+    - strengthiipot
+    - strongiipot
+    - striipot
+    - st2pot
+    '8236':
+    - harmingleveliipotion
+    - damageleveliipotion
+    - dmgleveliipotion
+    - harminglevel2potion
+    - damagelevel2potion
+    - dmglevel2potion
+    - harmingiipotion
+    - damageiipotion
+    - dmgiipotion
+    - harmingleveliipot
+    - damageleveliipot
+    - dmgleveliipot
+    - harminglevel2pot
+    - damagelevel2pot
+    - dmglevel2pot
+    - harmingiipot
+    - damageiipot
+    - dmgiipot
+    - d2pot
+    '8257':
+    - regenerationextendedpotion
+    - regenerateextendedpotion
+    - regenextendepotion
+    - regenerationexpotion
+    - regenerateexpotion
+    - regenexpotion
+    - regenerationextendedpot
+    - regenerateextendedpot
+    - regenextendepot
+    - regenerationexpot
+    - regenerateexpot
+    - regenexpot
+    - repot
+    '8258':
+    - swiftnessextendedpotion
+    - swiftextendedpotion
+    - speedextendedpotion
+    - swiftnessexpotion
+    - swiftexpotion
+    - speedexpotion
+    - swiftnessextendedpot
+    - swiftextendedpot
+    - speedextendedpot
+    - swiftnessexpot
+    - swiftexpot
+    - speedexpot
+    - swepot
+    '8259':
+    - fireresistanceextendedpotion
+    - fireresistextendedpotion
+    - fireresextendedpotion
+    - fireresistanceexpotion
+    - fireresistexpotion
+    - fireresexpotion
+    - fireresistanceextendedpot
+    - fireresistextendedpot
+    - fireresextendedpot
+    - fireresistanceexpot
+    - fireresistexpot
+    - fireresexpot
+    - fepot
+    '8260':
+    - poisonextendedpotion
+    - acidextendedpotion
+    - poisonexpotion
+    - acidexpotion
+    - poisonextendedpot
+    - acidextendedpot
+    - poisonexpot
+    - acidexpot
+    - pepot
+    '8262':
+    - nightvisionextendedpotion
+    - nvisionextendedpotion
+    - nightvextendedpotion
+    - darkvisionextendedpotion
+    - dvisionextendedpotion
+    - darkvextendedpotion
+    - nightvisionexpotion
+    - nvisionexpotion
+    - nightvexpotion
+    - darkvisionexpotion
+    - dvisionexpotion
+    - darkvexpotion
+    - nightvisionextendedpot
+    - nvisionextendedpot
+    - nightvextendedpot
+    - darkvisionextendedpot
+    - dvisionextendedpot
+    - darkvextendedpot
+    - nightvisionexpot
+    - nvisionexpot
+    - nightvexpot
+    - darkvisionexpot
+    - dvisionexpot
+    - darkvexpot
+    - nepot
+    '8264':
+    - weaknessextendedpotion
+    - weakextendedpotion
+    - weaknessexpotion
+    - weakexpotion
+    - weaknessextendedpot
+    - weakextendedpot
+    - weaknessexpot
+    - weakexpot
+    - wepot
+    '8265':
+    - strengthextendedpotion
+    - strongextendedpotion
+    - strextendedpotion
+    - strengthexpotion
+    - strongexpotion
+    - strexpotion
+    - strengthextendedpot
+    - strongextendedpot
+    - strextendedpot
+    - strengthexpot
+    - strongexpot
+    - strexpot
+    - stepot
+    '8266':
+    - slownessextendedpotion
+    - slowextenedpotion
+    - slownessexpotion
+    - slowexpotion
+    - slownessextendedpot
+    - slowextenedpot
+    - slownessexpot
+    - slowexpot
+    - slepot
+    '8270':
+    - invisibilityextendedpotion
+    - invisibleextendedpotion
+    - invextendedpotion
+    - invisibilityexpotion
+    - invisibleexpotion
+    - invexpotion
+    - invisibilityextendedpot
+    - invisibleextendedpot
+    - invextendedpot
+    - invisibilityexpot
+    - invisibleexpot
+    - invexpot
+    - iepot
+    '8289':
+    - regenerationdualbitpotion
+    - regeneratedualbitpotion
+    - regendualbitpotion
+    - regenerationdbpotion
+    - regeneratedbpotion
+    - regendbpotion
+    - regenerationdualbitpot
+    - regeneratedualbitpot
+    - regendualbitpot
+    - regenerationdbpot
+    - regeneratedbpot
+    - regendbpot
+    - rdbpot
+    '8290':
+    - swiftnessdualbitpotion
+    - swiftdualbitpotion
+    - speeddualbitpotion
+    - swiftnessdualbitpot
+    - swiftdualbitpot
+    - speeddualbitpot
+    - swiftnessdbpotion
+    - swiftdbpotion
+    - speeddbpotion
+    - swiftnessdbpot
+    - swiftdbpot
+    - speeddbpot
+    - swdbpot
+    '8292':
+    - poisondualbitpotion
+    - aciddualbitpotion
+    - poisondualbitpot
+    - aciddualbitpot
+    - poisondbpotion
+    - aciddbpotion
+    - poisondbpot
+    - aciddbpot
+    - pdbpot
+    '8297':
+    - strengthdualbitpotion
+    - strongdualbitpotion
+    - strdualbitpotion
+    - strengthdualbitpot
+    - strongdualbitpot
+    - strdualbitpot
+    - strengthdbpotion
+    - strongdbpotion
+    - strdbpotion
+    - strengthdbpot
+    - strongdbpot
+    - strdbpot
+    - stdbpot
+    '16384':
+    - splashmundanepotion
+    - splmundanepotion
+    '16385':
+    - splashregenerationpotion
+    - splashregeneratepotion
+    - splashregenpotion
+    - splashregenerationpot
+    - splashregeneratepot
+    - splashregenpot
+    - regenerationsplashpotion
+    - regeneratesplashpotion
+    - regensplashpotion
+    - splregenerationpotion
+    - splregeneratepotion
+    - splregenpotion
+    - splregenerationpot
+    - splregeneratepot
+    - splregenpot
+    - sprpot
+    '16386':
+    - splashswiftnesspotion
+    - splashswiftpotion
+    - splashspeedpotion
+    - splashswiftnesspot
+    - splashswiftpot
+    - splashspeedpot
+    - splswiftnesspotion
+    - splswiftpotion
+    - splspeedpotion
+    - splswiftnesspot
+    - splswiftpot
+    - splspeedpot
+    - spswpot
+    '16387':
+    - splashfireresistancepotion
+    - splashfireresistpotion
+    - splashfirerespotion
+    - splashfireresistancepot
+    - splashfireresistpot
+    - splashfirerespot
+    - splfireresistancepotion
+    - splfireresistpotion
+    - splfirerespotion
+    - splfireresistancepot
+    - splfireresistpot
+    - splfirerespot
+    - spfpot
+    '16388':
+    - splashpoisonpotion
+    - splashacidpotion
+    - splashpoisonpot
+    - splashacidpot
+    - splpoisonpotion
+    - splacidpotion
+    - splpoisonpot
+    - splacidpot
+    - spppot
+    '16389':
+    - splashhealingpotion
+    - splashhealpotion
+    - splashlifepotion
+    - splashhealingpot
+    - splashhealpot
+    - splashlifepot
+    - splhealingpotion
+    - splhealpotion
+    - spllifepotion
+    - splhealingpot
+    - splhealpot
+    - spllifepot
+    - sphpot
+    '16390':
+    - splashclearpotion
+    - splashclearpot
+    - splclearpotion
+    - splclearpot
+    - splashnightvisionpotion
+    - splashnvisionpotion
+    - splashnightvpotion
+    - splashdarkvisionpotion
+    - splashdvisionpotion
+    - splashdarkvpotion
+    - splashnightvisionpot
+    - splashnvisionpot
+    - splashnightvpot
+    - splashdarkvisionpot
+    - splashdvisionpot
+    - splashdarkvpot
+    - splnightvisionpotion
+    - splnvisionpotion
+    - splnightvpotion
+    - spldarkvisionpotion
+    - spldvisionpotion
+    - spldarkvpotion
+    - splnightvisionpot
+    - splnvisionpot
+    - splnightvpot
+    - spldarkvisionpot
+    - spldvisionpot
+    - spldarkvpot
+    - spnpot
+    '16391':
+    - splashclearextendedpotion
+    - splashclearexpotion
+    - splashclear2potion
+    - splashclearextendedpot
+    - splashclearexpot
+    - splashclear2pot
+    - splclearextendedpotion
+    - splclearexpotion
+    - splclear2potion
+    - splclearextendedpot
+    - splclearexpot
+    - splclear2pot
+    '16392':
+    - splashweaknesspotion
+    - splashweakpotion
+    - splashweaknesspot
+    - splashweakpot
+    - splweaknesspotion
+    - splweakpotion
+    - splweaknesspot
+    - splweakpot
+    - spwpot
+    '16393':
+    - splashstrengthpotion
+    - splashstrongpotion
+    - splashstrpotion
+    - splashstrengthpot
+    - splashstrongpot
+    - splashstrpot
+    - splstrengthpotion
+    - splstrongpotion
+    - splstrpotion
+    - splstrengthpot
+    - splstrongpot
+    - splstrpot
+    - spstpot
+    '16394':
+    - splashslownesspotion
+    - splashslowpotion
+    - splashslownesspot
+    - splashslowpot
+    - splslownesspotion
+    - splslowpotion
+    - splslownesspot
+    - splslowpot
+    - spslpot
+    '16395':
+    - splashdiffusepotion
+    - splashdiffusepot
+    - spldiffusepotion
+    - spldiffusepot
+    '16396':
+    - splashharmingpotion
+    - splashdamagepotion
+    - splashdmgpotion
+    - splashharmingpot
+    - splashdamagepot
+    - splashdmgpot
+    - splharmingpotion
+    - spldamagepotion
+    - spldmgpotion
+    - splharmingpot
+    - spldamagepot
+    - spldmgpot
+    - spdpot
+    '16397':
+    - splashartlesspotion
+    - splashartlesspot
+    - splartlesspotion
+    - splartlesspot
+    '16398':
+    - splashthinpotion
+    - splashthinpot
+    - splthinpotion
+    - splthinpot
+    - splashinvisibilitypotion
+    - splashinvisiblepotion
+    - splashinvpotion
+    - splashinvisibilitypot
+    - splashinvisiblepot
+    - splashinvpot
+    - splinvisibilitypotion
+    - splinvisiblepotion
+    - splinvpotion
+    - splinvisibilitypot
+    - splinvisiblepot
+    - splinvpot
+    - spipot
+    '16399':
+    - splashthinextendedpotion
+    - splashthinexpotion
+    - splashthin2potion
+    - splashthinextendedpot
+    - splashthinexpot
+    - splashthin2pot
+    - splthinextendedpotion
+    - splthinexpotion
+    - splthin2potion
+    - splthinextendedpot
+    - splthinexpot
+    - splthin2pot
+    '16400':
+    - splashawkwardpotion
+    - splashawkwardpot
+    - splawkwardpotion
+    - splawkwardpot
+    '16406':
+    - splashbunglingpotion
+    - splashbunglingpot
+    - splbunglingpotion
+    - splbunglingpot
+    '16407':
+    - splashbunglingextendedpotion
+    - splashbunglingexpotion
+    - splashbungling2potion
+    - splashbunglingextendedpot
+    - splashbunglingexpot
+    - splashbungling2pot
+    - splbunglingextendedpotion
+    - splbunglingexpotion
+    - splbungling2potion
+    - splbunglingextendedpot
+    - splbunglingexpot
+    - splbungling2pot
+    '16411':
+    - splashsmoothpotion
+    - splashsmoothpot
+    - splsmoothpotion
+    - splsmoothpot
+    '16413':
+    - splashsuavepotion
+    - splashsuavepot
+    - splsuavepotion
+    - splsuavepot
+    '16414':
+    - splashdebonairpotion
+    - splashdebonairpot
+    - spldebonairpotion
+    - spldebonairpot
+    '16415':
+    - splashdebonairextendedpotion
+    - splashdebonairexpotion
+    - splashdebonair2potion
+    - splashdebonairextendedpot
+    - splashdebonairexpot
+    - splashdebonair2pot
+    - spldebonairextendedpotion
+    - spldebonairexpotion
+    - spldebonair2potion
+    - spldebonairextendedpot
+    - spldebonairexpot
+    - spldebonair2pot
+    '16416':
+    - splashthickpotion
+    - splashthickpot
+    - splthickpotion
+    - splthickpot
+    '16417':
+    - splashregenerationleveliipotion
+    - splashregenerateleveliipotion
+    - splashregenleveliipotion
+    - splashregenerationlevel2potion
+    - splashregeneratelevel2potion
+    - splashregenlevel2potion
+    - splashregenerationiipotion
+    - splashregenerateiipotion
+    - splashregeniipotion
+    - splashregenerationleveliipot
+    - splashregenerateleveliipot
+    - splashregenleveliipot
+    - splashregenerationlevel2pot
+    - splashregeneratelevel2pot
+    - splashregenlevel2pot
+    - splashregenerationiipot
+    - splashregenerateiipot
+    - splashregeniipot
+    - splregenerationleveliipotion
+    - splregenerateleveliipotion
+    - splregenleveliipotion
+    - splregenerationlevel2potion
+    - splregeneratelevel2potion
+    - splregenlevel2potion
+    - splregenerationiipotion
+    - splregenerateiipotion
+    - splregeniipotion
+    - splregenerationleveliipot
+    - splregenerateleveliipot
+    - splregenleveliipot
+    - splregenerationlevel2pot
+    - splregeneratelevel2pot
+    - splregenlevel2pot
+    - splregenerationiipot
+    - splregenerateiipot
+    - splregeniipot
+    - spr2pot
+    '16418':
+    - splashswiftnessleveliipotion
+    - splashswiftleveliipotion
+    - splashspeedleveliipotion
+    - splashswiftnesslevel2potion
+    - splashswiftlevel2potion
+    - splashspeedlevel2potion
+    - splashswiftnessiipotion
+    - splashswiftiipotion
+    - splashspeediipotion
+    - splashswiftnessleveliipot
+    - splashswiftleveliipot
+    - splashspeedleveliipot
+    - splashswiftnesslevel2pot
+    - splashswiftlevel2pot
+    - splashspeedlevel2pot
+    - splashswiftnessiipot
+    - splashswiftiipot
+    - splashspeediipot
+    - splswiftnessleveliipotion
+    - splswiftleveliipotion
+    - splspeedleveliipotion
+    - splswiftnesslevel2potion
+    - splswiftlevel2potion
+    - splspeedlevel2potion
+    - splswiftnessiipotion
+    - splswiftiipotion
+    - splspeediipotion
+    - splswiftnessleveliipot
+    - splswiftleveliipot
+    - splspeedleveliipot
+    - splswiftnesslevel2pot
+    - splswiftlevel2pot
+    - splspeedlevel2pot
+    - splswiftnessiipot
+    - splswiftiipot
+    - splspeediipot
+    - spsw2pot
+    '16420':
+    - splashpoisonleveliipotion
+    - splashacidleveliipotion
+    - splashpoisonlevel2potion
+    - splashacidlevel2potion
+    - splashpoisoniipotion
+    - splashacidiipotion
+    - splashpoisonleveliipot
+    - splashacidleveliipot
+    - splashpoisonlevel2pot
+    - splashacidlevel2pot
+    - splashpoisoniipot
+    - splashacidiipot
+    - splpoisonleveliipotion
+    - splacidleveliipotion
+    - splpoisonlevel2potion
+    - splcidlevel2potion
+    - splpoisoniipotion
+    - splacidiipotion
+    - splpoisonleveliipot
+    - splacidleveliipot
+    - splpoisonlevel2pot
+    - splacidlevel2pot
+    - splpoisoniipot
+    - splacidiipot
+    - spp2pot
+    '16421':
+    - splashhealingleveliipotion
+    - splashhealleveliipotion
+    - splashhealinglevel2potion
+    - splashheallevel2potion
+    - splashhealingiipotion
+    - splashhealiipotion
+    - splashhealingleveliipot
+    - splashhealleveliipot
+    - splashhealinglevel2pot
+    - splashheallevel2pot
+    - splashhealingiipot
+    - splashhealiipot
+    - splhealingleveliipotion
+    - splhealleveliipotion
+    - splhealinglevel2potion
+    - splheallevel2potion
+    - splhealingiipotion
+    - splhealiipotion
+    - splhealingleveliipot
+    - splhealleveliipot
+    - splhealinglevel2pot
+    - splheallevel2pot
+    - splhealingiipot
+    - splhealiipot
+    - sph2pot
+    '16422':
+    - splashcharmingpotion
+    - splashcharmingpot
+    - splcharmingpotion
+    - splcharmingpot
+    '16423':
+    - splashcharmingextendedpotion
+    - splashcharmingexpotion
+    - splashcharming2potion
+    - splashcharmingextendedpot
+    - splashcharmingexpot
+    - splashcharming2pot
+    - splcharmingextendedpotion
+    - splcharmingexpotion
+    - splcharming2potion
+    - splcharmingextendedpot
+    - splcharmingexpot
+    - splcharming2pot
+    '16425':
+    - splashstrengthleveliipotion
+    - splashstrongleveliipotion
+    - splashstrleveliipotion
+    - splashstrengthlevel2potion
+    - splashstronglevel2potion
+    - splashstrlevel2potion
+    - splashstrengthiipotion
+    - splashstrongiipotion
+    - splashstriipotion
+    - splashstrengthleveliipot
+    - splashstrongleveliipot
+    - splashstrleveliipot
+    - splashstrengthlevel2pot
+    - splashstronglevel2pot
+    - splashstrlevel2pot
+    - splashstrengthiipot
+    - splashstrongiipot
+    - splashstriipot
+    - splstrengthleveliipotion
+    - splstrongleveliipotion
+    - splstrleveliipotion
+    - splstrengthlevel2potion
+    - splstronglevel2potion
+    - splstrlevel2potion
+    - splstrengthiipotion
+    - splstrongiipotion
+    - splstriipotion
+    - splstrengthleveliipot
+    - splstrongleveliipot
+    - splstrleveliipot
+    - splstrengthlevel2pot
+    - splstronglevel2pot
+    - splstrlevel2pot
+    - splstrengthiipot
+    - splstrongiipot
+    - splstriipot
+    - spst2pot
+    '16427':
+    - splashrefinedpotion
+    - splashrefinedpot
+    - splrefinedpotion
+    - splrefinedpot
+    '16428':
+    - splashharmingleveliipotion
+    - splashdamageleveliipotion
+    - splashdmgleveliipotion
+    - splashharminglevel2potion
+    - splashdamagelevel2potion
+    - splashdmglevel2potion
+    - splashharmingiipotion
+    - splashdamageiipotion
+    - splashdmgiipotion
+    - splashharmingleveliipot
+    - splashdamageleveliipot
+    - splashdmgleveliipot
+    - splashharminglevel2pot
+    - splashdamagelevel2pot
+    - splashdmglevel2pot
+    - splashharmingiipot
+    - splashdamageiipot
+    - splashdmgiipot
+    - splharmingleveliipotion
+    - spldamageleveliipotion
+    - spldmgleveliipotion
+    - splharminglevel2potion
+    - spldamagelevel2potion
+    - spldmglevel2potion
+    - splharmingiipotion
+    - spldamageiipotion
+    - spldmgiipotion
+    - splharmingleveliipot
+    - spldamageleveliipot
+    - spldmgleveliipot
+    - splharminglevel2pot
+    - spldamagelevel2pot
+    - spldmglevel2pot
+    - splharmingiipot
+    - spldamageiipot
+    - spldmgiipot
+    - spd2pot
+    '16429':
+    - splashcordialpotion
+    - splashcordialpot
+    - splcordialpotion
+    - splcordialpot
+    '16430':
+    - splashsparklingpotion
+    - splashsparklingpot
+    - splsparklingpotion
+    - splsparklingpot
+    '16431':
+    - splashsparklingextendedpotion
+    - splashsparklingexpotion
+    - splashsparkling2potion
+    - splashsparklingextendedpot
+    - splashsparklingexpot
+    - splashsparkling2pot
+    - splsparklingextendedpotion
+    - splsparklingexpotion
+    - splsparkling2potion
+    - splsparklingextendedpot
+    - splsparklingexpot
+    - splsparkling2pot
+    '16432':
+    - splashpotentpotion
+    - splashpotentpot
+    - splpotentpotion
+    - splpotentpot
+    '16438':
+    - splashrankpotion
+    - splashrankpot
+    - splrankpotion
+    - splrankpot
+    '16439':
+    - splashrankextendedpotion
+    - splashrankexpotion
+    - splashrank2potion
+    - splashrankextendedpot
+    - splashrankexpot
+    - splashrank2pot
+    - splrankextendedpotion
+    - splrankexpotion
+    - splrank2potion
+    - splrankextendedpot
+    - splrankexpot
+    - splrank2pot
+    '16443':
+    - splashacridpotion
+    - splashacridpot
+    - splacridpotion
+    - splacridpot
+    '16445':
+    - splashgrosspotion
+    - splashgrosspot
+    - splgrosspotion
+    - splgrosspot
+    '16446':
+    - splashstinkypotion
+    - splashstinkypot
+    - splstinkypotion
+    - splstinkypot
+    '16447':
+    - splashstinkyextendedpotion
+    - splashstinkyexpotion
+    - splashstinky2potion
+    - splashstinkyextendedpot
+    - splashstinkyexpot
+    - splashstinky2pot
+    - splstinkyextendedpotion
+    - splstinkyexpotion
+    - splstinky2potion
+    - splstinkyextendedpot
+    - splstinkyexpot
+    - splstinky2pot
+    '16448':
+    - splashmundaneextendedpotion
+    - splashmundaneexpotion
+    - splashmundane2potion
+    - splashmundaneextendedpot
+    - splashmundaneexpot
+    - splashmundane2pot
+    - splmundaneextendedpotion
+    - splmundaneexpotion
+    - splmundane2potion
+    - splmundaneextendedpot
+    - splmundaneexpot
+    - splmundane2pot
+    '16449':
+    - splashregenerationextendedpotion
+    - splashregenerateextendedpotion
+    - splashregenextendepotion
+    - splashregenerationexpotion
+    - splashregenerateexpotion
+    - splashregenexpotion
+    - splashregenerationextendedpot
+    - splashregenerateextendedpot
+    - splashregenextendepot
+    - splashregenerationexpot
+    - splashregenerateexpot
+    - splashregenexpot
+    - splregenerationextendedpotion
+    - splregenerateextendedpotion
+    - splregenextendepotion
+    - splregenerationexpotion
+    - splregenerateexpotion
+    - splregenexpotion
+    - splregenerationextendedpot
+    - splregenerateextendedpot
+    - splregenextendepot
+    - splregenerationexpot
+    - splregenerateexpot
+    - splregenexpot
+    - sprepot
+    '16450':
+    - splashswiftnessextendedpotion
+    - splashswiftextendedpotion
+    - splashspeedextendedpotion
+    - splashswiftnessexpotion
+    - splashswiftexpotion
+    - splashspeedexpotion
+    - splashswiftnessextendedpot
+    - splashswiftextendedpot
+    - splashspeedextendedpot
+    - splashswiftnessexpot
+    - splashswiftexpot
+    - splashspeedexpot
+    - splswiftnessextendedpotion
+    - splswiftextendedpotion
+    - splspeedextendedpotion
+    - splswiftnessexpotion
+    - splswiftexpotion
+    - splspeedexpotion
+    - splswiftnessextendedpot
+    - splswiftextendedpot
+    - splspeedextendedpot
+    - splswiftnessexpot
+    - splswiftexpot
+    - splspeedexpot
+    - spswepot
+    '16451':
+    - splashfireresistanceextendedpotion
+    - splashfireresistextendedpotion
+    - splashfireresextendedpotion
+    - splashfireresistanceexpotion
+    - splashfireresistexpotion
+    - splashfireresexpotion
+    - splashfireresistanceextendedpot
+    - splashfireresistextendedpot
+    - splashfireresextendedpot
+    - splashfireresistanceexpot
+    - splashfireresistexpot
+    - splashfireresexpot
+    - splfireresistanceextendedpotion
+    - splfireresistextendedpotion
+    - splfireresextendedpotion
+    - splfireresistanceexpotion
+    - splfireresistexpotion
+    - splfireresexpotion
+    - splfireresistanceextendedpot
+    - splfireresistextendedpot
+    - splfireresextendedpot
+    - splfireresistanceexpot
+    - splfireresistexpot
+    - splfireresexpot
+    - spfepot
+    '16452':
+    - splashpoisonextendedpotion
+    - splashacidextendedpotion
+    - splashpoisonexpotion
+    - splashacidexpotion
+    - splashpoisonextendedpot
+    - splashacidextendedpot
+    - splashpoisonexpot
+    - splashacidexpot
+    - splpoisonextendedpotion
+    - splacidextendedpotion
+    - splpoisonexpotion
+    - splacidexpotion
+    - splpoisonextendedpot
+    - splacidextendedpot
+    - splpoisonexpot
+    - splacidexpot
+    - sppepot
+    '16454':
+    - splashnightvisionextendedpotion
+    - splashnvisionextendedpotion
+    - splashnightvextendedpotion
+    - splashdarkvisionextendedpotion
+    - splashdvisionextendedpotion
+    - splashdarkvextendedpotion
+    - splashnightvisionextendedpot
+    - splashnvisionextendedpot
+    - splashnightvextendedpot
+    - splashdarkvisionextendedpot
+    - splashdvisionextendedpot
+    - splashdarkvextendedpot
+    - splashnightvisionexpotion
+    - splashnvisionexpotion
+    - splashnightvexpotion
+    - splashdarkvisionexpotion
+    - splashdvisionexpotion
+    - splashdarkvexpotion
+    - splashnightvisionexpot
+    - splashnvisionexpot
+    - splashnightvexpot
+    - splashdarkvisionexpot
+    - splashdvisionexpot
+    - splashdarkvexpot
+    - splnightvisionextendedpotion
+    - splnvisionextendedpotion
+    - splnightvextendedpotion
+    - spldarkvisionextendedpotion
+    - spldvisionextendedpotion
+    - spldarkvextendedpotion
+    - splnightvisionextendedpot
+    - splnvisionextendedpot
+    - splnightvextendedpot
+    - spldarkvisionextendedpot
+    - spldvisionextendedpot
+    - spldarkvextendedpot
+    - splnightvisionexpotion
+    - splnvisionexpotion
+    - splnightvexpotion
+    - spldarkvisionexpotion
+    - spldvisionexpotion
+    - spldarkvexpotion
+    - splnightvisionexpot
+    - splnvisionexpot
+    - splnightvexpot
+    - spldarkvisionexpot
+    - spldvisionexpot
+    - spldarkvexpot
+    - spnepot
+    '16456':
+    - splashweaknessextendedpotion
+    - splashweakextendedpotion
+    - splashweaknessexpotion
+    - splashweakexpotion
+    - splashweaknessextendedpot
+    - splashweakextendedpot
+    - splashweaknessexpot
+    - splashweakexpot
+    - splweaknessextendedpotion
+    - sphweakextendedpotion
+    - splweaknessexpotion
+    - splweakexpotion
+    - splweaknessextendedpot
+    - splweakextendedpot
+    - splweaknessexpot
+    - splweakexpot
+    - spwepot
+    '16457':
+    - splashstrengthextendedpotion
+    - splashstrongextendedpotion
+    - splashstrextendedpotion
+    - splashstrengthexpotion
+    - splashstrongexpotion
+    - splashstrexpotion
+    - splashstrengthextendedpot
+    - splashstrongextendedpot
+    - splashstrextendedpot
+    - splashstrengthexpot
+    - splashstrongexpot
+    - splashstrexpot
+    - splstrengthextendedpotion
+    - splstrongextendedpotion
+    - splstrextendedpotion
+    - splstrengthexpotion
+    - splstrongexpotion
+    - splstrexpotion
+    - splstrengthextendedpot
+    - splstrongextendedpot
+    - splstrextendedpot
+    - splstrengthexpot
+    - splstrongexpot
+    - splstrexpot
+    - spstepot
+    '16458':
+    - splashslownessextendedpotion
+    - splashslowextenedpotion
+    - splashslownessexpotion
+    - splashslowexpotion
+    - splashslownessextendedpot
+    - splashslowextenedpot
+    - splashslownessexpot
+    - splashslowexpot
+    - splslownessextendedpotion
+    - splslowextenedpotion
+    - splslownessexpotion
+    - splslowexpotion
+    - splslownessextendedpot
+    - splslowextenedpot
+    - splslownessexpot
+    - splslowexpot
+    - spslepot
+    '16462':
+    - splashinvisibilityextendedpotion
+    - splashinvisibleextendedpotion
+    - splashinvextendedpotion
+    - splashinvisibilityextendedpot
+    - splashinvisibleextendedpot
+    - splashinvextendedpot
+    - splashinvisibilityexpotion
+    - splashinvisibleexpotion
+    - splashinvexpotion
+    - splashinvisibilityexpot
+    - splashinvisibleexpot
+    - splashinvexpot
+    - splinvisibilityextendedpotion
+    - splinvisibleextendedpotion
+    - splinvextendedpotion
+    - splinvisibilityextendedpot
+    - splinvisibleextendedpot
+    - splinvextendedpot
+    - splinvisibilityexpotion
+    - splinvisibleexpotion
+    - splinvexpotion
+    - splinvisibilityexpot
+    - splinvisibleexpot
+    - splinvexpot
+    - spiepot
+    '16481':
+    - splashregenerationdualbitpotion
+    - splashregeneratedualbitpotion
+    - splashregendualbitpotion
+    - splashregenerationdualbitpot
+    - splashregeneratedualbitpot
+    - splashregendualbitpot
+    - splregenerationdualbitpotion
+    - splregeneratedualbitpotion
+    - splregendualbitpotion
+    - splregenerationdualbitpot
+    - splregeneratedualbitpot
+    - splregendualbitpot
+    - splashregenerationdbpotion
+    - splashregeneratedbpotion
+    - splashregendbpotion
+    - splashregenerationdbpot
+    - splashregeneratedbpot
+    - splashregendbpot
+    - splregenerationdbpotion
+    - splregeneratedbpotion
+    - splregendbpotion
+    - splregenerationdbpot
+    - splregeneratedbpot
+    - splregendbpot
+    - sprdbpot
+    '16482':
+    - splashswiftnessdualbitpotion
+    - splashswiftdualbitpotion
+    - splashspeeddualbitpotion
+    - splashswiftnessdualbitpot
+    - splashswiftdualbitpot
+    - splashspeeddualbitpot
+    - splswiftnessdualbitpotion
+    - splswiftdualbitpotion
+    - splspeeddualbitpotion
+    - splswiftnessdualbitpot
+    - splswiftdualbitpot
+    - splspeeddualbitpot
+    - splashswiftnessdbpotion
+    - splashswiftdbpotion
+    - splashspeeddbpotion
+    - splashswiftnessdbpot
+    - splashswiftdbpot
+    - splashspeeddbpot
+    - splswiftnessdbpotion
+    - splswiftdbpotion
+    - splspeeddbpotion
+    - splswiftnessdbpot
+    - splswiftdbpot
+    - splspeeddbpot
+    - spswdbpot
+    '16484':
+    - splashpoisondualbitpotion
+    - splashaciddualbitpotion
+    - splashpoisondualbitpot
+    - splashaciddualbitpot
+    - splpoisondualbitpotion
+    - splaciddualbitpotion
+    - splpoisondualbitpot
+    - splaciddualbitpot
+    - splashpoisondbpotion
+    - splashaciddbpotion
+    - splashpoisondbpot
+    - splashaciddbpot
+    - splpoisondbpotion
+    - splaciddbpotion
+    - splpoisondbpot
+    - splaciddbpot
+    - sppdbpot
+    '16489':
+    - splashstrengthdualbitpotion
+    - splashstrongdualbitpotion
+    - splashstrdualbitpotion
+    - splashstrengthdualbitpot
+    - splashstrongdualbitpot
+    - splashstrdualbitpot
+    - splstrengthdualbitpotion
+    - splstrongdualbitpotion
+    - splstrdualbitpotion
+    - splstrengthdualbitpot
+    - splstrongdualbitpot
+    - splstrdualbitpot
+    - splashstrengthdbpotion
+    - splashstrongdbpotion
+    - splashstrdbpotion
+    - splashstrengthdbpot
+    - splashstrongdbpot
+    - splashstrdbpot
+    - splstrengthdbpotion
+    - splstrongdbpotion
+    - splstrdbpotion
+    - splstrengthdbpot
+    - splstrongdbpot
+    - splstrdbpot
+    - spstdbpot
+  '374':
+    '0':
+    - glassbottle
+    - bottle
+    - gbottle
+    - gvase
+    - vase
+    - glassvase
+    - emptyglassbottle
+    - emptybottle
+    - emptygbottle
+    - emptygvase
+    - emptyvase
+    - emptyglassvase
+    - eglassbottle
+    - ebottle
+    - egbottle
+    - egvase
+    - evase
+    - eglassvase
+  '375':
+    '0':
+    - spidereye
+    - eyeofspider
+    - spiderseye
+    - spiderball
+    - spidernugget
+    - spidersball
+    - spidersnugget
+    - seye
+    - sball
+    - snugget
+  '376':
+    '0':
+    - fermentedspidereye
+    - craftedspidereye
+    - fermentedeyeofspider
+    - craftedeyeofspider
+    - fspidereye
+    - feyeofspider
+    - ceyeofspider
+    - cspidereye
+  '377':
+    '0':
+    - blazepowder
+    - blazedust
+    - goldpowder
+    - golddust
+    - gdust
+    - gpowder
+    - bpowder
+    - bdust
+  '378':
+    '0':
+    - magmacream
+    - goldcream
+    - blazecream
+    - mcream
+    - gcream
+    - bcream
+    - combinedcream
+    - ccream
+  '379':
+    '0':
+    - bstand
+    - pstand
+    - brewingstand
+    - potionstand
+  '380':
+    '0':
+    - cauldronitem
+    - ironcauldronitem
+    - steelcauldronitem
+    - icauldronitem
+    - scauldronitem
+  '381':
+    '0':
+    - eyeofender
+    - endereye
+    - endeye
+    - evilendereye
+    - evileyeofender
+    - evilenderpearl
+    - eeye
+    - eofender
+  '382':
+    '0':
+    - glisteringmelon
+    - speckledmelon
+    - goldmelon
+    - sparklymelon
+    - shiningmelon
+    - gmelon
+    - smelon
+  '383':
+    '50':
+    - creeperegg
+    - eggcreeper
+    '51':
+    - skeletonegg
+    - eggskeleton
+    '52':
+    - spideregg
+    - eggspider
+    '53':
+    - giantegg
+    - egggiant
+    '54':
+    - zombieegg
+    - eggzombie
+    '55':
+    - slimeegg
+    - eggslime
+    '56':
+    - ghastegg
+    - eggghast
+    '57':
+    - zombiepigmanegg
+    - zpigmanegg
+    - pigmanegg
+    - zombiepmanegg
+    - zpmanegg
+    - zombiepigmegg
+    - zpigmegg
+    - zombiepigegg
+    - zpigegg
+    - zombiepmegg
+    - zombiepegg
+    - eggzombiepigman
+    - eggzpigman
+    - eggpigman
+    - eggzombiepman
+    - eggzpman
+    - eggzombiepigm
+    - eggzpigm
+    - eggzombiepig
+    - eggzpig
+    - eggzombiepm
+    - eggzombiep
+    '58':
+    - endermanegg
+    - eggenderman
+    '59':
+    - eggcavespider
+    - cavespideregg
+    '60':
+    - silverfishegg
+    - eggsilverfish
+    '61':
+    - blazeegg
+    - eggblaze
+    '62':
+    - lavaslimeegg
+    - lavacubeegg
+    - magmacubeegg
+    - magmaslimeegg
+    - egglavaslime
+    - egglavacube
+    - eggmagmacube
+    - eggmagmaslime
+    '65':
+    - bategg
+    - eggbat
+    '66':
+    - witchegg
+    - eggwitch
+    '90':
+    - pigegg
+    - eggpig
+    '91':
+    - sheepegg
+    - eggsheep
+    '92':
+    - cowegg
+    - eggcow
+    '93':
+    - chickenegg
+    - eggchicken
+    '94':
+    - squidegg
+    - eggsquid
+    '95':
+    - wolfegg
+    - eggwolf
+    '96':
+    - mooshroomegg
+    - mushroomcowegg
+    - eggmooshroom
+    - eggmushroomcow
+    '97':
+    - snowgolemegg
+    - sgolemegg
+    - eggsnowgolem
+    - eggsgolem
+    '98':
+    - ocelotegg
+    - eggocelot
+    '99':
+    - irongolemegg
+    - igolemegg
+    - eggirongolem
+    - eggigolem
+    '100':
+    - egghorse
+    - horseegg
+    '120':
+    - villageregg
+    - eggvillager
+  '384':
+    '0':
+    - bottleofenchanting
+    - enchantingbottle
+    - expbottle
+    - xpbottle
+    - bottleexp
+    - bottlexp
+    - enchantbottle
+    - bottleenchanting
+    - bottleenchant
+    - bottleoenchanting
+  '385':
+    '0':
+    - firecharge
+    - fireball
+    - grenade
+  '386':
+    '0':
+    - bookandquill
+    - booknquill
+    - bookandfeather
+    - booknfeather
+    - writeablebook
+  '387':
+    '0':
+    - writtenbook
+    - readablebook
+    - sealedbook
+    - diary
+    - ownedbook
+  '388':
+    '0':
+    - emerald
+  '389':
+    '0':
+    - itemframe
+    - pictureframe
+    - iframe
+    - pframe
+  '390':
+    '0':
+    - flowerpot
+    - pot
+  '391':
+    '0':
+    - carrot
+  '392':
+    '0':
+    - potato
+  '393':
+    '0':
+    - bakedpotato
+    - roastedpotato
+    - cookedpotato
+    - bakepotato
+    - roastpotato
+    - cookpotato
+  '394':
+    '0':
+    - poisonouspotato
+    - poisonpotato
+    - ppotato
+  '395':
+    '0':
+    - emptymap
+    - map
+  '396':
+    '0':
+    - goldencarrot
+    - goldcarrot
+    - gcarrot
+  '397':
+    '0':
+    - head
+    - skeletonhead
+    - headskeleton
+    - skeletonskull
+    - skullskeleton
+    '1':
+    - witherhead
+    - witherskeletonhead
+    - wskeletionhead
+    - headwither
+    - headwitherskeleton
+    - headwskeletion
+    - witherskull
+    - witherskeletonskull
+    - wskeletionskull
+    - skullwither
+    - skullwitherskeleton
+    - skullwskeletion
+    '2':
+    - zombiehead
+    - headzombie
+    - zombieskull
+    - skullzombie
+    '3':
+    - playerhead
+    - humanhead
+    - stevehead
+    - headplayer
+    - headhuman
+    - headsteve
+    - playerskull
+    - humanskull
+    - steveskull
+    - skullplayer
+    - skullhuman
+    - skullsteve
+    '4':
+    - creeperhead
+    - headcreeper
+    - creeperskull
+    - skullcreeper
+  '398':
+    '0':
+    - carrotonastick
+    - carrotonstick
+  '399':
+    '0':
+    - netherstar
+    - hellstar
+    - nstar
+    - hstar
+    - star
+  '400':
+    '0':
+    - pumpkinpie
+    - pumpkincake
+    - ppie
+    - pcake
+    - pie
+  '401':
+    '0':
+    - fireworkrocket
+    - fireworkmissle
+    - firework
+    - fworkrocket
+    - fworkmissle
+    - fwork
+    - fwrocket
+    - fwmissle
+  '402':
+    '0':
+    - fireworkstar
+    - fworkstar
+    - fwstar
+    - fireworkball
+    - fworkball
+    - fwball
+    - fireworkpowder
+    - fworkpowder
+    - fwpowder
+    - fireworkcharge
+    - fworkcharge
+    - fwcharge
+  '403':
+    '0':
+    - enchantedbook
+    - enchantmentbook
+    - enchantingbook
+    - enchantbook
+    - magicalbook
+    - magicbook
+    - ebook
+    - mbook
+  '404':
+    '0':
+    - redstonecomparator
+    - redstonecomperer
+    - redstonecompare
+    - rstonecomparator
+    - rstonecomperer
+    - rstonecompare
+    - redscomparator
+    - redscomperer
+    - redscompare
+    - rscomparator
+    - rscomperer
+    - rscompare
+    - comparator
+    - comperer
+    - compare
+  '405':
+    '0':
+    - netherbrick
+    - nbrick
+    - hellbrick
+    - deathbrick
+    - dbrick
+    - hbrick
+  '406':
+    '0':
+    - netherquartz
+    - deathquartz
+    - hellquartz
+    - nquartz
+    - dquartz
+    - hquartz
+    - quartz
+  '407':
+    '0':
+    - tntminecart
+    - dynamiteminecart
+    - dynamitemcart
+    - dynamitecart
+    - bombminecart
+    - bombmcart
+    - bombcart
+    - tntmcart
+    - tntcart
+    - dminecart
+    - dmcart
+    - dcart
+    - bminecart
+    - bmcart
+    - bcart
+    - tminecart
+    - tmcart
+    - tcart
+  '408':
+    '0':
+    - hopperminecart
+    - hoppermcart
+    - hoppercart
+    - hopminecart
+    - hopmcart
+    - hopcart
+    - hminecart
+    - hmcart
+    - hcart
+  '417':
+    '0':
+    - ironhorsearmor
+    - ironharmor
+    - ironarmor
+    - ihorsearmor
+    - iharmor
+    - iarmor
+    - steelhorsearmor
+    - steelharmor
+    - steelarmor
+    - shorsearmor
+    - sharmor
+    - sarmor
+  '418':
+    '0':
+    - goldenhorsearmor
+    - goldenharmor
+    - goldenarmor
+    - goldhorsearmor
+    - goldharmor
+    - goldarmor
+    - ghorsearmor
+    - gharmor
+    - garmor
+  '419':
+    '0':
+    - diamondhorsearmor
+    - diamondharmor
+    - diamondarmor
+    - dhorsearmor
+    - dharmor
+    - darmor
+    - crystalhorsearmor
+    - crystalharmor
+    - crystalarmor
+    - chorsearmor
+    - charmor
+    - carmor
+  '420':
+    '0':
+    - lead
+    - leash
+    - rope
+  '421':
+    '0':
+    - nametag
+    - tag
+  '2256':
+    '0':
+    - 13disc
+    - goldmusicrecord
+    - goldmusicdisk
+    - goldmusicdisc
+    - goldmusiccd
+    - 13musicrecord
+    - 13musicdisk
+    - 13musicdisc
+    - 13musiccd
+    - gomusicrecord
+    - gomusicdisk
+    - gomusicdisc
+    - gomusiccd
+    - goldmrecord
+    - goldmdisk
+    - goldmdisc
+    - goldmcd
+    - 13mrecord
+    - 13mdisk
+    - 13mdisc
+    - 13mcd
+    - gomrecord
+    - gomdisk
+    - gomdisc
+    - gomcd
+    - goldrecord
+    - golddisk
+    - golddisc
+    - goldcd
+    - 13record
+    - 13disk
+    - 13cd
+    - gorecord
+    - godisk
+    - godisc
+    - gocd
+    - record1
+    - disk1
+    - disc1
+    - cd1
+    - 1record
+    - 1disk
+    - 1disc
+    - 1cd
+  '2257':
+    '0':
+    - catdisc
+    - greenmusicrecord
+    - greenmusicdisk
+    - greenmusicdisc
+    - greenmusiccd
+    - catmusicrecord
+    - catmusicdisk
+    - catmusicdisc
+    - catmusiccd
+    - grmusicrecord
+    - grmusicdisk
+    - grmusicdisc
+    - grmusiccd
+    - greenmrecord
+    - greenmdisk
+    - greenmdisc
+    - greenmcd
+    - catmrecord
+    - catmdisk
+    - catmdisc
+    - catmcd
+    - grmrecord
+    - grmdisk
+    - grmdisc
+    - grmcd
+    - greenrecord
+    - greendisk
+    - greendisc
+    - greencd
+    - catrecord
+    - catdisk
+    - catcd
+    - grrecord
+    - grdisk
+    - grdisc
+    - grcd
+    - record2
+    - disk2
+    - disc2
+    - cd2
+    - 2record
+    - 2disk
+    - 2disc
+    - 2cd
+  '2258':
+    '0':
+    - blocksdisc
+    - orangemusicrecord
+    - orangemusicdisk
+    - orangemusicdisc
+    - orangemusiccd
+    - blocksmusicrecord
+    - blocksmusicdisk
+    - blocksmusicdisc
+    - blocksmusiccd
+    - ormusicrecord
+    - ormusicdisk
+    - ormusicdisc
+    - ormusiccd
+    - orangemrecord
+    - orangemdisk
+    - orangemdisc
+    - orangemcd
+    - blocksmrecord
+    - blocksmdisk
+    - blocksmdisc
+    - blocksmcd
+    - ormrecord
+    - ormdisk
+    - ormdisc
+    - ormcd
+    - orangerecord
+    - orangedisk
+    - orangedisc
+    - orangecd
+    - blocksrecord
+    - blocksdisk
+    - blockscd
+    - orrecord
+    - ordisk
+    - ordisc
+    - orcd
+    - record3
+    - disk3
+    - disc3
+    - cd3
+    - 3record
+    - 3disk
+    - 3disc
+    - 3cd
+  '2259':
+    '0':
+    - chirpdisc
+    - redmusicrecord
+    - redmusicdisk
+    - redmusicdisc
+    - redmusiccd
+    - chirpmusicrecord
+    - chirpmusicdisk
+    - chirpmusicdisc
+    - chirpmusiccd
+    - remusicrecord
+    - remusicdisk
+    - remusicdisc
+    - remusiccd
+    - redmrecord
+    - redmdisk
+    - redmdisc
+    - redmcd
+    - chirpmrecord
+    - chirpmdisk
+    - chirpmdisc
+    - chirpmcd
+    - remrecord
+    - remdisk
+    - remdisc
+    - remcd
+    - redrecord
+    - reddisk
+    - reddisc
+    - redcd
+    - chirprecord
+    - chirpdisk
+    - chirpcd
+    - rerecord
+    - redisk
+    - redisc
+    - recd
+    - record4
+    - disk4
+    - disc4
+    - cd4
+    - 4record
+    - 4disk
+    - 4disc
+    - 4cd
+  '2260':
+    '0':
+    - fardisc
+    - lightgreenmusicrecord
+    - lightgreenmusicdisk
+    - lightgreenmusicdisc
+    - lightgreenmusiccd
+    - lgreenmusicrecord
+    - lgreenmusicdisk
+    - lgreenmusicdisc
+    - lgreenmusiccd
+    - lightgrmusicrecord
+    - lightgrmusicdisk
+    - lightgrmusicdisc
+    - lightgrmusiccd
+    - farmusicrecord
+    - farmusicdisk
+    - farmusicdisc
+    - farmusiccd
+    - lgrmusicrecord
+    - lgrmusicdisk
+    - lgrmusicdisc
+    - lgrmusiccd
+    - lightgreenmrecord
+    - lightgreenmdisk
+    - lightgreenmdisc
+    - lightgreenmcd
+    - lgreenmrecord
+    - lgreenmdisk
+    - lgreenmdisc
+    - lgreenmcd
+    - lightgrmrecord
+    - lightgrmdisk
+    - lightgrmdisc
+    - lightgrmcd
+    - farmrecord
+    - farmdisk
+    - farmdisc
+    - farmcd
+    - lgrmrecord
+    - lgrmdisk
+    - lgrmdisc
+    - lgrmcd
+    - lightgreenrecord
+    - lightgreendisk
+    - lightgreendisc
+    - lightgreencd
+    - lgreenrecord
+    - lgreendisk
+    - lgreendisc
+    - lgreencd
+    - lightgrrecord
+    - lightgrdisk
+    - lightgrdisc
+    - lightgrcd
+    - farrecord
+    - fardisk
+    - farcd
+    - lgrrecord
+    - lgrdisk
+    - lgrdisc
+    - lgrcd
+    - record5
+    - disk5
+    - disc5
+    - cd5
+    - 5record
+    - 5disk
+    - 5disc
+    - 5cd
+  '2261':
+    '0':
+    - malldisc
+    - purplemusicrecord
+    - purplemusicdisk
+    - purplemusicdisc
+    - purplemusiccd
+    - mallmusicrecord
+    - mallmusicdisk
+    - mallmusicdisc
+    - mallmusiccd
+    - pumusicrecord
+    - pumusicdisk
+    - pumusicdisc
+    - pumusiccd
+    - purplemrecord
+    - purplemdisk
+    - purplemdisc
+    - purplemcd
+    - mallmrecord
+    - mallmdisk
+    - mallmdisc
+    - mallmcd
+    - pumrecord
+    - pumdisk
+    - pumdisc
+    - pumcd
+    - purplerecord
+    - purpledisk
+    - purpledisc
+    - purplecd
+    - mallrecord
+    - malldisk
+    - mallcd
+    - purecord
+    - pudisk
+    - pudisc
+    - pucd
+    - record6
+    - disk6
+    - disc6
+    - cd6
+    - 6record
+    - 6disk
+    - 6disc
+    - 6cd
+  '2262':
+    '0':
+    - mellohidisc
+    - pinkmusicrecord
+    - pinkmusicdisk
+    - pinkmusicdisc
+    - pinkmusiccd
+    - mellohimusicrecord
+    - mellohimusicdisk
+    - mellohimusicdisc
+    - mellohimusiccd
+    - pimusicrecord
+    - pimusicdisk
+    - pimusicdisc
+    - pimusiccd
+    - pinkmrecord
+    - pinkmdisk
+    - pinkmdisc
+    - pinkmcd
+    - mellohimrecord
+    - mellohimdisk
+    - mellohimdisc
+    - mellohimcd
+    - pimrecord
+    - pimdisk
+    - pimdisc
+    - pimcd
+    - pinkrecord
+    - pinkdisk
+    - pinkdisc
+    - pinkcd
+    - mellohirecord
+    - mellohidisk
+    - mellohicd
+    - pirecord
+    - pidisk
+    - pidisc
+    - picd
+    - record7
+    - disk7
+    - disc7
+    - cd7
+    - 7record
+    - 7disk
+    - 7disc
+    - 7cd
+  '2263':
+    '0':
+    - staldisc
+    - blackmusicrecord
+    - blackmusicdisk
+    - blackmusicdisc
+    - blackmusiccd
+    - stalmusicrecord
+    - stalmusicdisk
+    - stalmusicdisc
+    - stalmusiccd
+    - blmusicrecord
+    - blmusicdisk
+    - blmusicdisc
+    - blmusiccd
+    - blackmrecord
+    - blackmdisk
+    - blackmdisc
+    - blackmcd
+    - stalmrecord
+    - stalmdisk
+    - stalmdisc
+    - stalmcd
+    - blmrecord
+    - blmdisk
+    - blmdisc
+    - blmcd
+    - blackrecord
+    - blackdisk
+    - blackdisc
+    - blackcd
+    - stalrecord
+    - staldisk
+    - stalcd
+    - blrecord
+    - bldisk
+    - bldisc
+    - blcd
+    - record8
+    - disk8
+    - disc8
+    - cd8
+    - 8record
+    - 8disk
+    - 8disc
+    - 8cd
+  '2264':
+    '0':
+    - straddisc
+    - whitemusicrecord
+    - whitemusicdisk
+    - whitemusicdisc
+    - whitemusiccd
+    - stradmusicrecord
+    - stradmusicdisk
+    - stradmusicdisc
+    - stradmusiccd
+    - whmusicrecord
+    - whmusicdisk
+    - whmusicdisc
+    - whmusiccd
+    - whitemrecord
+    - whitemdisk
+    - whitemdisc
+    - whitemcd
+    - stradmrecord
+    - stradmdisk
+    - stradmdisc
+    - stradmcd
+    - whmrecord
+    - whmdisk
+    - whmdisc
+    - whmcd
+    - whiterecord
+    - whitedisk
+    - whitedisc
+    - whitecd
+    - stradrecord
+    - straddisk
+    - stradcd
+    - whrecord
+    - whdisk
+    - whdisc
+    - whcd
+    - record9
+    - disk9
+    - disc9
+    - cd9
+    - 9record
+    - 9disk
+    - 9disc
+    - 9cd
+  '2265':
+    '0':
+    - warddisc
+    - darkgreenmusicrecord
+    - darkgreenmusicdisk
+    - darkgreenmusicdisc
+    - darkgreenmusiccd
+    - dgreenmusicrecord
+    - dgreenmusicdisk
+    - dgreenmusicdisc
+    - dgreenmusiccd
+    - darkgrmusicrecord
+    - darkgrmusicdisk
+    - darkgrmusicdisc
+    - darkgrmusiccd
+    - wardmusicrecord
+    - wardmusicdisk
+    - wardmusicdisc
+    - wardmusiccd
+    - dgrmusicrecord
+    - dgrmusicdisk
+    - dgrmusicdisc
+    - dgrmusiccd
+    - darkgreenmrecord
+    - darkgreenmdisk
+    - darkgreenmdisc
+    - darkgreenmcd
+    - dgreenmrecord
+    - dgreenmdisk
+    - dgreenmdisc
+    - dgreenmcd
+    - darkgrmrecord
+    - darkgrmdisk
+    - darkgrmdisc
+    - darkgrmcd
+    - wardmrecord
+    - wardmdisk
+    - wardmdisc
+    - wardmcd
+    - dgrmrecord
+    - dgrmdisk
+    - dgrmdisc
+    - dgrmcd
+    - darkgreenrecord
+    - darkgreendisk
+    - darkgreendisc
+    - darkgreencd
+    - dgreenrecord
+    - dgreendisk
+    - dgreendisc
+    - dgreencd
+    - darkgrrecord
+    - darkgrdisk
+    - darkgrdisc
+    - darkgrcd
+    - wardrecord
+    - warddisk
+    - wardcd
+    - dgrrecord
+    - dgrdisk
+    - dgrdisc
+    - dgrcd
+    - record10
+    - disk10
+    - disc10
+    - cd10
+    - 10record
+    - 10disk
+    - 10disc
+    - 10cd
+  '2266':
+    '0':
+    - 11disc
+    - crackedmusicrecord
+    - crackedmusicdisk
+    - crackedmusicdisc
+    - crackedmusiccd
+    - crackmusicrecord
+    - crackmusicdisk
+    - crackmusicdisc
+    - crackmusiccd
+    - 11musicrecord
+    - 11musicdisk
+    - 11musicdisc
+    - 11musiccd
+    - cmusicrecord
+    - cmusicdisk
+    - cmusicdisc
+    - cmusiccd
+    - crackedmrecord
+    - crackedmdisk
+    - crackedmdisc
+    - crackedmcd
+    - crackmrecord
+    - crackmdisk
+    - crackmdisc
+    - crackmcd
+    - 11mrecord
+    - 11mdisk
+    - 11mdisc
+    - 11mcd
+    - cmrecord
+    - cmdisk
+    - cmdisc
+    - cmcd
+    - crackedrecord
+    - crackeddisk
+    - crackeddisc
+    - crackedcd
+    - crackrecord
+    - crackdisk
+    - crackdisc
+    - crackcd
+    - crecord
+    - cdisk
+    - cdisc
+    - ccd
+    - record11
+    - disk11
+    - disc11
+    - cd11
+    - 11record
+    - 11disk
+    - 11cd
+  '2267':
+    '0':
+    - waitdisc
+    - waitmusicrecord
+    - waitmusicdisk
+    - waitmusicdisc
+    - waitmusiccd
+    - bluemusicrecord
+    - bluemusicdisk
+    - bluemusicdisc
+    - bluemusiccd
+    - 12musicrecord
+    - 12musicdisk
+    - 12musicdisc
+    - 12musiccd
+    - cyanmusicrecord
+    - cyanmusicdisk
+    - cyanmusicdisc
+    - cyanmusiccd
+    - waitmrecord
+    - waitmdisk
+    - waitmdisc
+    - waitmcd
+    - bluemrecord
+    - bluemdisk
+    - bluemdisc
+    - bluemcd
+    - 12mrecord
+    - 12mdisk
+    - 12mdisc
+    - 12mcd
+    - cyanmrecord
+    - cyanmdisk
+    - cyanmdisc
+    - cyanmcd
+    - waitrecord
+    - waitdisk
+    - waitcd
+    - bluerecord
+    - bluedisk
+    - bluedisc
+    - bluecd
+    - cyanrecord
+    - cyandisk
+    - cyandisc
+    - cyancd
+    - record12
+    - disk12
+    - disc12
+    - cd12
+    - 12record
+    - 12disk
+    - 12disc
+    - 12cd

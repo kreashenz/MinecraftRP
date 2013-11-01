@@ -17,10 +17,10 @@ public class MPlayer {
 
 	private static Map<String, MPlayer> managers = new HashMap<String, MPlayer>();
 
-
 	private boolean hasTPO = false;
 	private boolean hasTPReq = false;
 	private boolean isSocialSpying = false;
+	private boolean adminChat = false;
 
 	private CommandSender reply = null;
 
@@ -103,6 +103,10 @@ public class MPlayer {
 		this.tpLoc = loc;
 	}
 
+	public void setAdminChat(boolean adminChat){
+		this.adminChat = adminChat;
+	}
+
 	public File getPlayerFile(){
 		return file;
 	}
@@ -138,7 +142,8 @@ public class MPlayer {
 	}
 
 	public void setSocialSpying(boolean spying){
-		plugin.spyers.add(p.getName());
+		plugin.spyers.remove(p.getName());
+		if(spying) plugin.spyers.add(p.getName()); 
 		isSocialSpying = spying;
 	}
 
@@ -165,6 +170,11 @@ public class MPlayer {
 	public Player getSpying(){
 		return spying;
 	}
+
+	public boolean inAdminChat(){
+		return adminChat;
+	}
+
 
 	public boolean hasTPRequested(){
 		return hasTPReq;

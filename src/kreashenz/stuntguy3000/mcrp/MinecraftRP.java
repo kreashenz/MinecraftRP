@@ -32,7 +32,6 @@ public class MinecraftRP extends JavaPlugin {
 
 		registerCommands();
 		registerListeners();
-
 	}
 
 	private void registerCommands(){
@@ -50,6 +49,8 @@ public class MinecraftRP extends JavaPlugin {
 		command("clear");
 		command("socialspy");
 		command("speed");
+		command("item");
+		command("help");
 	}
 
 	private void registerListeners(){
@@ -57,7 +58,7 @@ public class MinecraftRP extends JavaPlugin {
 		listeners(new evt_PlayerQuit(this));
 		listeners(new evt_PlayerCommandPreprocess(this));
 		listeners(new evt_PlayerLogin());
-		listeners(new evt_AsyncPlayerChat());
+		listeners(new evt_AsyncPlayerChat(this));
 	}
 
 	private void command(String cmd){

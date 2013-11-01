@@ -52,6 +52,12 @@ public class CmdMain implements CommandExecutor {
 		if(cmd.getName().equalsIgnoreCase("speed")){
 			new CmdSpeed(plugin).execute(s, cmd, args);
 		}
+		if(cmd.getName().equalsIgnoreCase("item")){
+			new CmdItem(plugin).execute(s, cmd, args);
+		}
+		if(cmd.getName().equalsIgnoreCase("help")){
+			new CmdHelp(plugin).execute(s, cmd, args);
+		}
 		return true;
 	}
 

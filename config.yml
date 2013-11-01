@@ -2,6 +2,7 @@ messages:
   join-message: '&6{PLAYER} &7has joined the server!'
   quit-message: '&6{PLAYER} &7has quit the server!'
   no-permission: '&cYou don''t have permission!'
+  admin-chat: '&c[Admin Chat] &6{PLAYER} &7> &b{MESSAGE}'
   
 chat:
   format: '&f[{WORLD}] &c{DISPLAYNAME} &7: &9{MESSAGE}'
