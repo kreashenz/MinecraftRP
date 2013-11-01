@@ -29,6 +29,10 @@ public class Functions {
 		MinecraftRP.getInstance().getLogger().log(level, msg);
 	}
 
+    public static void log(Level level, String msg, Exception e){
+        MinecraftRP.getInstance().getLogger().log(level, msg, e);
+    }
+
 	public static void unknownPlayer(CommandSender s){
 		tell(s, "§cThat player wasn't found!");
 	}
@@ -41,5 +45,21 @@ public class Functions {
 		}
 		return str;
 	}
+
+    public static Integer parseInteger(String str) {
+        try {
+            return Integer.parseInt(str);
+        } catch (NumberFormatException e) {
+            return null;
+        }
+    }
+
+    public static Byte parseByte(String str) {
+        try {
+            return Byte.parseByte(str);
+        } catch (NumberFormatException e) {
+            return null;
+        }
+    }
 
 }

@@ -7,11 +7,9 @@ import kreashenz.stuntguy3000.mcrp.utils.Functions;
 import kreashenz.stuntguy3000.mcrp.utils.MPlayer;
 
 import org.bukkit.ChatColor;
-import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 
 public abstract class ICommand {
 
@@ -58,40 +56,5 @@ public abstract class ICommand {
 		}
 		
 		return valid;
-	}
-	
-	@SuppressWarnings("deprecation")
-	protected void giveItem(int matID, int data, int amount, Player p, Player sender) {
-		if (p == null || sender == null) {
-			Functions.tell(p, "§cInvalid player. §f/i <item>[:data] <amount> [player]");
-			return;
-		}
-
-		Material item = Material.getMaterial(matID);
-
-		if (item == null) {
-			Functions.tell(p, "§cInvalid item. §f/i <item>[:data] <amount> [player]");
-			return;
-		}
-
-		ItemStack is = null;
-
-		if (data == -1) {
-			is = new ItemStack(item, amount);
-		} else {
-			try {
-				is = new ItemStack(item, amount, Short.parseShort(String.valueOf(data)));
-			} catch (NumberFormatException ex) {
-				Functions.tell(p, "§cInvalid item. §f/i <item>[:data] <amount> [player]");
-				return;
-			}
-		}
-
-		p.getInventory().addItem(is); // DONE
-		
-		if (!p.getName().equals(sender.getName())) {
-			Functions.tell(sender, "§3Giving " + p.getName() + " " + amount + " of " + item);
-			Functions.tell(p, "§3You have recieved " + amount + " of " + item + " from" + sender.getName());
-		}
 	}
 }
