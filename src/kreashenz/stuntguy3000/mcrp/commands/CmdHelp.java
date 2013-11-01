@@ -35,14 +35,14 @@ public class CmdHelp extends ICommand {
 	}
 
 	private void paginate(CommandSender s, SortedMap<Integer, String> map, int page, int pageLength) {
-		Functions.tell(s, "§cList: Page (" + String.valueOf(page) + " of " + (((map.size() % pageLength) == 0) ? map.size() / pageLength : (map.size() / pageLength) + 1));
+		Functions.tell(s, "Â§cList: Page (" + String.valueOf(page) + " of " + (((map.size() % pageLength) == 0) ? map.size() / pageLength : (map.size() / pageLength) + 1));
 		int i = 0, k = 0;
 		page--;
 		for (final Entry<Integer, String> e : map.entrySet()) {
 			k++;
 			if ((((page * pageLength) + i + 1) == k) && (k != ((page * pageLength) + pageLength + 1))) {
 				i++;
-				Functions.tell(s, "§e - " + e.getValue());
+				Functions.tell(s, "Â§e - " + e.getValue());
 			}
 		}
 	}

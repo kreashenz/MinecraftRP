@@ -30,7 +30,7 @@ public class Functions {
 	}
 
 	public static void unknownPlayer(CommandSender s){
-		tell(s, "§cThat player wasn't found!");
+		tell(s, "Â§cThat player wasn't found!");
 	}
 
 	public static String formatAsCurrency(double value) {

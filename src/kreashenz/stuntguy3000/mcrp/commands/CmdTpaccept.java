@@ -23,8 +23,8 @@ public class CmdTpaccept extends ICommand {
 				if(args.length == 0){
 					if(pm.getTeleportPlayer() != null){
 
-					} else Functions.tell(p, "§cYou don't have anyone requesting to teleport to you");
-				} else Functions.tell(p, "§cInvalid arguments. §f/tpaccept");
+					} else Functions.tell(p, "Â§cYou don't have anyone requesting to teleport to you");
+				} else Functions.tell(p, "Â§cInvalid arguments. Â§f/tpaccept");
 			}
 		}
 	}

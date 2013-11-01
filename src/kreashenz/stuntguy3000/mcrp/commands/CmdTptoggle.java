@@ -23,12 +23,12 @@ public class CmdTptoggle extends ICommand {
 				if(args.length == 0){
 					if(pm.getTPO()){
 						pm.setTPO(false);
-						Functions.tell(p, "§6You have §cenabled §6teleporting");
+						Functions.tell(p, "Â§6You have Â§cenabled Â§6teleporting");
 					} else {
 						pm.setTPO(true);
-						Functions.tell(p, "§6You have §cdisabled §6teleporting");
+						Functions.tell(p, "Â§6You have Â§cdisabled Â§6teleporting");
 					}
-				} else Functions.tell(p, "§cInvalid arguments. §f/tptoggle");
+				} else Functions.tell(p, "Â§cInvalid arguments. Â§f/tptoggle");
 			} else Functions.noPerm(p);
 		} else Functions.tell(s, "You can't toggle teleporting when you can't teleport!");
 	}

@@ -19,7 +19,7 @@ public class CmdSpeed extends ICommand {
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.speed")){
 				if(args.length == 0){
-					Functions.tell(p, "§cInvalid arguments. §f/speed <speed>");
+					Functions.tell(p, "Â§cInvalid arguments. Â§f/speed <speed>");
 				} else {
 					float speed = Float.valueOf(args[0]).floatValue();
 					if (speed > 10.0F)
@@ -31,7 +31,7 @@ public class CmdSpeed extends ICommand {
 					float max = 1.0F;
 					float f = (speed - 1.0F) / 9.0F * (max - def);
 					p.setFlySpeed(f + def);
-					Functions.tell(p, "§6Set fly speed to §c" + (f + def));
+					Functions.tell(p, "Â§6Set fly speed to Â§c" + (f + def));
 				}
 			} else Functions.noPerm(p);
 		}

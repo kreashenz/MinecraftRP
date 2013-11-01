@@ -21,13 +21,13 @@ public class CmdClear extends ICommand {
 			if(p.hasPermission("mcrp.clear")){
 				if(args.length == 0){
 					p.getInventory().clear();
-					Functions.tell(p, "ง6Cleared your inventory");
+					Functions.tell(p, "ยง6Cleared your inventory");
 				} else {
 					Player t = Bukkit.getPlayer(args[0]);
 					if(t != null){
 						t.getInventory().clear();
-						Functions.tell(p, "ง6Cleared งc" + t.getName() + "ง6's inventory");
-						Functions.tell(t, "ง6Cleared your inventory");
+						Functions.tell(p, "ยง6Cleared ยงc" + t.getName() + "ยง6's inventory");
+						Functions.tell(t, "ยง6Cleared your inventory");
 					} else Functions.unknownPlayer(p);
 				}
 			} else Functions.noPerm(p);

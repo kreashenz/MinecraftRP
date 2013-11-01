@@ -26,10 +26,10 @@ public class CmdTp extends ICommand {
 						if(t != p){
 							if(!MPlayer.getMPlayer(t).getTPO()){
 								p.teleport(t.getLocation().add(0, 1, 0));
-							} else Functions.tell(p, "§6" + t.getName() + " §chas teleporting disabled");
-						} else Functions.tell(p, "§cYou can't teleport to yourself.");
+							} else Functions.tell(p, "Â§6" + t.getName() + " Â§chas teleporting disabled");
+						} else Functions.tell(p, "Â§cYou can't teleport to yourself.");
 					} else Functions.unknownPlayer(p);
-				} else Functions.tell(p, "§cInvalid arguments. §f/tp <player>");
+				} else Functions.tell(p, "Â§cInvalid arguments. Â§f/tp <player>");
 			} else Functions.noPerm(p);
 		} else Functions.tell(s, "You're a console, you can't teleport... :)");
 	}

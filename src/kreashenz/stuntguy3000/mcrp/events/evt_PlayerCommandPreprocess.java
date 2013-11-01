@@ -35,12 +35,12 @@ public class evt_PlayerCommandPreprocess implements Listener {
 
 		// Global spying
 		if(pm.isSocialSpying()){ // NPE.
-			Functions.tell(p, "§e[§fSocialSpy§e] §3" + p.getName() + " §eused: §r" + command);
+			Functions.tell(p, "Â§e[Â§fSocialSpyÂ§e] Â§3" + p.getName() + " Â§eused: Â§r" + command);
 		}
 
 		// Player spying
 		if(pm.getSpying() != null && p == pm.getSpying()){
-			Functions.tell(p, "§e[§fSocialSpy§e] §3" + p.getName() + " §eused: §r" + command);
+			Functions.tell(p, "Â§e[Â§fSocialSpyÂ§e] Â§3" + p.getName() + " Â§eused: Â§r" + command);
 		}
 
 	}

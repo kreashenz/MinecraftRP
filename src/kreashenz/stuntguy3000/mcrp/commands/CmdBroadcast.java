@@ -16,14 +16,14 @@ public class CmdBroadcast extends ICommand {
 	public void execute(CommandSender s, Command cmd, String[] args) {
 		if(s.hasPermission("mcrp.broadcast")){
 			if(args.length == 0){
-				Functions.tell(s, "§cInvalid arguments. §f/broadcast <msg>");
+				Functions.tell(s, "Â§cInvalid arguments. Â§f/broadcast <msg>");
 			} else {
 				String m = "";
 				for(int i = 0; i <= args.length; i++){
 					m = m + args[i] + ' ';
 					m = Functions.colour(m);
 				}
-				plugin.getServer().broadcastMessage("§6[Broadcast] " + m);
+				plugin.getServer().broadcastMessage("Â§6[Broadcast] " + m);
 			}
 		} else Functions.noPerm(s);
 	}

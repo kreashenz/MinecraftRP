@@ -16,7 +16,7 @@ public class evt_PlayerLogin implements Listener {
 		MPlayer pm = MPlayer.getMPlayer(p);
 		if(p.isBanned()){
 			e.setResult(Result.KICK_BANNED);
-			e.setKickMessage("ง4Banned! งc" + pm.getConfig().getString("ban-reason"));
+			e.setKickMessage("ยง4Banned! ยงc" + pm.getConfig().getString("ban-reason"));
 		}
 		if(pm.getConfig().contains("nickname")){
 			p.setDisplayName(pm.getConfig().getString("nickname"));

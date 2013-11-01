@@ -20,7 +20,7 @@ public class CmdItem extends ICommand {
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.item")){
 				if(args.length == 0){
-					Functions.tell(p, "§cInvalid arguments. §f/i <item>[:data] [amount] [player]");
+					Functions.tell(p, "Â§cInvalid arguments. Â§f/i <item>[:data] [amount] [player]");
 				} else if(args.length == 1){
 					String inputItem = args[0];
 
@@ -34,14 +34,14 @@ public class CmdItem extends ICommand {
 
 							giveItem(item, data, 64, p, p);
 						} catch (IndexOutOfBoundsException | NumberFormatException ex) {
-							Functions.tell(p, "§cInvalid item. §f/i <item>[:data] <amount> [player]");
+							Functions.tell(p, "Â§cInvalid item. Â§f/i <item>[:data] <amount> [player]");
 						}
 
 					} else {
 						try {
 							giveItem(Short.parseShort(inputItem), -1, 64, p, p);
 						} catch (NumberFormatException ex) {
-							Functions.tell(p, "§cInvalid item. §f/i <item>[:data] <amount> [player]");
+							Functions.tell(p, "Â§cInvalid item. Â§f/i <item>[:data] <amount> [player]");
 						}
 					}
 
@@ -58,17 +58,17 @@ public class CmdItem extends ICommand {
 
 								giveItem(item, data, Integer.valueOf(args[1]), p, p);
 							} catch (IndexOutOfBoundsException | NumberFormatException ex) {
-								Functions.tell(p, "§cInvalid item. §f/i <item>[:data] <amount> [player]");
+								Functions.tell(p, "Â§cInvalid item. Â§f/i <item>[:data] <amount> [player]");
 							}
 
 						} else {
 							try {
 								giveItem(Short.parseShort(inputItem), -1, Integer.valueOf(args[1]), p, p);
 							} catch (NumberFormatException ex) {
-								Functions.tell(p, "§cInvalid item. §f/i <item>[:data] <amount> [player]");
+								Functions.tell(p, "Â§cInvalid item. Â§f/i <item>[:data] <amount> [player]");
 							}
 						}
-					}else Functions.tell(p, "§cInvalid arguments. §f/i <item>[:data] <amount> [player]");
+					}else Functions.tell(p, "Â§cInvalid arguments. Â§f/i <item>[:data] <amount> [player]");
 				} else if(args.length == 3){
 					if(isInt(args[1])){
 						String inputItem = args[0];
@@ -82,17 +82,17 @@ public class CmdItem extends ICommand {
 
 								giveItem(item, data, Integer.valueOf(args[1]), Bukkit.getPlayer(args[2]), p);
 							} catch (IndexOutOfBoundsException | NumberFormatException ex) {
-								Functions.tell(p, "§cInvalid item. §f/i <item>[:data] <amount> [player]");
+								Functions.tell(p, "Â§cInvalid item. Â§f/i <item>[:data] <amount> [player]");
 							}
 
 						} else {
 							try {
 								giveItem(Short.parseShort(inputItem), -1, Integer.valueOf(args[1]), Bukkit.getPlayer(args[2]), p);
 							} catch (NumberFormatException ex) {
-								Functions.tell(p, "§cInvalid item. §f/i <item>[:data] <amount> [player]");
+								Functions.tell(p, "Â§cInvalid item. Â§f/i <item>[:data] <amount> [player]");
 							}
 						}
-					}else Functions.tell(p, "§cInvalid arguments. §f/i <item>[:data] <amount> [player]");
+					}else Functions.tell(p, "Â§cInvalid arguments. Â§f/i <item>[:data] <amount> [player]");
 				} 
 			}
 		}

@@ -28,8 +28,8 @@ public class CmdTpa extends ICommand {
 						final MPlayer tm = MPlayer.getMPlayer(t);
 						pm.setTeleportTo(t);
 						tm.setTeleportTo(p);
-						Functions.tell(p, "§6Teleport request sent");
-						Functions.tell(t, "§c" + p.getName() + " §6has requested to teleport to you. Use §c/tpaccept §6to accept. §c" + plugin.getConfig().getInt("teleport-time-out") + " seconds §6till request times out.");
+						Functions.tell(p, "Â§6Teleport request sent");
+						Functions.tell(t, "Â§c" + p.getName() + " Â§6has requested to teleport to you. Use Â§c/tpaccept Â§6to accept. Â§c" + plugin.getConfig().getInt("teleport-time-out") + " seconds Â§6till request times out.");
 						new BukkitRunnable(){
 							public void run(){
 								pm.setTeleportTo(null);
@@ -37,7 +37,7 @@ public class CmdTpa extends ICommand {
 							}
 						}.runTaskLater(plugin, plugin.getConfig().getInt("teleport-time-out"));
 					} else Functions.unknownPlayer(p);
-				} else Functions.tell(p, "§cInvalid arguments. §f/tpa <player>");
+				} else Functions.tell(p, "Â§cInvalid arguments. Â§f/tpa <player>");
 			} else Functions.noPerm(p);
 		} else Functions.tell(s, "You can't teleport, you're a console!");
 	}

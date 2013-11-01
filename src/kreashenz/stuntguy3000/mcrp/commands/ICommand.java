@@ -29,7 +29,7 @@ public abstract class ICommand {
 			reason = reason + args[i] + ' ';
 			reason = ChatColor.translateAlternateColorCodes('&', reason);
 		}
-		p.kickPlayer("§cYou were " + (ban ? "banned" : "kicked") + " by §6" + p.getName() + " §cfor §6" + reason);
+		p.kickPlayer("Â§cYou were " + (ban ? "banned" : "kicked") + " by Â§6" + p.getName() + " Â§cfor Â§6" + reason);
 		if(ban){
 			p.setBanned(true);
 			MPlayer.getMPlayer(p).set("ban.reason", reason);
@@ -42,8 +42,8 @@ public abstract class ICommand {
 			m = m + msg[i] + ' ';
 			if(p.hasPermission("mcrp.chat.color"))m = ChatColor.translateAlternateColorCodes('&', m);
 		}
-		p.sendMessage("§6[§a" + p.getName() + " -> §7" + t.getName() + "§6] §7" + m);
-		t.sendMessage("§6[§7" + p.getName() + "§a -> " + t.getName() + "§6] §7" + m);
+		p.sendMessage("Â§6[Â§a" + p.getName() + " -> Â§7" + t.getName() + "Â§6] Â§7" + m);
+		t.sendMessage("Â§6[Â§7" + p.getName() + "Â§a -> " + t.getName() + "Â§6] Â§7" + m);
 	}
 
 	protected boolean isInt(String sInt){
@@ -63,14 +63,14 @@ public abstract class ICommand {
 	@SuppressWarnings("deprecation")
 	protected void giveItem(int matID, int data, int amount, Player p, Player sender) {
 		if (p == null || sender == null) {
-			Functions.tell(p, "§cInvalid player. §f/i <item>[:data] <amount> [player]");
+			Functions.tell(p, "Â§cInvalid player. Â§f/i <item>[:data] <amount> [player]");
 			return;
 		}
 
 		Material item = Material.getMaterial(matID);
 
 		if (item == null) {
-			Functions.tell(p, "§cInvalid item. §f/i <item>[:data] <amount> [player]");
+			Functions.tell(p, "Â§cInvalid item. Â§f/i <item>[:data] <amount> [player]");
 			return;
 		}
 
@@ -82,7 +82,7 @@ public abstract class ICommand {
 			try {
 				is = new ItemStack(item, amount, Short.parseShort(String.valueOf(data)));
 			} catch (NumberFormatException ex) {
-				Functions.tell(p, "§cInvalid item. §f/i <item>[:data] <amount> [player]");
+				Functions.tell(p, "Â§cInvalid item. Â§f/i <item>[:data] <amount> [player]");
 				return;
 			}
 		}
@@ -90,8 +90,8 @@ public abstract class ICommand {
 		p.getInventory().addItem(is); // DONE
 		
 		if (!p.getName().equals(sender.getName())) {
-			Functions.tell(sender, "§3Giving " + p.getName() + " " + amount + " of " + item);
-			Functions.tell(p, "§3You have recieved " + amount + " of " + item + " from" + sender.getName());
+			Functions.tell(sender, "Â§3Giving " + p.getName() + " " + amount + " of " + item);
+			Functions.tell(p, "Â§3You have recieved " + amount + " of " + item + " from" + sender.getName());
 		}
 	}
 }

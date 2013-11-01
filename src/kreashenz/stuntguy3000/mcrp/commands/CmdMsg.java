@@ -21,7 +21,7 @@ public class CmdMsg extends ICommand {
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.msg")){
 				if(args.length <= 1){
-					Functions.tell(p, "§cInvalid arguments. Usage: §f/msg <player> <msg>");
+					Functions.tell(p, "Â§cInvalid arguments. Usage: Â§f/msg <player> <msg>");
 				} else {
 					Player t = Bukkit.getPlayer(args[0]);
 					if(t != null){

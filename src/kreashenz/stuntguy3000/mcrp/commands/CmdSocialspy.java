@@ -24,13 +24,13 @@ public class CmdSocialspy extends ICommand {
 				if(args.length == 0){
 					if(plugin.getConfig().getBoolean("socialspy-listen-all") == true){
 						if(pm.isSocialSpying()){
-							Functions.tell(p, "§6You have disabled global socialspy (Nobody is being socialspyed)");
+							Functions.tell(p, "Â§6You have disabled global socialspy (Nobody is being socialspyed)");
 							pm.setSocialSpying(false);
 						} else {
-							Functions.tell(p, "§6You have enabled global socialspy");
+							Functions.tell(p, "Â§6You have enabled global socialspy");
 							pm.setSocialSpying(true);
 						}
-					} else Functions.tell(p, "§cInvalid arguments. §f/socialspy <player>");
+					} else Functions.tell(p, "Â§cInvalid arguments. Â§f/socialspy <player>");
 				} else {
 					Player t = Bukkit.getPlayer(args[0]);
 					if(t != null){

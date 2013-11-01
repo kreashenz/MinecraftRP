@@ -24,8 +24,8 @@ public class CmdReply extends ICommand {
 					if(pm.getReplyTo() != null){
 						CommandSender reply = pm.getReplyTo();
 						message(p, reply, args, true);
-					} else Functions.tell(p, "§cYou don't have anyone to reply to.");
-				} else Functions.tell(p, "§cInvalid arguments. §f/reply <msg>");
+					} else Functions.tell(p, "Â§cYou don't have anyone to reply to.");
+				} else Functions.tell(p, "Â§cInvalid arguments. Â§f/reply <msg>");
 			} else Functions.noPerm(p);
 		}
 	}

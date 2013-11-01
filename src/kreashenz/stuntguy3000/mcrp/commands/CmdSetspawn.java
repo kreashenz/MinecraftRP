@@ -21,7 +21,7 @@ public class CmdSetspawn extends ICommand {
 			if(p.hasPermission("mcrp.setspawn")){
 				if(args.length == 0){
 					Utils.setSpawn(p.getLocation());
-				} else Functions.tell(p, "§cInvalid arguments. §f/setspawn");
+				} else Functions.tell(p, "Â§cInvalid arguments. Â§f/setspawn");
 			}
 		}
 	}

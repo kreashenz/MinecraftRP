@@ -21,19 +21,19 @@ public class CmdNick extends ICommand {
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.nick")){
 				if(args.length == 0){
-					Functions.tell(p, "§cInvalid arguments. §f/nick <nickname> [player]");
+					Functions.tell(p, "Â§cInvalid arguments. Â§f/nick <nickname> [player]");
 				} else if(args.length == 1){
 					if(isNickValid(args[0])){
 						setNickname(p, args[0]);
-					} else Functions.tell(p, "§cSome characters in your nickname are illegal.");
+					} else Functions.tell(p, "Â§cSome characters in your nickname are illegal.");
 				} else if(args.length == 2){
 					Player t = Bukkit.getPlayer(args[1]);
 					if(t != null){
 						if(isNickValid(args[0])){
 							setNickname(t, args[0]);
-						} else Functions.tell(p, "§cSome characters in your nickname are illegal.");
+						} else Functions.tell(p, "Â§cSome characters in your nickname are illegal.");
 					} else Functions.unknownPlayer(p);
-				} else Functions.tell(p, "§cInvalid arguments. §f/nick <nickname> [player]");
+				} else Functions.tell(p, "Â§cInvalid arguments. Â§f/nick <nickname> [player]");
 			} else Functions.noPerm(p);
 		} else {
 			if(args.length == 2){	
@@ -42,8 +42,8 @@ public class CmdNick extends ICommand {
 					if(t != null){
 						setNickname(t, args[0]);
 					} else Functions.unknownPlayer(s);
-				} else Functions.tell(s, "§cSome characters in your nickname are illegal.");
-			} else Functions.tell(s, "Invalid arguments. §f/nick <nickname> <player>");
+				} else Functions.tell(s, "Â§cSome characters in your nickname are illegal.");
+			} else Functions.tell(s, "Invalid arguments. Â§f/nick <nickname> <player>");
 		}
 	}
 
@@ -55,7 +55,7 @@ public class CmdNick extends ICommand {
 		p.setDisplayName(nick);
 		MPlayer pm = MPlayer.getMPlayer(p);
 		pm.set("nickname", nick);
-		Functions.tell(p, "§6Your new nickname is: " + nick);
+		Functions.tell(p, "Â§6Your new nickname is: " + nick);
 	}
 
 }

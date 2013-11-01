@@ -39,14 +39,14 @@ public class WordReplacer {
 				if(pluginsSb.length() > 0){
 					pluginsSb.append(", ");
 				}
-				pluginsSb.append("งa" + pl.getName() + "ง7");
+				pluginsSb.append("ยงa" + pl.getName() + "ยง7");
 			}
 			
 			for(Player ps : plugin.getServer().getOnlinePlayers()){
 				if(playersSb.length() > 0){
 					playersSb.append(", ");
 				}
-				playersSb.append("งa" + ps.getName() + "ง7");
+				playersSb.append("ยงa" + ps.getName() + "ยง7");
 			}
 
 			path = path.replace("{PLAYERS}", playersSb.toString());
