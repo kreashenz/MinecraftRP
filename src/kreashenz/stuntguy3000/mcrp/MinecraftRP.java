@@ -1,5 +1,6 @@
 package kreashenz.stuntguy3000.mcrp;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -10,6 +11,7 @@ import kreashenz.stuntguy3000.mcrp.events.evt_PlayerJoin;
 import kreashenz.stuntguy3000.mcrp.events.evt_PlayerLogin;
 import kreashenz.stuntguy3000.mcrp.events.evt_PlayerQuit;
 
+import kreashenz.stuntguy3000.mcrp.utils.stuff.ItemManager;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -25,6 +27,9 @@ public class MinecraftRP extends JavaPlugin {
 		clazz = this;
 
 		saveDefaultConfig();
+
+        saveResource("items.csv", false);
+        ItemManager.loadItems(new File(getDataFolder(), "items.csv"));
 
 		cmds = new CmdMain();
 
