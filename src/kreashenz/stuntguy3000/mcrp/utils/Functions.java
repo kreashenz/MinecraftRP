@@ -2,6 +2,8 @@ package kreashenz.stuntguy3000.mcrp.utils;
 
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
 import java.util.Locale;
 import java.util.logging.Level;
 
@@ -29,9 +31,9 @@ public class Functions {
 		MinecraftRP.getInstance().getLogger().log(level, msg);
 	}
 
-    public static void log(Level level, String msg, Exception e){
-        MinecraftRP.getInstance().getLogger().log(level, msg, e);
-    }
+	public static void log(Level level, String msg, Exception e){
+		MinecraftRP.getInstance().getLogger().log(level, msg, e);
+	}
 
 	public static void unknownPlayer(CommandSender s){
 		tell(s, "§cThat player wasn't found!");
@@ -46,20 +48,26 @@ public class Functions {
 		return str;
 	}
 
-    public static Integer parseInteger(String str) {
-        try {
-            return Integer.parseInt(str);
-        } catch (NumberFormatException e) {
-            return null;
-        }
-    }
+	public static Integer parseInteger(String str) {
+		try {
+			return Integer.parseInt(str);
+		} catch (NumberFormatException e) {
+			return null;
+		}
+	}
 
-    public static Byte parseByte(String str) {
-        try {
-            return Byte.parseByte(str);
-        } catch (NumberFormatException e) {
-            return null;
-        }
-    }
+	public static Byte parseByte(String str) {
+		try {
+			return Byte.parseByte(str);
+		} catch (NumberFormatException e) {
+			return null;
+		}
+	}
+
+	public static Calendar getDate(){
+		Calendar cal = new GregorianCalendar();
+		cal.setTimeInMillis(System.currentTimeMillis());
+		return cal;
+	}
 
 }

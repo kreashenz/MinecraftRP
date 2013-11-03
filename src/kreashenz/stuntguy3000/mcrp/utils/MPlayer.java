@@ -21,6 +21,7 @@ public class MPlayer {
 	private boolean hasTPReq = false;
 	private boolean isSocialSpying = false;
 	private boolean adminChat = false;
+	private boolean duty = true;
 
 	private CommandSender reply = null;
 
@@ -141,9 +142,15 @@ public class MPlayer {
 		hasTPReq = tped;
 	}
 
+	public void setDuty(boolean duty){
+		if(duty)plugin.dutyAdmins.add(p.getName());
+		else plugin.dutyAdmins.remove(p.getName());
+		this.duty = duty;
+	}
+
 	public void setSocialSpying(boolean spying){
-		plugin.spyers.remove(p.getName());
 		if(spying) plugin.spyers.add(p.getName()); 
+		else plugin.spyers.remove(p.getName());
 		isSocialSpying = spying;
 	}
 
@@ -175,7 +182,6 @@ public class MPlayer {
 		return adminChat;
 	}
 
-
 	public boolean hasTPRequested(){
 		return hasTPReq;
 	}
@@ -183,4 +189,9 @@ public class MPlayer {
 	public boolean isSocialSpying(){
 		return isSocialSpying;
 	}
+
+	public boolean isOnDuty(){
+		return duty;
+	}
+
 }

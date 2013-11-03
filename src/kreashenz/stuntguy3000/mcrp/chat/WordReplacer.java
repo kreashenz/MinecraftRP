@@ -4,7 +4,6 @@ import kreashenz.stuntguy3000.mcrp.MinecraftRP;
 import kreashenz.stuntguy3000.mcrp.utils.Functions;
 import kreashenz.stuntguy3000.mcrp.utils.MPlayer;
 
-import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
@@ -17,8 +16,8 @@ public class WordReplacer {
 		this.plugin = plugin;
 	}
 
-	public String convertFormat(CommandSender s){
-		String path = plugin.getConfig().getString("chat.format");
+	public String convertFormat(String path, CommandSender s){
+		path = plugin.getConfig().getString(path);
 		String worldName;
 		String ipAddress;
 		String balance;
@@ -41,7 +40,7 @@ public class WordReplacer {
 				}
 				pluginsSb.append("§a" + pl.getName() + "§7");
 			}
-			
+
 			for(Player ps : plugin.getServer().getOnlinePlayers()){
 				if(playersSb.length() > 0){
 					playersSb.append(", ");
@@ -56,7 +55,7 @@ public class WordReplacer {
 			path = path.replace("{IPADDRESS}", ipAddress);
 			path = path.replace("{BALANCE}", balance);
 			path = path.replace("{NAME}", name);
-			path = ChatColor.translateAlternateColorCodes('&', path);
+			path = Functions.colour(path);
 		} else worldName = ipAddress = balance = displayName = name = "";
 		return path;
 	}

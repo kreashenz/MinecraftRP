@@ -1,9 +1,6 @@
 package kreashenz.stuntguy3000.mcrp.commands;
 
-import java.util.logging.Level;
-
 import kreashenz.stuntguy3000.mcrp.MinecraftRP;
-import kreashenz.stuntguy3000.mcrp.utils.Functions;
 import kreashenz.stuntguy3000.mcrp.utils.MPlayer;
 
 import org.bukkit.ChatColor;
@@ -42,19 +39,5 @@ public abstract class ICommand {
 		}
 		p.sendMessage("§6[§a" + p.getName() + " -> §7" + t.getName() + "§6] §7" + m);
 		t.sendMessage("§6[§7" + p.getName() + "§a -> " + t.getName() + "§6] §7" + m);
-	}
-
-	protected boolean isInt(String sInt){
-		boolean valid = true;
-
-		try {
-			Functions.log(Level.SEVERE, "||" + sInt + "||");
-			Integer.parseInt(sInt);
-		}
-		catch(NumberFormatException e){
-			valid = false;
-		}
-		
-		return valid;
 	}
 }

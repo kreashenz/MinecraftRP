@@ -1,6 +1,9 @@
 package kreashenz.stuntguy3000.mcrp.utils.stuff;
 
 import java.util.HashMap;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.TreeSet;
 
 import org.bukkit.enchantments.Enchantment;
 
@@ -103,6 +106,14 @@ public class Enchants {
 
 	public static Enchantment get(String name){
 		return names.get(name);
+	}
+	
+	public static Set<String> getAll(){
+		Set<String> ench = new TreeSet<String>();
+		for(Entry<String, Enchantment> entry : names.entrySet()){
+			ench.add(entry.getKey());
+		}
+		return ench;
 	}
 
 }

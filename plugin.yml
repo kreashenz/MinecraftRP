@@ -1,39 +1,61 @@
 main: kreashenz.stuntguy3000.mcrp.MinecraftRP
 name: MinecraftRP
 version: 1.0
-description: Meooow
+description: Basic essential commands for servers
 softdepend: [Vault]
 commands:
+  adminchat:
+    description: Toggle admin chat
+  balance:
+    description: Show your balance
   ban:
     description: Ban a player
+  break:
+    description: Break the block you are looking at
   broadcast:
     description: Broadcast a message
+  burn:
+    description: Ignite a player
+  clear:
+    description: Clear your inventory
+  clearchat:
+    description: Clear the chat
+  duty:
+    description: Go on/off duty
+  give:
+    descrpition: Give a player an item
+  help:
+    description: Show help
+  item:
+    description: Spawn an item
   kick:
     description: Kick a player
   msg:
     description: Private message a player
+  nick:
+    description: Nickname yourself
   reply:
     description: Reply to a private message
     aliases: [r]
+  report:
+    description: Report something
+  reports:
+    description: View the reports list
   setspawn:
     description: Set the spawn location of the server
+  socialspy:
+    description: Spy on players messages
   spawn:
     description: Teleport to spawn
+  speed:
+    description: Change your flight speed.
   tp:
     description: Teleport to a player
+  tpa:
+    description: Send a teleport request to a player
+  tpaccept:
+    description: Accept a teleport request
   tphere:
     description: Teleport a player to you
   tptoggle:
     description: Toggle whether to allow teleporting to you
-  nick:
-    description: Set a player's nickname.
-  clear:
-    description: Clear an inventory
-  socialspy:
-    description: Toggle socialspy
-  speed:
-    description: Set fly speed
-  item:
-    description: Spawn an item
-  help:
-    description: Send the help

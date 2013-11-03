@@ -24,7 +24,7 @@ public class evt_AsyncPlayerChat implements Listener {
 		Player p = e.getPlayer();
 		String msg = e.getMessage();
 		if(p.hasPermission("mcrp.chat.color")) msg = Functions.colour(msg);
-		e.setFormat((word.convertFormat(p)).replace("{MESSAGE}", msg));
+		e.setFormat((word.convertFormat("chat.format", p)).replace("{MESSAGE}", msg));
 		if(MPlayer.getMPlayer(p).inAdminChat()){
 			e.setCancelled(true);
 			for(Player ps : plugin.getServer().getOnlinePlayers()){

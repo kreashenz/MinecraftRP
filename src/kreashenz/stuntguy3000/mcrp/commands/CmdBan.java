@@ -25,14 +25,15 @@ public class CmdBan extends ICommand {
 				} else {
 					Player t = Bukkit.getPlayer(args[0]);
 					if(t != null){
+						MPlayer tm = MPlayer.getMPlayer(t);
 						if(!t.hasPermission("mcrp.ban.bypass")){
 							if(args.length == 1){
 								t.kickPlayer("§cYou were banned by a server administrator.");
 								t.setBanned(true);
 							} else {
 								kick(t, args, true);
-								MPlayer.getMPlayer(t).set("ban.banner", p.getName());
-								// Figure a way to get the date/time/whatever MPlayer.getMPlayer(t).set("ban.date", "");
+								tm.set("ban.banner", p.getName());
+								tm.set("ban.date", Functions.getDate());
 							}
 						} else Functions.tell(p, "§cYou can't ban that player");
 					} else Functions.unknownPlayer(p);
@@ -44,13 +45,14 @@ public class CmdBan extends ICommand {
 			} else {
 				Player t = Bukkit.getPlayer(args[0]);
 				if(t != null){
+					MPlayer tm = MPlayer.getMPlayer(t);
 					if(args.length == 1){
 						t.kickPlayer("§cYou were banned by Console.");
 						t.setBanned(true);
 					} else {
 						kick(t, args, true);
-						MPlayer.getMPlayer(t).set("ban.banner", "CONSOLE");
-						// Figure a way to get the date/time/whatever MPlayer.getMPlayer(t).set("ban.date", "");
+						tm.set("ban.banner", "CONSOLE");
+						tm.set("ban.date", Functions.getDate());
 					}
 				} else Functions.unknownPlayer(s);
 			}

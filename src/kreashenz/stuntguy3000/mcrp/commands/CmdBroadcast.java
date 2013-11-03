@@ -19,11 +19,10 @@ public class CmdBroadcast extends ICommand {
 				Functions.tell(s, "§cInvalid arguments. §f/broadcast <msg>");
 			} else {
 				String m = "";
-				for(int i = 0; i <= args.length; i++){
+				for(int i = 0; i < args.length; i++){
 					m = m + args[i] + ' ';
-					m = Functions.colour(m);
 				}
-				plugin.getServer().broadcastMessage("§6[Broadcast] " + m);
+				plugin.getServer().broadcastMessage("§6[Broadcast] " + Functions.colour(m));
 			}
 		} else Functions.noPerm(s);
 	}
