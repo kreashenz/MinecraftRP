@@ -33,14 +33,15 @@ public class evt_PlayerCommandPreprocess implements Listener {
 			return;
 		}
 
-		// Global spying
-		if(pm.isSocialSpying()){ // NPE.
-			Functions.tell(p, "§e[§fSocialSpy§e] §3" + p.getName() + " §eused: §r" + command);
-		}
+		if(pm != null){
+			if(pm.isSocialSpying()){ // NPE.
+				Functions.tell(p, "§e[§fSocialSpy§e] §3" + p.getName() + " §eused: §r" + command);
+			}
 
-		// Player spying
-		if(pm.getSpying() != null && p == pm.getSpying()){
-			Functions.tell(p, "§e[§fSocialSpy§e] §3" + p.getName() + " §eused: §r" + command);
+			// Player spying
+			if(pm.getSpying() != null && p != pm.getSpying()){
+				Functions.tell(p, "§e[§fSocialSpy§e] §3" + p.getName() + " §eused: §r" + command);
+			}
 		}
 
 	}

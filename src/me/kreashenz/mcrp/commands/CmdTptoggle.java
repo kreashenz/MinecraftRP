@@ -11,11 +11,11 @@ import org.bukkit.entity.Player;
 public class CmdTptoggle extends ICommand {
 
 	public CmdTptoggle(MinecraftRP plugin) {
-		super(plugin);
+		super("tptoggle");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			MPlayer pm = MPlayer.getMPlayer(p);
@@ -31,6 +31,7 @@ public class CmdTptoggle extends ICommand {
 				} else Functions.tell(p, "§cInvalid arguments. §f/tptoggle");
 			} else Functions.noPerm(p);
 		} else Functions.tell(s, "You can't toggle teleporting when you can't teleport!");
+		return true;
 	}
 
 }

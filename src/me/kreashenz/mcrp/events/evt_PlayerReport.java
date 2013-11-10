@@ -25,8 +25,10 @@ public class evt_PlayerReport implements Listener {
 		plugin.reports.add(reason);
 		for(String str : plugin.dutyAdmins){
 			Player admins = Bukkit.getPlayerExact(str);
-			if(admins.hasPermission("mcrp.report.receive")){
-				Functions.tell(p, reason);
+			if(admins != null){
+				if(admins.hasPermission("mcrp.report.receive")){
+					Functions.tell(p, reason);
+				}
 			}
 		}
 	}

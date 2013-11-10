@@ -101,7 +101,7 @@ public class MPlayer {
 	}
 
 	public void setTeleportLocation(Location loc){
-		this.tpLoc = loc;
+		this.tpLoc = new Location(loc.getWorld(), loc.getX(), loc.getY(), loc.getZ());
 	}
 
 	public void setAdminChat(boolean adminChat){

@@ -12,11 +12,11 @@ import org.bukkit.entity.Player;
 public class CmdMsg extends ICommand {
 
 	public CmdMsg(MinecraftRP plugin) {
-		super(plugin);
+		super("msg");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.msg")){
@@ -33,6 +33,7 @@ public class CmdMsg extends ICommand {
 				}
 			} else Functions.noPerm(p);
 		}
+		return true;
 	}
 
 }

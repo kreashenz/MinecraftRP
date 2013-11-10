@@ -13,11 +13,11 @@ import org.bukkit.scheduler.BukkitRunnable;
 public class CmdTpa extends ICommand {
 
 	public CmdTpa(MinecraftRP plugin) {
-		super(plugin);
+		super("tpa");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.tpa")){
@@ -40,6 +40,7 @@ public class CmdTpa extends ICommand {
 				} else Functions.tell(p, "§cInvalid arguments. §f/tpa <player>");
 			} else Functions.noPerm(p);
 		} else Functions.tell(s, "You can't teleport, you're a console!");
+		return true;
 	}
 
 }

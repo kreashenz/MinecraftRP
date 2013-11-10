@@ -8,15 +8,14 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-
 public class CmdClearChat extends ICommand {
 
 	public CmdClearChat(MinecraftRP plugin) {
-		super(plugin);
+		super("clearChat");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.clearchat")){
@@ -28,6 +27,7 @@ public class CmdClearChat extends ICommand {
 				}
 			}
 		}
+		return true;
 	}
 
 }

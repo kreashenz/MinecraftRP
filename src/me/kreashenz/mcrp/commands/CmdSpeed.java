@@ -11,11 +11,11 @@ import org.bukkit.entity.Player;
 public class CmdSpeed extends ICommand {
 
 	public CmdSpeed(MinecraftRP plugin) {
-		super(plugin);
+		super("speed");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.speed")){
@@ -36,6 +36,7 @@ public class CmdSpeed extends ICommand {
 				}
 			} else Functions.noPerm(p);
 		}
+		return true;
 	}
 
 }

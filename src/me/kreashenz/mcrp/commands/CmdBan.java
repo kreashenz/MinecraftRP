@@ -12,11 +12,11 @@ import org.bukkit.entity.Player;
 public class CmdBan extends ICommand {
 
 	public CmdBan(MinecraftRP plugin) {
-		super(plugin);
+		super("ban");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.ban")){
@@ -57,5 +57,6 @@ public class CmdBan extends ICommand {
 				} else Functions.unknownPlayer(s);
 			}
 		}
+		return true;
 	}
 }

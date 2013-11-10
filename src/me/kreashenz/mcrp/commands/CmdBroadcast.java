@@ -9,11 +9,11 @@ import org.bukkit.command.CommandSender;
 public class CmdBroadcast extends ICommand {
 
 	public CmdBroadcast(MinecraftRP plugin) {
-		super(plugin);
+		super("broadcast");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s.hasPermission("mcrp.broadcast")){
 			if(args.length == 0){
 				Functions.tell(s, "§cInvalid arguments. §f/broadcast <msg>");
@@ -25,6 +25,7 @@ public class CmdBroadcast extends ICommand {
 				plugin.getServer().broadcastMessage("§6[Broadcast] " + Functions.colour(m));
 			}
 		} else Functions.noPerm(s);
+		return true;
 	}
 
 }

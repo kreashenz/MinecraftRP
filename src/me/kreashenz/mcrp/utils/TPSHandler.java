@@ -1,5 +1,9 @@
 package me.kreashenz.mcrp.utils;
 
+import java.lang.reflect.Field;
+
+import org.bukkit.entity.Player;
+
 public class TPSHandler implements Runnable {
 	
 	/*
@@ -35,4 +39,18 @@ public class TPSHandler implements Runnable {
 
 		tickCount += 1;
 	}
+	
+	// I made this method
+	public static int getPing(Player p){
+		try {
+			Object nmsPlayer = p.getClass().getMethod("getHandle").invoke(p);
+			Field field = nmsPlayer.getClass().getField("ping");
+			return (int)field.getInt(nmsPlayer);
+		}
+		catch(Throwable t){
+			t.printStackTrace();
+			return 0;
+		}
+	}
+	
 }

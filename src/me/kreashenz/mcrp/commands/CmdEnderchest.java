@@ -12,11 +12,11 @@ import org.bukkit.entity.Player;
 public class CmdEnderchest extends ICommand {
 
 	public CmdEnderchest(MinecraftRP plugin) {
-		super(plugin);
+		super("enderchest");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.enderchest")){
@@ -32,6 +32,7 @@ public class CmdEnderchest extends ICommand {
 				}
 			} else Functions.noPerm(p);
 		}
+		return true;
 	}
 
 }

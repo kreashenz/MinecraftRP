@@ -8,15 +8,14 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-
 public class CmdExt extends ICommand {
 
 	public CmdExt(MinecraftRP plugin) {
-		super(plugin);
+		super("ext");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.extinguish")){
@@ -36,6 +35,7 @@ public class CmdExt extends ICommand {
 				}
 			} else Functions.noPerm(p);
 		}
+		return true;
 	}
 
 }

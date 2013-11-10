@@ -12,21 +12,22 @@ import org.bukkit.entity.Player;
 public class CmdAdminChat extends ICommand {
 
 	public CmdAdminChat(MinecraftRP plugin) {
-		super(plugin);
+		super("adminChat");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.adminchat")){
 				MPlayer pm = MPlayer.getMPlayer(p);
 				if(args.length == 0){
 					if(pm.inAdminChat()){
-						pm.setAdminChat(false);
+						pm.setAdminChat(true);
 						Functions.tell(p, "§6You have §cenabled §6admin chat");
 					} else {
 						pm.setAdminChat(true);
+						Functions.tell(p, "§6You have §cidsabled §6admin chat");
 					}
 				} else {
 					String msg = "";
@@ -41,6 +42,7 @@ public class CmdAdminChat extends ICommand {
 				}
 			}
 		}
+		return true;
 	}
 
 }

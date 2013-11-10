@@ -12,11 +12,11 @@ import org.bukkit.entity.Player;
 public class CmdNick extends ICommand {
 
 	public CmdNick(MinecraftRP plugin) {
-		super(plugin);
+		super("nick");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.nick")){
@@ -45,6 +45,7 @@ public class CmdNick extends ICommand {
 				} else Functions.tell(s, "§cSome characters in your nickname are illegal.");
 			} else Functions.tell(s, "Invalid arguments. §f/nick <nickname> <player>");
 		}
+		return true;
 	}
 
 	private boolean isNickValid(String nick){

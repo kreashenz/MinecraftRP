@@ -12,11 +12,11 @@ import org.bukkit.entity.Player;
 public class CmdTphere extends ICommand {
 
 	public CmdTphere(MinecraftRP plugin) {
-		super(plugin);
+		super("tphere");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.tphere")){
@@ -32,6 +32,7 @@ public class CmdTphere extends ICommand {
 				} else Functions.tell(p, "§cInvalid arguments. §f/tphere <player>");
 			} else Functions.noPerm(p);
 		} else Functions.tell(s, "You can't teleport players to you, you're a console!");
+		return true;
 	}
 
 }

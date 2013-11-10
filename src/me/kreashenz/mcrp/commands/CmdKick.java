@@ -11,17 +11,16 @@ import org.bukkit.entity.Player;
 public class CmdKick extends ICommand {
 
 	public CmdKick(MinecraftRP plugin) {
-		super(plugin);
+		super("kick");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.kick")){
 				if(args.length == 0){
 					Functions.tell(p, "§cInvalid arguments! Usage §f/kick <player> [reason]");
-					return;
 				} else {
 					Player t = Bukkit.getPlayer(args[0]);
 					if(t != null){
@@ -51,5 +50,6 @@ public class CmdKick extends ICommand {
 				}
 			}
 		}
+		return true;
 	}
 }

@@ -1,4 +1,4 @@
-main: kreashenz.stuntguy3000.mcrp.MinecraftRP
+main: me.kreashenz.mcrp.MinecraftRP
 name: MinecraftRP
 version: 1.0
 description: Basic essential commands for servers
@@ -22,6 +22,14 @@ commands:
     description: Clear the chat
   duty:
     description: Go on/off duty
+  enchant:
+    description: Enchant an item
+  enderchest:
+    description: Open your private enderchest
+  enderchestclear:
+    description: Clear your private enderchest
+  ext:
+    description: Extinguish yourself
   give:
     descrpition: Give a player an item
   help:

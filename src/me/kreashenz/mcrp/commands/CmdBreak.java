@@ -12,12 +12,12 @@ import org.bukkit.entity.Player;
 public class CmdBreak extends ICommand {
 
 	public CmdBreak(MinecraftRP plugin) {
-		super(plugin);
+		super("break");
 	}
 
 	@SuppressWarnings("deprecation")
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.break")){
@@ -27,6 +27,7 @@ public class CmdBreak extends ICommand {
 				} else Functions.tell(p, "§cNo block in sight.");
 			} else Functions.noPerm(p);
 		}
+		return true;
 	}
 
 }

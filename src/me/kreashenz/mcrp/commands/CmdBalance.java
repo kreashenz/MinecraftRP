@@ -12,11 +12,11 @@ import org.bukkit.entity.Player;
 public class CmdBalance extends ICommand {
 
 	public CmdBalance(MinecraftRP plugin) {
-		super(plugin);
+		super("balance");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String labal, String[] args){
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.balance")){
@@ -34,6 +34,6 @@ public class CmdBalance extends ICommand {
 				}
 			} else Functions.noPerm(p);
 		}
+		return true;
 	}
-
 }

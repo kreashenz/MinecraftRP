@@ -1,35 +1,30 @@
 package me.kreashenz.mcrp.commands;
 
-import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
+import me.kreashenz.mcrp.utils.TPSHandler;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class CmdBurn extends ICommand {
-
-	public CmdBurn(MinecraftRP plugin) {
-		super("burn");
-	}
+public class CmdPing implements CommandExecutor {
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
-			if(p.hasPermission("mcrp.burn")){
-				if(args.length != 2){
-					Functions.tell(p, "§cInvalid arguments. §f/burn <player> <seconds>");
+			if(p.hasPermission("mcrp.ping")){
+				if(args.length == 0){
+					Functions.tell(p, "§c" + p.getName() + "§6's ping is: §c" + TPSHandler.getPing(p));
 				} else {
 					Player t = Bukkit.getPlayer(args[0]);
-					int i = Functions.parseInteger(args[1]);
 					if(t != null){
-						t.setFireTicks(i * 20);
-						Functions.tell(p, "§6Set §c" + t.getName() + " §6on fire for §c" + i + " §6seconds");
+						Functions.tell(p, "§c" + t.getName() + "§6's ping is: §c" + TPSHandler.getPing(t));
 					} else Functions.unknownPlayer(p);
 				}
-			} else Functions.noPerm(s);
+			} else Functions.noPerm(p);
 		}
 		return true;
 	}

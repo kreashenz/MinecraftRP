@@ -10,11 +10,11 @@ import org.bukkit.entity.Player;
 public class CmdReports extends ICommand {
 
 	public CmdReports(MinecraftRP plugin) {
-		super(plugin);
+		super("reports");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.reports")){
@@ -32,6 +32,7 @@ public class CmdReports extends ICommand {
 				} else Functions.tell(p, "§cInvalid arguments. §f/report [clear]");
 			} else Functions.noPerm(p);
 		}
+		return true;
 	}
 
 }

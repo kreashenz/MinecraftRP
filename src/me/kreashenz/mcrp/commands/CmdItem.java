@@ -1,6 +1,5 @@
 package me.kreashenz.mcrp.commands;
 
-
 import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 import me.kreashenz.mcrp.utils.stuff.ItemManager;
@@ -15,11 +14,11 @@ import org.bukkit.material.MaterialData;
 public class CmdItem extends ICommand {
 
 	public CmdItem(MinecraftRP plugin) {
-		super(plugin);
+		super("item");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.i")){
@@ -42,10 +41,9 @@ public class CmdItem extends ICommand {
 						} else Functions.tell(p, "§cInvalid item amount. §f/i <item>[:data] <amount> [player]");
 					} else Functions.unknownPlayer(p);
 				}
-			} else {
-				Functions.noPerm(p);
-			}
+			} else Functions.noPerm(p);
 		}
+		return true;
 	}
 
 }

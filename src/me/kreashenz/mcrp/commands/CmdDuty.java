@@ -8,15 +8,14 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-
 public class CmdDuty extends ICommand {
 
 	public CmdDuty(MinecraftRP plugin) {
-		super(plugin);
+		super("duty");
 	}
 
 	@Override
-	public void execute(CommandSender s, Command cmd, String[] args) {
+	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
 		if(s instanceof Player){
 			Player p = (Player)s;
 			if(p.hasPermission("mcrp.duty")){
@@ -32,6 +31,7 @@ public class CmdDuty extends ICommand {
 				} else Functions.tell(p, "§cInvalid arguments. §f/duty");
 			} else Functions.noPerm(p);
 		}
+		return true;
 	}
 
 }
