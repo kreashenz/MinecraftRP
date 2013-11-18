@@ -23,11 +23,10 @@ public class evt_PlayerReport implements Listener {
 		String report = e.getReport();
 		String reason = "§c" + p.getName() + " §7> §6" + report;
 		plugin.reports.add(reason);
-		for(String str : plugin.dutyAdmins){
-			Player admins = Bukkit.getPlayerExact(str);
-			if(admins != null){
-				if(admins.hasPermission("mcrp.report.receive")){
-					Functions.tell(p, reason);
+		for(Player t : Bukkit.getOnlinePlayers()){
+			if(t != null){
+				if(t.hasPermission("mcrp.report.receive") || plugin.dutyAdmins.contains(t.getName())){
+					Functions.tell(t, reason);
 				}
 			}
 		}
