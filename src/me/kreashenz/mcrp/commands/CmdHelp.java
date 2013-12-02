@@ -4,7 +4,6 @@ import java.util.Map.Entry;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 
 import org.bukkit.command.Command;
@@ -13,10 +12,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
 public class CmdHelp extends ICommand {
-
-	public CmdHelp(MinecraftRP plugin) {
-		super("help");
-	}
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args){

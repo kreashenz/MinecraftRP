@@ -1,6 +1,5 @@
 package me.kreashenz.mcrp.commands;
 
-import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 
 import org.bukkit.command.Command;
@@ -8,10 +7,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class CmdReports extends ICommand {
-
-	public CmdReports(MinecraftRP plugin) {
-		super("reports");
-	}
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {

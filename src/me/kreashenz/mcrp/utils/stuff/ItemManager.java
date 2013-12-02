@@ -1,10 +1,5 @@
 package me.kreashenz.mcrp.utils.stuff;
 
-import me.kreashenz.mcrp.utils.Functions;
-
-import org.bukkit.Material;
-import org.bukkit.material.MaterialData;
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -12,7 +7,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.logging.Level;
 
+import me.kreashenz.mcrp.utils.Functions;
+
+import org.bukkit.Material;
+import org.bukkit.material.MaterialData;
+
 public final class ItemManager {
+
 	private static Map<String, MaterialData> items = new HashMap<String, MaterialData>();
 
 	@SuppressWarnings({"deprecation", "resource"})

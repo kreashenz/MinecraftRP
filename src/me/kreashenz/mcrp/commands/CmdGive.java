@@ -1,6 +1,5 @@
 package me.kreashenz.mcrp.commands;
 
-import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 import me.kreashenz.mcrp.utils.stuff.ItemManager;
 
@@ -12,10 +11,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.material.MaterialData;
 
 public class CmdGive extends ICommand {
-
-	public CmdGive(MinecraftRP plugin) {
-		super("give");
-	}
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {

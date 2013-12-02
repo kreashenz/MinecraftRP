@@ -2,11 +2,14 @@ package me.kreashenz.mcrp.utils;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import me.kreashenz.mcrp.MinecraftRP;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.command.CommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -152,6 +155,35 @@ public class MPlayer {
 		if(spying) plugin.spyers.add(p.getName()); 
 		else plugin.spyers.remove(p.getName());
 		isSocialSpying = spying;
+	}
+
+	public void saveHome(String name, Location loc){
+		String home = "homes." + name + ".";
+		set(home + "x", loc.getBlockX());
+		set(home + "y", loc.getBlockY());
+		set(home + "z", loc.getBlockZ());
+		set(home + "world", loc.getWorld().getName());
+	}
+
+	public Location getHome(String name){
+		String home = "homes." + name + ".";
+		return new Location(Bukkit.getWorld(conf.getString(home + "world")), conf.getInt(home + "x"), conf.getInt(home + "y"), conf.getInt(home + "z"));
+	}
+
+	public boolean homeExists(String name){
+		if(conf.contains("homes." + name)){
+			return true;
+		}
+		return false;
+	}
+
+	public List<String> getHomes(){
+		List<String> homes = new ArrayList<String>();
+		for(String str : conf.getConfigurationSection("homes").getKeys(false)){
+			homes.add(str);
+			System.out.print("[DEBUUUGGG] L184 - MPlayer class " + homes.toString());
+		}
+		return homes;
 	}
 
 	public double getMoney(){

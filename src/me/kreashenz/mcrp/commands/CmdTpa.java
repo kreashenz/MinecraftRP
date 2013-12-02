@@ -1,6 +1,5 @@
 package me.kreashenz.mcrp.commands;
 
-import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 import me.kreashenz.mcrp.utils.MPlayer;
 
@@ -11,10 +10,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
 public class CmdTpa extends ICommand {
-
-	public CmdTpa(MinecraftRP plugin) {
-		super("tpa");
-	}
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {
@@ -31,6 +26,7 @@ public class CmdTpa extends ICommand {
 						Functions.tell(p, "§6Teleport request sent");
 						Functions.tell(t, "§c" + p.getName() + " §6has requested to teleport to you. Use §c/tpaccept §6to accept. §c" + plugin.getConfig().getInt("teleport-time-out") + " seconds §6till request times out.");
 						new BukkitRunnable(){
+							@Override
 							public void run(){
 								pm.setTeleportTo(null);
 								tm.setTeleportTo(null);

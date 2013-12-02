@@ -70,4 +70,18 @@ public class Functions {
 		return cal;
 	}
 
+	public static String splitObject(Object o, char c1, char c2){
+		if(o instanceof Iterable){
+			StringBuilder strB = new StringBuilder();
+			for(Object ob : (Iterable<?>)o){
+				if(strB.length() > 0){
+					strB.append(", ");
+				}
+				strB.append("§" + c1 + ob + "§" + c2);
+			}
+			return strB.toString();
+		}
+		return null;
+	}
+
 }

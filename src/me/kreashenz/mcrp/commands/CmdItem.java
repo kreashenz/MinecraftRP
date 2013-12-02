@@ -1,6 +1,5 @@
 package me.kreashenz.mcrp.commands;
 
-import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 import me.kreashenz.mcrp.utils.stuff.ItemManager;
 
@@ -12,10 +11,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.material.MaterialData;
 
 public class CmdItem extends ICommand {
-
-	public CmdItem(MinecraftRP plugin) {
-		super("item");
-	}
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {

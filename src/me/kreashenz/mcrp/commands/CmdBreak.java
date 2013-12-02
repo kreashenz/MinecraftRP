@@ -1,6 +1,5 @@
 package me.kreashenz.mcrp.commands;
 
-import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 
 import org.bukkit.Material;
@@ -10,10 +9,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class CmdBreak extends ICommand {
-
-	public CmdBreak(MinecraftRP plugin) {
-		super("break");
-	}
 
 	@SuppressWarnings("deprecation")
 	@Override

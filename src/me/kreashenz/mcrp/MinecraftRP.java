@@ -42,7 +42,9 @@ import me.kreashenz.mcrp.events.evt_PlayerJoin;
 import me.kreashenz.mcrp.events.evt_PlayerLogin;
 import me.kreashenz.mcrp.events.evt_PlayerQuit;
 import me.kreashenz.mcrp.events.evt_PlayerReport;
+import me.kreashenz.mcrp.utils.stuff.Enchants;
 import me.kreashenz.mcrp.utils.stuff.ItemManager;
+import me.kreashenz.mcrp.utils.stuff.Potions;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -60,13 +62,11 @@ public class MinecraftRP extends JavaPlugin {
 
 	private static MinecraftRP clazz;
 
+	@Override
 	public void onEnable(){		
 		clazz = this;
 
 		saveDefaultConfig();
-
-		saveResource("items.csv", false);
-		ItemManager.loadItems(new File(getDataFolder(), "items.csv"));
 
 		spyers = new ArrayList<String>();
 		dutyAdmins = new ArrayList<String>();
@@ -77,40 +77,42 @@ public class MinecraftRP extends JavaPlugin {
 		registerListeners();
 
 		runReportScheduler();
+
+		load();
 	}
 
 	private void registerCommands(){
-		command("adminchat", new CmdAdminChat(this));
-		command("balance", new CmdBalance(this));
-		command("ban", new CmdBan(this));
-		command("break", new CmdBreak(this));
-		command("broadcast", new CmdBroadcast(this));
-		command("burn", new CmdBurn(this));
-		command("clear", new CmdClear(this));
-		command("clearchat", new CmdClearChat(this));
-		command("duty", new CmdDuty(this));
-		command("enchant", new CmdEnchant(this));
-		command("enderchest", new CmdEnderchest(this));
-		command("enderchestclear", new CmdEnderchestClear(this));
-		command("ext", new CmdExt(this));
-		command("give", new CmdGive(this));
-		command("help", new CmdHelp(this));
-		command("item", new CmdItem(this));
-		command("kick", new CmdKick(this));
-		command("msg", new CmdMsg(this));
-		command("nick", new CmdNick(this));
-		command("reply", new CmdReply(this));
-		command("report", new CmdReport(this));
-		command("reports", new CmdReports(this));
-		command("setspawn", new CmdSetspawn(this));
-		command("socialspy", new CmdSocialspy(this));
-		command("spawn", new CmdSpawn(this));
-		command("speed", new CmdSpeed(this));
-		command("tp", new CmdTp(this));
-		command("tpa", new CmdTpa(this));
-		command("tpaccept", new CmdTpaccept(this));
-		command("tphere", new CmdTphere(this));
-		command("tptoggle", new CmdTptoggle(this));
+		command("adminchat", new CmdAdminChat());
+		command("balance", new CmdBalance());
+		command("ban", new CmdBan());
+		command("break", new CmdBreak());
+		command("broadcast", new CmdBroadcast());
+		command("burn", new CmdBurn());
+		command("clear", new CmdClear());
+		command("clearchat", new CmdClearChat());
+		command("duty", new CmdDuty());
+		command("enchant", new CmdEnchant());
+		command("enderchest", new CmdEnderchest());
+		command("enderchestclear", new CmdEnderchestClear());
+		command("ext", new CmdExt());
+		command("give", new CmdGive());
+		command("help", new CmdHelp());
+		command("item", new CmdItem());
+		command("kick", new CmdKick());
+		command("msg", new CmdMsg());
+		command("nick", new CmdNick());
+		command("reply", new CmdReply());
+		command("report", new CmdReport());
+		command("reports", new CmdReports());
+		command("setspawn", new CmdSetspawn());
+		command("socialspy", new CmdSocialspy());
+		command("spawn", new CmdSpawn());
+		command("speed", new CmdSpeed());
+		command("tp", new CmdTp());
+		command("tpa", new CmdTpa());
+		command("tpaccept", new CmdTpaccept());
+		command("tphere", new CmdTphere());
+		command("tptoggle", new CmdTptoggle());
 	}
 
 	private void command(String cmd, ICommand cmde){
@@ -126,8 +128,17 @@ public class MinecraftRP extends JavaPlugin {
 		listeners(new evt_PlayerReport(this));
 	}
 
+	private void load(){
+		saveResource("items.csv", false);
+		ItemManager.loadItems(new File(getDataFolder(), "items.csv"));
+		Enchants.loadNames();
+		Potions.loadNames();
+
+	}
+
 	private void runReportScheduler(){
 		getServer().getScheduler().scheduleSyncRepeatingTask(this, new BukkitRunnable(){
+			@Override
 			public void run(){
 				for(String str : hasReported){
 					Player t = Bukkit.getPlayerExact(str);

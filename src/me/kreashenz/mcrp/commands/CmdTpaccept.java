@@ -1,6 +1,5 @@
 package me.kreashenz.mcrp.commands;
 
-import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 import me.kreashenz.mcrp.utils.MPlayer;
 
@@ -9,10 +8,6 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
 public class CmdTpaccept extends ICommand {
-
-	public CmdTpaccept(MinecraftRP plugin) {
-		super("tpaccept");
-	}
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {

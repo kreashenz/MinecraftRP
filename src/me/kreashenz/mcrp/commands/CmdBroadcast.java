@@ -1,16 +1,11 @@
 package me.kreashenz.mcrp.commands;
 
-import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
 public class CmdBroadcast extends ICommand {
-
-	public CmdBroadcast(MinecraftRP plugin) {
-		super("broadcast");
-	}
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {

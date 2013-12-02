@@ -34,6 +34,7 @@ public class TPSHandler implements Runnable {
 		return System.currentTimeMillis() - time;
 	}
 
+	@Override
 	public void run() {
 		ticks[(tickCount % ticks.length)] = System.currentTimeMillis();
 
@@ -45,7 +46,7 @@ public class TPSHandler implements Runnable {
 		try {
 			Object nmsPlayer = p.getClass().getMethod("getHandle").invoke(p);
 			Field field = nmsPlayer.getClass().getField("ping");
-			return (int)field.getInt(nmsPlayer);
+			return field.getInt(nmsPlayer);
 		}
 		catch(Throwable t){
 			t.printStackTrace();

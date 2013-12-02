@@ -1,5 +1,7 @@
 package me.kreashenz.mcrp.chat;
 
+import java.io.File;
+
 import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 import me.kreashenz.mcrp.utils.MPlayer;
@@ -7,7 +9,6 @@ import me.kreashenz.mcrp.utils.MPlayer;
 import org.bukkit.Bukkit;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.plugin.Plugin;
 
 public class WordReplacer {
 
@@ -25,8 +26,6 @@ public class WordReplacer {
 		String displayName;
 		String name;
 		String unique;
-		StringBuilder pluginsSb = new StringBuilder();
-		StringBuilder playersSb = new StringBuilder();
 		if(s instanceof Player){
 			Player p = (Player)s;
 			MPlayer pm = MPlayer.getMPlayer(p);
@@ -34,25 +33,11 @@ public class WordReplacer {
 			name = p.getName();
 			ipAddress = (p.getAddress() != null ? p.getAddress().toString() : "");
 			worldName = p.getWorld().getName();
-			balance = Double.valueOf(Functions.formatAsCurrency(pm.getMoney())).toString();
-			unique = String.valueOf(Bukkit.getWorldContainer().listFiles().length);
+			balance = "$" + Functions.formatAsCurrency(pm.getMoney());
+			unique = String.valueOf(new File(Bukkit.getWorldContainer() + File.separator + "players").listFiles().length);
 
-			for(Plugin pl : plugin.getServer().getPluginManager().getPlugins()){
-				if(pluginsSb.length() > 0){
-					pluginsSb.append(", ");
-				}
-				pluginsSb.append("§a" + pl.getName() + "§7");
-			}
-
-			for(Player ps : plugin.getServer().getOnlinePlayers()){
-				if(playersSb.length() > 0){
-					playersSb.append(", ");
-				}
-				playersSb.append("§a" + ps.getName() + "§7");
-			}
-
-			path = path.replace("{PLAYERS}", playersSb.toString());
-			path = path.replace("{PLUGINS}", pluginsSb.toString());
+			path = path.replace("{PLAYERS}", Functions.splitObject(plugin.getServer().getOnlinePlayers(), 'a', '7'));
+			path = path.replace("{PLUGINS}", Functions.splitObject(plugin.getServer().getPluginManager().getPlugins(), 'a', '7'));
 			path = path.replace("{UNIQUE}", unique);
 			path = path.replace("{DISPLAYNAME}", displayName);
 			path = path.replace("{WORLD}", worldName);

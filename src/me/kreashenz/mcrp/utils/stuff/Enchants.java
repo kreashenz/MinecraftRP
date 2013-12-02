@@ -107,7 +107,7 @@ public class Enchants {
 	public static Enchantment get(String name){
 		return names.get(name);
 	}
-	
+
 	public static Set<String> getAll(){
 		Set<String> ench = new TreeSet<String>();
 		for(Entry<String, Enchantment> entry : names.entrySet()){

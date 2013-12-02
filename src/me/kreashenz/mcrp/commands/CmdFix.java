@@ -3,7 +3,6 @@ package me.kreashenz.mcrp.commands;
 import java.util.ArrayList;
 import java.util.List;
 
-import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.Functions;
 
 import org.bukkit.Material;
@@ -14,10 +13,6 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.PlayerInventory;
 
 public class CmdFix extends ICommand {
-
-	public CmdFix(MinecraftRP plugin) {
-		super("fix");
-	}
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {

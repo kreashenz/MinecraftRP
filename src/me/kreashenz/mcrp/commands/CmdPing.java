@@ -5,11 +5,10 @@ import me.kreashenz.mcrp.utils.TPSHandler;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class CmdPing implements CommandExecutor {
+public class CmdPing extends ICommand {
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {

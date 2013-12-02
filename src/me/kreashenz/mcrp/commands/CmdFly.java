@@ -1,18 +1,13 @@
 package me.kreashenz.mcrp.commands;
 
+import me.kreashenz.mcrp.utils.Functions;
+
 import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import me.kreashenz.mcrp.MinecraftRP;
-import me.kreashenz.mcrp.utils.Functions;
-
 public class CmdFly extends ICommand {
-
-	public CmdFly(MinecraftRP plugin) {
-		super("fly");
-	}
 
 	@Override
 	public boolean onCommand(CommandSender s, Command cmd, String label, String[] args) {

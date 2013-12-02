@@ -4,6 +4,7 @@ import me.kreashenz.mcrp.MinecraftRP;
 import me.kreashenz.mcrp.utils.MPlayer;
 
 import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
@@ -12,7 +13,7 @@ public abstract class ICommand implements CommandExecutor {
 
 	protected MinecraftRP plugin;
 
-	public ICommand(String cmd){
+	public ICommand(){
 		this.plugin = MinecraftRP.getInstance();
 	}
 
@@ -38,4 +39,7 @@ public abstract class ICommand implements CommandExecutor {
 		p.sendMessage("§6[§a" + p.getName() + " -> §7" + t.getName() + "§6] §7" + m);
 		t.sendMessage("§6[§7" + p.getName() + "§a -> " + t.getName() + "§6] §7" + m);
 	}
+
+	@Override
+	public abstract boolean onCommand(CommandSender s, Command cmd, String label, String[] args);
 }

@@ -34,7 +34,7 @@ public class evt_PlayerCommandPreprocess implements Listener {
 		}
 
 		if(pm != null){
-			if(pm.isSocialSpying()){ // NPE.
+			if(pm.isSocialSpying()){
 				Functions.tell(p, "§e[§fSocialSpy§e] §3" + p.getName() + " §eused: §r" + command);
 			}
 
